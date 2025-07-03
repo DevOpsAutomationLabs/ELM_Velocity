@@ -1,4 +1,4 @@
-# DevOps Velocity and ELM Lab Demonstration
+# DevOps Velocity and ELM Demonstration
 
 ## Demo Scenarios
 
