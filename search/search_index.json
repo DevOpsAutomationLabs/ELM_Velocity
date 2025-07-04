@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"ELM and DevOps Velocity","text":""}]}
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"ELM and DevOps Velocity","text":""},{"location":"demo1/","title":"Integrating DevOps Velocity with ELM to address Business Challenges","text":""},{"location":"demo2/","title":"Configuring the integration between DevOps Velocity and ELM","text":""}]}
