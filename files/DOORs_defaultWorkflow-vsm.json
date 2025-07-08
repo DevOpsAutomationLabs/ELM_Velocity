@@ -1,0 +1,154 @@
+{
+  "description": "",
+  "query": "issue.project.id='<Project Name>'",
+  "phases": [
+    {
+      "name": "Submitted",
+      "description": "",
+      "stages": [
+        {
+          "name": "No Status",
+          "query": "issue.status!=New AND issue.status!='In Progress' AND issue.status!='Under Review' AND issue.status!=Approved AND issue.status!=Rejected AND issue.status!=Complete",
+          "description": "",
+          "targets": [
+            "New"
+          ],
+          "wipLimit": 10,
+          "showAlerts": false,
+          "showSpeed": false,
+          "gates": null
+        },
+        {
+          "name": "New",
+          "query": "issue.status=New",
+          "description": "",
+          "targets": [
+            "In Progress"
+          ],
+          "wipLimit": null,
+          "showAlerts": true,
+          "showSpeed": false,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "name": "Under Analysis",
+      "description": "",
+      "stages": [
+        {
+          "name": "In Progress",
+          "query": "issue.status='In Progress'",
+          "description": "",
+          "targets": [
+            "Under Review"
+          ],
+          "wipLimit": null,
+          "showAlerts": true,
+          "showSpeed": true,
+          "gates": null
+        },
+        {
+          "name": "Under Review",
+          "query": "issue.status='Under Review'",
+          "description": "",
+          "targets": [
+            "Approved",
+            "Rejected"
+          ],
+          "wipLimit": null,
+          "showAlerts": true,
+          "showSpeed": true,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "name": "Review Status",
+      "description": "",
+      "stages": [
+        {
+          "name": "Approved",
+          "query": "issue.status=Approved",
+          "description": "",
+          "targets": [
+            "Complete"
+          ],
+          "wipLimit": null,
+          "showAlerts": true,
+          "showSpeed": true,
+          "gates": null
+        },
+        {
+          "name": "Rejected",
+          "query": "issue.status=Rejected",
+          "description": "",
+          "targets": [],
+          "wipLimit": null,
+          "showAlerts": false,
+          "showSpeed": false,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "name": "Done",
+      "description": "",
+      "stages": [
+        {
+          "name": "Complete",
+          "query": "issue.status=Complete",
+          "description": "",
+          "targets": [],
+          "wipLimit": null,
+          "showAlerts": false,
+          "showSpeed": false,
+          "gates": null
+        }
+      ]
+    }
+  ],
+  "leadTimeChange": {
+    "start": "No Status",
+    "end": "Complete"
+  },
+  "leadTime": {
+    "start": "New",
+    "end": "Complete"
+  },
+  "cycleTime": {
+    "start": "In Progress",
+    "end": "Complete"
+  },
+  "devCycleTime": {
+    "start": "In Progress",
+    "end": "Approved"
+  },
+  "mappings": {
+    "priority": {
+      "Lowest": [
+        "Lowest"
+      ],
+      "Low": [
+        "Low"
+      ],
+      "Medium": [
+        "Medium"
+      ],
+      "High": [
+        "High"
+      ],
+      "Highest": [
+        "Highest"
+      ]
+    }
+  },
+  "integrations": [
+    {
+      "name": "<DOORs integration name>"
+    }
+  ],
+  "linkRules": [],
+  "metrics": null,
+  "metricsBar": null
+}

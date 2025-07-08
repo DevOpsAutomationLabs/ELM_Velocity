@@ -1,0 +1,168 @@
+{
+  "description": "",
+  "query": "issue.type=Story OR issue.type=Defect OR issue.type=Task",
+  "phases": [
+    {
+      "name": "Open",
+      "description": "",
+      "stages": [
+        {
+          "name": "New",
+          "query": "issue.status=New",
+          "description": "",
+          "targets": [
+            "In Progress",
+            "Done/Verified"
+          ],
+          "wipLimit": null,
+          "showAlerts": false,
+          "showSpeed": true,
+          "gates": null
+        },
+        {
+          "name": "ReOpened",
+          "query": "issue.type=Defect AND issue.status=ReOpened",
+          "description": "",
+          "targets": [
+            "In Progress"
+          ],
+          "wipLimit": null,
+          "showAlerts": false,
+          "showSpeed": true,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "name": "In Progress",
+      "description": "",
+      "stages": [
+        {
+          "name": "In Progress",
+          "query": "issue.status='In Progress'",
+          "description": "",
+          "targets": [
+            "Implemented (Story)",
+            "Resolved (Defect)",
+            "Done/Verified"
+          ],
+          "wipLimit": 10,
+          "showAlerts": true,
+          "showSpeed": true,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "name": "Approval",
+      "description": "",
+      "stages": [
+        {
+          "name": "Resolved (Defect)",
+          "query": "issue.type=Defect AND issue.status=Resolved",
+          "description": "",
+          "targets": [
+            "Done/Verified"
+          ],
+          "wipLimit": null,
+          "showAlerts": true,
+          "showSpeed": true,
+          "gates": null
+        },
+        {
+          "name": "Implemented (Story)",
+          "query": "issue.type=Story AND issue.status=Implemented",
+          "description": "",
+          "targets": [
+            "Done/Verified"
+          ],
+          "wipLimit": null,
+          "showAlerts": true,
+          "showSpeed": true,
+          "gates": null
+        }
+      ]
+    },
+    {
+      "name": "Released",
+      "description": "",
+      "stages": [
+        {
+          "name": "Done/Verified",
+          "query": "issue.status=Done OR issue.status=Verified",
+          "description": "",
+          "targets": [],
+          "wipLimit": null,
+          "showAlerts": false,
+          "showSpeed": false,
+          "gates": null
+        },
+        {
+          "name": "Deferred",
+          "query": "issue.status=Deferred",
+          "description": "",
+          "targets": [
+            "Invalid"
+          ],
+          "wipLimit": null,
+          "showAlerts": true,
+          "showSpeed": false,
+          "gates": null
+        },
+        {
+          "name": "Invalid",
+          "query": "issue.status=Invalid",
+          "description": "",
+          "targets": [],
+          "wipLimit": null,
+          "showAlerts": true,
+          "showSpeed": false,
+          "gates": null
+        }
+      ]
+    }
+  ],
+  "leadTimeChange": {
+    "start": "New",
+    "end": "Done/Verified"
+  },
+  "leadTime": {
+    "start": "In Progress",
+    "end": "Done/Verified"
+  },
+  "cycleTime": {
+    "start": "In Progress",
+    "end": "Done/Verified"
+  },
+  "devCycleTime": {
+    "start": "In Progress",
+    "end": "Implemented (Story)"
+  },
+  "mappings": {
+    "priority": {
+      "Lowest": [
+        "Lowest"
+      ],
+      "Low": [
+        "Low"
+      ],
+      "Medium": [
+        "Medium"
+      ],
+      "High": [
+        "High"
+      ],
+      "Highest": [
+        "Highest"
+      ]
+    }
+  },
+  "integrations": [
+    {
+      "name": "<EWM integration name>"
+    }
+  ],
+  "linkRules": [],
+  "metrics": null,
+  "metricsBar": null
+}
