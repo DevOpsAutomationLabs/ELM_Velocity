@@ -1,4 +1,4 @@
-# Integrating DevOps Velocity with ELM to achieve Business Outcomes
+# Integrate DevOps Velocity with ELM to achieve Business Outcomes
 
 ## DevOps Velocity Overview
 
@@ -7,6 +7,7 @@
 ### * Eliminate guess work and use data to make better investment decision for process improvement
 <br/>
 <br/>
+
 ## Business Scenario 1 - Visualize and Optimize the flow of work to improve team productivity.
 
 ### 1.1 Understanding the Value Stream
@@ -16,6 +17,8 @@
 ### 1.3 Understanding Velocity's Alert capabilities
 
 ### 1.4 Velocity and the Swimlane View
+<br/>
+<br/>
 
 ## Business Scenario 2 - Eliminate guess work and use data to make better investment decisions for process improvement
 
