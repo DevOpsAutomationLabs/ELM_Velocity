@@ -3,10 +3,10 @@
 ## DevOps Velocity Overview
 
 ## Business Scenarios covered by this demonstration:
-    * [Visualize and Optimize the flow of work to improve team productivity.](#busScen1)
-    * [Eliminate guess work and use data to make better investment decisions for process improvement.](#busScen2)
+    * [Visualize and Optimize the flow of work to improve team productivity.][busScen1]
+    * [Eliminate guess work and use data to make better investment decisions for process improvement.][busScen2]
 
-<a name="busScen1">
+[busScen1]:
 ## Business Scenario 1 - Visualize and Optimize the flow of work to improve team productivity.
 
 ### 1.1 Understanding the Value Stream
@@ -17,9 +17,9 @@
 
 ### 1.4 Velocity and the Swimlane View
 
-<a name="busScen2">
+[busScen2]: 
 ## Business Scenario 2 - Eliminate guess work and use data to make better investment decisions for process improvement
 
-## 2.1 Adding the Bottleneck Detection capability
+### 2.1 Adding the Bottleneck Detection capability
 
-## 2.2 Velocity's Insights View - Working with DashBoards and Charts
+### 2.2 Velocity's Insights View - Working with DashBoards and Charts
