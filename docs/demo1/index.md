@@ -3,8 +3,8 @@
 ## DevOps Velocity Overview
 
 ## Business Scenarios covered by this demonstration:
-### Business Scenario 1 - Visualize and Optimize the flow of work to improve team productivity
-### Business Scenario 2 - Eliminate guess work and use data to make better investment decision for process improvement
+### * Visualize and Optimize the flow of work to improve team productivity
+### * Eliminate guess work and use data to make better investment decision for process improvement
 
 ## Business Scenario 1 - Visualize and Optimize the flow of work to improve team productivity.
 
