@@ -1,15 +1,25 @@
 # Integrating DevOps Velocity with ELM to address Business Challenges
 
+## DevOps Velocity Overview
+
 ## Business Scenarios covered by this demonstration:
-    * Visualize and Optimize the flow of work to improve team productivity.
-    * Eliminate guess work and use data to make better investment decisions for process improvement.
+    * [Visualize and Optimize the flow of work to improve team productivity.](#busScen1)
+    * [Eliminate guess work and use data to make better investment decisions for process improvement.](#busScen2)
 
-## Velocity Overview
+<a name="busScen1">
+## Business Scenario 1 - Visualize and Optimize the flow of work to improve team productivity.
 
-## Understanding the Value Stream
+### 1.1 Understanding the Value Stream
 
-## Working with KPIs and Metrics
+### 1.2 Working with KPIs and Metrics
 
-## Adding Bottleneck Detection
+### 1.3 Understanding Velocity's Alert capabilities
 
-## Working with DashBoards and Charts
+### 1.4 Velocity and the Swimlane View
+
+<a name="busScen2">
+## Business Scenario 2 - Eliminate guess work and use data to make better investment decisions for process improvement
+
+## 2.1 Adding the Bottleneck Detection capability
+
+## 2.2 Velocity's Insights View - Working with DashBoards and Charts
