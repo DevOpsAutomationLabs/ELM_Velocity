@@ -3,8 +3,9 @@
 ## DevOps Velocity Overview
 
 DevOps Velocity is a multi-container application installed in a Kubernetes container management system. 
+![Velocity Value Stream screenshot](../main/docs/demo1/media/velocity_overview.png)
 
-The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system.
+The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.
 
 The pipeline capability enables organizations to drive releases by using application-focused methods. Add applications to logical environments and let DevOps Velocity generate basic release plans required to deploy the applications. Use quality gates to implement an enhanced level of automated governance helping organizations reduce business risk as software change moves through the delivery pipeline to the production environment.
 
@@ -26,18 +27,22 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ## Business Scenario 1 - Visualize and Optimize the flow of work to improve team productivity.
 
-### 1.1 Understanding the Value Stream
+### 1.1 Understanding the Business Problem
 
-### 1.2 Working with KPIs and Metrics
+### 1.2 What is a Value Stream
 
-### 1.3 Understanding Velocity's Alert capabilities
+### 1.3 Working with KPIs and Metrics
 
-### 1.4 Velocity and the Swimlane View
+### 1.4 Understanding Velocity's Alert capabilities
+
+### 1.5 Velocity and the Swimlane View
 <br/>
 <br/>
 
 ## Business Scenario 2 - Eliminate guess work and use data to make better investment decisions for process improvement
 
-### 2.1 Adding the Bottleneck Detection capability
+### 2.1 Understanding the Business Problem
 
-### 2.2 Velocity's Insights View - Working with DashBoards and Charts
+### 2.2 Adding the Bottleneck Detection capability
+
+### 2.3 Velocity's Insights View - Working with DashBoards and Charts
