@@ -2,8 +2,8 @@
 
 ## Topics covered in this Enablement Lab
     * Integrate DevOps Velocity with Engineering Workflow Management
-    * Integrate DevOps Velocity with Engineering Requirements Management (RM Project)
-    * Integrate DevOps Velocity with Engineering Requirements Management (Global Configuration)
+    * Integrate DevOps Velocity with Engineering Requirements Management (DOORs NG RM Project)
+    * Integrate DevOps Velocity with Engineering Requirements Management (DOORs NG Global Configuration)
 
 ## Adding the integration between Velocity and EWM
 
