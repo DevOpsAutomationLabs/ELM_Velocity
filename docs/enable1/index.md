@@ -12,7 +12,7 @@
 
 ### What is a Velocity Plugin
 
-Included as part of a Velocity installation are plugins which allow the Velocity Administrator to create connections between delivery pipeline applications and synchronize data between Velocity and the target application source (ELM, Jira, GitHub, DevOps Control, etc). A plug-in is a software add-on designed to communicate with external services and applications. Each plug-in defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must configure an integration. There are multiple ways to configure an integration:
+Included as part of a Velocity installation are plugins which allow the Velocity Administrator to create connections between delivery pipeline applications and synchronize data between Velocity and the target application source (ELM, Jira, GitHub, DevOps Control, etc). Each plugin defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must configure an integration. There are multiple ways to configure an integration:
 - Create an integration definition on the Plugins tab of the Integrations page.
 - Install the plug-in and then create an integration definition.
 - Add an integration definition to a value stream JSON file.
@@ -31,9 +31,20 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
 
-To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the <img src="media/setting_icon.png" alt="Setting icon" style="width:50%; height:auto;">![settings icon](media/setting_icon.png) icon (top RHS of the browser window).
+1. To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the ![settings icon](media/setting_icon.png) icon (top RHS of the browser window).
 <br/>
-![settings orientation](media/settings_orientation.png)
+<img src="media/settings_orientation.png" alt="settings icon orientation image" style="width:200%; height:auto;">
+2. Select Integrations from the LHS navigation bar.
+<br/>
+<img src="media/integrations.png" alt="integrations orientation" style="width:200%; height:auto;">
+3. Click on the Available tab and review the many plugins available.
+<br/>
+<img src="media/integrations_image.png" alt="integrations" style="width:200%; height:auto;">
+4. In the search control, enter “EWM”.
+<br/>
+<img src="media/search.png" alt="search control" style="width:200%; height:auto;">
+5. Click the  icon and note that there are multiple versions of this plugin available for installation.
+6. 
 <br/>
 
 [Return to List of Topics](#topics-covered-in-this-enablement-exercise)
