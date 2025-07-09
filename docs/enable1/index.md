@@ -42,7 +42,7 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 5. Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation.
 <img src="media/ewm_plugins.png" alt="ewm plugins" style="width:25%; height:auto;">
 6. Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37
-<img src="media/add_ewm.png" alt="add ewm integration" style="width:25%; height:auto;">
+<img src="media/add_ewm.png" alt="add ewm integration" style="width:50%; height:auto;">
 <br/>
 
 [Return to List of Topics](#topics-covered-in-this-enablement-exercise)
