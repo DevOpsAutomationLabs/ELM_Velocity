@@ -46,8 +46,8 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 | 9 | Click the "Add" button when done. |  |
 | 10 | Click the Configured tab on the Integrations page. | <img src="media/e9.png" alt="e9" style="width:50%; height:auto;"> |
 | 11 | After a few seconds, confirm that the integration Status shows online. |  <img src="media/e10.png" alt="e10" style="width:75%; height:auto;"> |
-| **NOTE:** |  If the status is not showing as Online, ensure the ELM Server is available. If the server is running, check the plugin settings to ensure they are properly set. | <img src="media/e12.png" alt="e12" style="width:25%; height:auto;">  |
 | 12 | Click the 3 dots on RHS integration and select "View Logs" from the options presented by selecting Edit. |  <img src="media/e11.png" alt="e11" style="width:100%; height:auto;"> |
+| **NOTE:** |  If the status is not showing as Online, ensure the ELM Server is available. If the server is running, check the plugin settings to ensure they are properly set. | <img src="media/e12.png" alt="e12" style="width:25%; height:auto;">  |
 | 13 | Select the Log file and view output contents | <img src="media/e13.png" alt="e13" style="width:100%; height:auto;"> |
 
 Congratulations on successfully configuring the EWM Plugin.
