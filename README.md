@@ -5,6 +5,7 @@ The Demo scenario is divided into two sections presenting how the integrated IBM
 1. Visualize and Optimize the flow of work to improve team productivity.
 2. Eliminate guess work and use data to make better investment decisions for process improvement.
 <br/>
+
 The Enablement exercises provides detailed setup instructions on how to integrate Velocity with EWM and ERM.
 ### [Configuring the integration between DevOps Velocity and ELM](../main/docs/enable1/index.md)
 1. Integrate DevOps Velocity with Engineering Workflow Management
