@@ -48,14 +48,14 @@ While this exercise does not cover all topics related to plugins, know that admi
 6. Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37
 <img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;">
 7. Working in the pop up window enter the following values into the fields on the form:<br/>
-
-**Integration name:** EWM(JKEBanking)<br/>
-**Server URL:** need to update<br/>
-**Projects (Comma Separated List):** JKE Banking (Change Management)<br/>
-**User ID:** sysadmin<br/>
-**Password:** passw0rd<br/>
-**Show hidden properties:** enabled<br/>
-**Logging level:** ALL<br/>
+<br/>
+> **Integration name:** EWM(JKEBanking)<br/>
+> **Server URL:** need to update<br/>
+> **Projects (Comma Separated List):** JKE Banking (Change Management)<br/>
+> **User ID:** sysadmin<br/>
+> **Password:** passw0rd<br/>
+> **Show hidden properties:** enabled<br/>
+> **Logging level:** ALL<br/>
 
 <img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;">
 
