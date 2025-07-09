@@ -26,11 +26,13 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 <br/>
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
-<br/>
+
+The purpose of this exercise is to provide instruction on how to integration DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
+<br/> 
 
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
@@ -42,7 +44,7 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 | 5 | In the search control, enter “EWM”. | <img src="media/e5.png" alt="e5" style="width:50%; height:auto;"> |
 | 6 | Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation. | <img src="media/e6.png" alt="e6" style="width:50%; height:auto;"> |
 | 7 | Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37. | <img src="media/e7.png" alt="e7" style="width:100%; height:auto;"> |
-| 8 | Working in the pop up window enter the following values into the fields on the form: <br/> **Integration name:** EWM(JKEBanking)<br/> TODO: **Server URL:** need to update<br/> **Projects (Comma Separated List):** JKE Banking (Change Management)<br/> **User ID:** sysadmin<br/> **Password:** passw0rd<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e8.png" alt="e8" style="width:50%; height:auto;"> |
+| 8 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** EWM(JKEBanking)<br/> **Server URL:** TODO: need to update<br/> **Projects (Comma Separated List):** JKE Banking (Change Management)<br/> **User ID:** sysadmin<br/> **Password:** passw0rd<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e8.png" alt="e8" style="width:50%; height:auto;"> |
 | 9 | Click the "Add" button when done. |  |
 | 10 | Click the Configured tab on the Integrations page. | <img src="media/e9.png" alt="e9" style="width:50%; height:auto;"> |
 | 11 | After a few seconds, confirm that the integration Status shows online. |  <img src="media/e10.png" alt="e10" style="width:75%; height:auto;"> |
@@ -52,7 +54,7 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 Congratulations on successfully configuring the EWM Plugin.
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Preparing RM projects (reg mgmt and global configurations) for integration with Velocity
@@ -61,7 +63,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)
@@ -70,7 +72,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)
@@ -79,7 +81,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Creating a Value Stream in DevOps Velocity
@@ -88,7 +90,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Architecting the value stream aligned to the ELM Artifact Workflow
@@ -97,7 +99,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Understanding DevOps Velocity's value stream map file
@@ -106,5 +108,5 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
