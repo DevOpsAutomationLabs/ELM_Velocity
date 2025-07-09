@@ -37,7 +37,9 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 <img src="media/integrations.png" alt="integrations orientation" style="width:25%; height:auto;"><br/>
 3. Click on the Installed tab and review the many plugins already available.<br/>
 <img src="media/integrations_image.png" alt="integrations" style="width:25%; height:auto;"><br/>
+
 **NOTE:** While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature.<br/>
+
 4. In the search control, enter “EWM”.<br/>
 <img src="media/search.png" alt="search" style="width:25%; height:auto;"><br/>
 5. Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation.<br/>
@@ -47,8 +49,16 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 7. Working in the pop up window enter the following values into the fields on the form:<br/>
 <br/>
 
+| **Step** | **Details**  | **Additional Information** |
+| ------------- | ------------- | ------------- |
+| 0 | In the search control, enter “EWM”.  | ![search](media/search.png)  |
+| 1 | In the search control, enter “EWM”.  | <img src="media/search.png" alt="search" style="width:25%; height:auto;">  |
+| 2 | Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37  | <img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;"> |
+| 3 | Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37  | ![add ewm integration](media/add_ewm.png) |
+
+
 **Integration name:** EWM(JKEBanking)<br/>
-**Server URL:** need to update<br/>
+TODO: **Server URL:** need to update<br/>
 **Projects (Comma Separated List):** JKE Banking (Change Management)<br/>
 **User ID:** sysadmin<br/>
 **Password:** passw0rd<br/>
