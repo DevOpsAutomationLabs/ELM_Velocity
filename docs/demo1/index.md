@@ -1,8 +1,8 @@
 # Integrating DevOps Velocity with ELM to achieve Business Outcomes
 
 ## Business Scenarios covered by this demonstration:
-### * [Visualize and Optimize the flow of work to improve team productivity](#-visualize-and-optimize-the-flow-of-work-to-improve-team-productivity)
-### * [Eliminate guess work and use data to make better investment decision for process improvement](#-eliminate-guess-work-and-use-data-to-make-better-investment-decision-for-process-improvement)
+### * [Visualize and Optimize the flow of work to improve team productivity](#business-scenario-1---visualize-and-optimize-the-flow-of-work-to-improve-team-productivity)
+### * [Eliminate guess work and use data to make better investment decision for process improvement](#business-scenario-2---eliminate-guess-work-and-use-data-to-make-better-investment-decisions-for-process-improvement)
 <br/>
 
 ## DevOps Velocity Overview
