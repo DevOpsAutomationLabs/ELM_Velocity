@@ -33,13 +33,15 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 1. To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the ![settings icon](media/setting_icon.png) icon (top RHS of the browser window).
 <br/>
-<img src="media/settings_orientation.png.png" alt="settings icon orientation" style="width:25%; height:auto;">
+<img src="media/settings_orientation.png" alt="settings icon orientation" style="width:25%; height:auto;">
 
-![settings icon orientation image](media/setting_orientation.png)
+![settings icon orientation image](media/settings_orientation.png)
+<br/>
 2. Select Integrations from the LHS navigation bar.
 <br/>
 
 ![integrations orientation](media/integrations.png)
+<br/>
 3. Click on the Available tab and review the many plugins available.
 <br/>
 
