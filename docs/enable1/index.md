@@ -12,19 +12,27 @@
 
 ### What is a Velocity Plugin
 
-A plug-in is a software add-on designed to communicate with external services and applications. Each plug-in defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must configure an integration. There are multiple ways to configure an integration:
+Included as part of a Velocity installation are plugins which allow the Velocity Administrator to create connections between delivery pipeline applications and synchronize data between Velocity and the target application source (ELM, Jira, GitHub, DevOps Control, etc). A plug-in is a software add-on designed to communicate with external services and applications. Each plug-in defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must configure an integration. There are multiple ways to configure an integration:
 - Create an integration definition on the Plugins tab of the Integrations page.
 - Install the plug-in and then create an integration definition.
 - Add an integration definition to a value stream JSON file.
 - Configure a deployment plan task for one of the native integration types.
 
 <img src="media/plugin_overview.png" alt="Plugin architecture image" style="width:200%; height:auto;">
+
+In total there are over 45 plugins available.
+
+Once configured and as per that plugin’s synchronization timing, Velocity starts a plugin container image, makes the connection with the target application, and retrieves all data changes from the last sync time. NOTE: that sync time duration will vary depending on the amount of data being added to Velocity’s MongoDB repository.
+
 <br/>
 
 [Return to List of Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
+
+To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the ![settings icon](media/setting_icon.png) icon (top RHS of the browser window).
+![settings orientation](media/settings_orientation.png)
 <br/>
 
 [Return to List of Topics](#topics-covered-in-this-enablement-exercise)
