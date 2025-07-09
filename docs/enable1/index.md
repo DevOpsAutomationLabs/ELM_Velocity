@@ -1,14 +1,46 @@
 # Configuring the integration between DevOps Velocity and ELM
 
-### Topics covered in this Enablement exercise
-1. [What is a Velocity Plugin](#what-is-a-velocity-plugin) 
-2. [Configuring the plugin to integrate DevOps Velocity and EWM](#configuring-the-plugin-to-integrate-devops-velocity-and-ewm)
-3. [Preparing RM projects (reg mgmt and global configurations) for integration with Velocity](#preparing-rm-projects-reg-mgmt-and-global-configurations-for-integration-with-velocity)
-4. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-req-mgt-project)
-5. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-global-configuration)
-6. [Creating a Value Stream in DevOps Velocity](#creating-a-value-stream-in-devops-velocity)
-7. [Architecting the value stream aligned to the ELM Artifact Workflow](#architecting-the-value-stream-aligned-to-the-elm-artifact-workflow)
-8. [Understanding DevOps Velocity's value stream map file](#understanding-devops-velocitys-value-stream-map-file)
+## Topics covered in this Enablement exercise
+### Overview
+1. [DevOps Velocity Overview](#devops-velocity-overview) 
+2. [What is a Velocity Plugin](#what-is-a-velocity-plugin) 
+3. [Understanding DevOps Velocity's value stream map file](#understanding-devops-velocitys-value-stream-map-file)
+### Working with EWM
+4. [Configuring the plugin to integrate DevOps Velocity and EWM](#configuring-the-plugin-to-integrate-devops-velocity-and-ewm)
+5. [Creating the EWM Value Stream in DevOps Velocity](#creating-the-ewm-value-stream-in-devops-velocity)
+6. [Architecting the value stream aligned to the EWM Artifact Workflow](#architecting-the-value-stream-aligned-to-the-ewm-artifact-workflow)
+### Working with ERM
+7. [Preparing RM projects (reg mgmt and global configurations) for integration with Velocity](#preparing-rm-projects-reg-mgmt-and-global-configurations-for-integration-with-velocity)
+8. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-req-mgmt-project)
+9. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-global-configuration)
+10. [Creating the ERM Value Stream in DevOps Velocity](#creating-the-erm-value-stream-in-devops-velocity)
+11. [Architecting the value stream aligned to the ERM Artifact Workflow](#architecting-the-value-stream-aligned-to-the-erm-artifact-workflow)
+
+
+## Overview 
+
+### DevOps Velocity Overview
+
+DevOps Velocity is a multi-container application installed in a Kubernetes container management system. 
+<br/>
+<br/>
+![Velocity Value Stream screenshot](media/velocity_overview.png)
+
+The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.
+
+The pipeline capability enables organizations to drive releases by using application-focused methods. Add applications to logical environments and let DevOps Velocity generate basic release plans required to deploy the applications. Use quality gates to implement an enhanced level of automated governance helping organizations reduce business risk as software change moves through the delivery pipeline to the production environment.
+
+DevOps Velocity’s enterprise-scale release management capabilities supports both cloud-native and on-premises deployment. Use DevOps Velocity to move releases through all of your development life-cycle environments including development, testing, and production. Create a predictable schedule of releases for your software applications. Share release statuses with all stakeholders so that they know the schedules, the key milestones, current status, and issues that may delay releases.
+
+The Insights view helps organizations to assess the efficiency of product teams and the speed at which they are able to deliver value to the end users. Teams can measure every aspect of the development lifecycle with the supplied charts. Teams can create their own charts with metric definitions and upload custom data to DevOps Velocity using the Application programming interface (API) endpoints. Since data sources also encompass plug-ins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment solutions.
+
+In this demonstration, you will focus on the Value Stream and Insights views.
+
+For more information about DevOps Velocity, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=high-level-overview).
+<br/>
+
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
+<br/>
 
 ### What is a Velocity Plugin
 
@@ -28,6 +60,17 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
+
+### Understanding DevOps Velocity's value stream map file
+<br/>
+
+| **Step** | **Details**  | **Additional Information** |
+| ------------- | ------------- | ------------- |
+
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
+<br/>
+
+## Working with EWM
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
 
@@ -57,6 +100,26 @@ Congratulations on successfully configuring the EWM Plugin.
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
+### Creating the EWM Value Stream in DevOps Velocity
+<br/>
+
+| **Step** | **Details**  | **Additional Information** |
+| ------------- | ------------- | ------------- |
+
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
+<br/>
+
+### Architecting the value stream aligned to the EWM Artifact Workflow
+<br/>
+
+| **Step** | **Details**  | **Additional Information** |
+| ------------- | ------------- | ------------- |
+
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
+<br/>
+
+## Working with ERM
+
 ### Preparing RM projects (reg mgmt and global configurations) for integration with Velocity
 <br/>
 
@@ -84,7 +147,7 @@ Congratulations on successfully configuring the EWM Plugin.
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
-### Creating a Value Stream in DevOps Velocity
+### Creating the ERM Value Stream in DevOps Velocity
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
@@ -93,7 +156,7 @@ Congratulations on successfully configuring the EWM Plugin.
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
-### Architecting the value stream aligned to the ELM Artifact Workflow
+### Architecting the value stream aligned to the ERM Artifact Workflow
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
@@ -102,11 +165,3 @@ Congratulations on successfully configuring the EWM Plugin.
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
-### Understanding DevOps Velocity's value stream map file
-<br/>
-
-| **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
-
-[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
-<br/>
