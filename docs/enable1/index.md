@@ -32,7 +32,7 @@ The pipeline capability enables organizations to drive releases by using applica
 
 DevOps Velocity’s enterprise-scale release management capabilities supports both cloud-native and on-premises deployment. Use DevOps Velocity to move releases through all of your development life-cycle environments including development, testing, and production. Create a predictable schedule of releases for your software applications. Share release statuses with all stakeholders so that they know the schedules, the key milestones, current status, and issues that may delay releases.
 
-The Insights view helps organizations to assess the efficiency of product teams and the speed at which they are able to deliver value to the end users. Teams can measure every aspect of the development lifecycle with the supplied charts. Teams can create their own charts with metric definitions and upload custom data to DevOps Velocity using the Application programming interface (API) endpoints. Since data sources also encompass plug-ins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment solutions.
+The Insights view helps organizations to assess the efficiency of product teams and the speed at which they are able to deliver value to the end users. Teams can measure every aspect of the development lifecycle with the supplied charts. Teams can create their own charts with metric definitions and upload custom data to DevOps Velocity using the Application programming interface (API) endpoints. Since data sources also encompass plug-ins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment solutions. 
 
 For more information about DevOps Velocity, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=high-level-overview).
 <br/>
@@ -69,6 +69,11 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 <br/>
 
 ## Working with EWM
+
+To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three basic steps must happen:
+1. Configure a plugin to allow Velocity to communicate with EWM.
+2. Create a Value Stream to provide a "single pane of glass" interface to visualize the "DOTS".
+3. Architect the Value Stream by editing the Value Stream Map (json file) to replicate the workflows being used in EWM
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
 
