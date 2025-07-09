@@ -205,7 +205,7 @@
   
     
   
-  ELM and DevOps Velocity
+  DevOps Velocity and ELM Demonstration
 
       </a>
     </li>
@@ -307,7 +307,7 @@
   
   
   <span class="md-ellipsis">
-    ELM and DevOps Velocity
+    DevOps Velocity and ELM Demonstration
     
   </span>
   
@@ -621,7 +621,7 @@
 - Install the plug-in and then create an integration definition.
 - Add an integration definition to a value stream JSON file.
 - Configure a deployment plan task for one of the native integration types.</p>
-<p><img src="media/plugin_overview.png" alt="Plugin architecture image" style="width:200%; height:auto;"></p>
+<p><img src="media/plugin_overview.png" alt="Plugin architecture image" style="width=100%; height:auto;"></p>
 <p>In total there are over 45 plugins available.</p>
 <p>Once configured and as per that plugin’s synchronization timing, Velocity starts a plugin container image, makes the connection with the target application, and retrieves all data changes from the last sync time. NOTE: that sync time duration will vary depending on the amount of data being added to Velocity’s MongoDB repository.</p>
 <p><br/></p>
@@ -629,24 +629,21 @@
 <br/></p>
 <h3 id="configuring-the-plugin-to-integrate-devops-velocity-and-ewm">Configuring the plugin to integrate DevOps Velocity and EWM</h3>
 <p><br/>
-1. To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the settings icon. (Top RHS browser window)
-<img src="media/settings_orientation.png" alt="settings icon orientation" style="width:25%; height:auto;">
-2. Select Integrations from the LHS navigation bar.
-<img src="media/integrations.png" alt="integrations orientation" style="width:25%; height:auto;">
-3. Click on the Installed tab and review the many plugins already available.
-<img src="media/integrations_image.png" alt="integrations" style="width:25%; height:auto;"></p>
-<p><strong>NOTE:</strong>
-While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature. <br/></p>
-<ol>
-<li>In the search control, enter “EWM”.
-<img src="media/search.png" alt="search" style="width:25%; height:auto;"></li>
-<li>Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation.
-<img src="media/ewm_plugins.png" alt="ewm plugins" style="width:25%; height:auto;"></li>
-<li>Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37
-<img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;"></li>
-<li>Working in the pop up window enter the following values into the fields on the form:<br/>
-<br/></li>
-</ol>
+1. To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the settings icon. (Top RHS browser window)<br/>
+<img src="media/settings_orientation.png" alt="settings icon orientation" style="width:25%; height:auto;"><br/>
+2. Select Integrations from the LHS navigation bar.<br/>
+<img src="media/integrations.png" alt="integrations orientation" style="width:25%; height:auto;"><br/>
+3. Click on the Installed tab and review the many plugins already available.<br/>
+<img src="media/integrations_image.png" alt="integrations" style="width:25%; height:auto;"><br/>
+<strong>NOTE:</strong> While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature.<br/>
+4. In the search control, enter “EWM”.<br/>
+<img src="media/search.png" alt="search" style="width:25%; height:auto;"><br/>
+5. Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation.<br/>
+<img src="media/ewm_plugins.png" alt="ewm plugins" style="width:25%; height:auto;"><br/>
+6. Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37<br/>
+<img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;"><br/>
+7. Working in the pop up window enter the following values into the fields on the form:<br/>
+<br/></p>
 <p><strong>Integration name:</strong> EWM(JKEBanking)<br/>
 <strong>Server URL:</strong> need to update<br/>
 <strong>Projects (Comma Separated List):</strong> JKE Banking (Change Management)<br/>
@@ -654,9 +651,8 @@ While this exercise does not cover all topics related to plugins, know that admi
 <strong>Password:</strong> passw0rd<br/>
 <strong>Show hidden properties:</strong> enabled<br/>
 <strong>Logging level:</strong> ALL<br/>
-<br/></p>
-<p><img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;"></p>
-<p><br/></p>
+<br/>
+<img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;"><br/></p>
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Topics</a>
 <br/></p>
 <h3 id="preparing-rm-projects-reg-mgmt-and-global-configurations-for-integration-with-velocity">Preparing RM projects (reg mgmt and global configurations) for integration with Velocity</h3>
