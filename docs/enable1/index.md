@@ -30,6 +30,8 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
+<br/> 
+The purpose of this exercise is to provide instruction on how to integration DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
