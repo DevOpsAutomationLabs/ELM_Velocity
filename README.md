@@ -2,7 +2,7 @@
 
 The Demo scenario is divided into two sections presenting how the integrated IBM solution can help clients.
 ### [Integrating DevOps Velocity with ELM to achieve Business Outcomes](../main/docs/demo1/index.md)
-1. <ins>Visualize<ins/> and <ins>Optimize<ins/> the flow of work to improve team productivity.
+1. Visualize and Optimize the flow of work to improve team productivity.
 2. Eliminate guess work and use data to make better investment decisions for process improvement.
 <br/>
 
