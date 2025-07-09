@@ -26,7 +26,7 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 <br/>
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
@@ -54,7 +54,7 @@ The purpose of this exercise is to provide instruction on how to integration Dev
 
 Congratulations on successfully configuring the EWM Plugin.
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Preparing RM projects (reg mgmt and global configurations) for integration with Velocity
@@ -63,7 +63,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)
@@ -72,7 +72,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)
@@ -81,7 +81,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Creating a Value Stream in DevOps Velocity
@@ -90,7 +90,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Architecting the value stream aligned to the ELM Artifact Workflow
@@ -99,7 +99,7 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Understanding DevOps Velocity's value stream map file
@@ -108,5 +108,5 @@ Congratulations on successfully configuring the EWM Plugin.
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
 
-[Return to List of Topics](#topics-covered-in-this-enablement-exercise)
+[Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
