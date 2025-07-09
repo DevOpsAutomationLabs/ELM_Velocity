@@ -37,9 +37,7 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 <img src="media/integrations.png" alt="integrations orientation" style="width:25%; height:auto;"><br/>
 3. Click on the Installed tab and review the many plugins already available.<br/>
 <img src="media/integrations_image.png" alt="integrations" style="width:25%; height:auto;"><br/>
-
-NOTE: While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature.<br/>
-<br/>
+**NOTE:** While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature.<br/>
 4. In the search control, enter “EWM”.<br/>
 <img src="media/search.png" alt="search" style="width:25%; height:auto;"><br/>
 5. Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation.<br/>
@@ -57,10 +55,7 @@ NOTE: While this exercise does not cover all topics related to plugins, know tha
 **Show hidden properties:** enabled<br/>
 **Logging level:** ALL<br/>
 <br/>
-
-<img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;">
-
-<br/>
+<img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;"><br/>
 
 [Return to List of Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
