@@ -35,14 +35,18 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 <img src="media/settings_orientation.png" alt="settings icon orientation" style="width:25%; height:auto;">
 2. Select Integrations from the LHS navigation bar.
 <img src="media/integrations.png" alt="integrations orientation" style="width:25%; height:auto;">
-3. Click on the Available tab and review the many plugins available.
+3. Click on the Installed tab and review the many plugins already available.
 <img src="media/integrations_image.png" alt="integrations" style="width:25%; height:auto;">
+
+**Note**: While this exercise does not cover all topics related to plugins, know that administrator users can Install additional plugins from the Available tab or upload custom plugins using the Load Plugin feature.
+
 4. In the search control, enter “EWM”.
 <img src="media/search.png" alt="search" style="width:25%; height:auto;">
 5. Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation.
 <img src="media/ewm_plugins.png" alt="ewm plugins" style="width:25%; height:auto;">
 6. Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37
-<img src="media/add_ewm.png" alt="add ewm integration" style="width:50%; height:auto;">
+<img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;">
+
 <br/>
 
 [Return to List of Topics](#topics-covered-in-this-enablement-exercise)
