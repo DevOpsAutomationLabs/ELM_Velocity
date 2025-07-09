@@ -11,6 +11,14 @@
 8. [Understanding DevOps Velocity's value stream map file](#understanding-devops-velocitys-value-stream-map-file)
 
 ### What is a Velocity Plugin
+
+A plug-in is a software add-on designed to communicate with external services and applications. Each plug-in defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must configure an integration. There are multiple ways to configure an integration:
+•	Create an integration definition on the Plugins tab of the Integrations page.
+•	Install the plug-in and then create an integration definition.
+•	Add an integration definition to a value stream JSON file.
+•	Configure a deployment plan task for one of the native integration types.
+
+![Plugin architecture image](media/plugin_overview.png)
 <br/>
 
 [Return to List of Topics](#topics-covered-in-this-enablement-exercise)
