@@ -1,18 +1,27 @@
 # Configuring the integration between DevOps Velocity and ELM
 
-## Topics covered in this Enablement Lab
-    * Integrate DevOps Velocity with Engineering Workflow Management
-    * Integrate DevOps Velocity with Engineering Requirements Management (DOORs NG RM Project)
-    * Integrate DevOps Velocity with Engineering Requirements Management (DOORs NG Global Configuration)
+### Topics covered in this Enablement exercise
+1. [What is a Velocity Plugin](what-is-a-velocity-plugin) 
+2. Configuring the plugin to integrate DevOps Velocity and EWM
+3. Preparing RM projects (reg mgmt and global configurations) for integration with Velocity
+4. Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)
+5. Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)
+6. Creating a Value Stream in DevOps Velocity
+7. Architecting the value stream aligned to the ELM Artifact Workflow
+8. Understanding DevOps Velocity's value stream map file
 
-## Adding the integration between Velocity and EWM
+### What is a Velocity Plugin
 
-## Preparing RM projects (reg mgmt and global configurations) for integration with Velocity
+### Configuring the plugin to integrate DevOps Velocity and EWM
 
-## Configuring the plugin to integrate Velocity with ERM (DOORs NG req mgmt project)
+### Preparing RM projects (reg mgmt and global configurations) for integration with Velocity
 
-## Configuring the plugin to integrate Velocity with ERM (DOORs NG global configuration)
+### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)
 
-## Architecting the value stream aligned to the Artifact Workflow
+### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)
 
-## Working with Velocity's value stream map file
+### Creating a Value Stream in DevOps Velocity
+
+### Architecting the value stream aligned to the ELM Artifact Workflow
+
+### Working with Velocity's value stream map file

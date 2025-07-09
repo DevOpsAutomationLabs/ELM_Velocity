@@ -1,4 +1,4 @@
-# Integrate DevOps Velocity with ELM to achieve Business Outcomes
+# Integrating DevOps Velocity with ELM to achieve Business Outcomes
 
 ## Business Scenarios covered by this demonstration:
 ### * Visualize and Optimize the flow of work to improve team productivity
