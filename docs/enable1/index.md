@@ -49,13 +49,14 @@ While this exercise does not cover all topics related to plugins, know that admi
 <img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;">
 7. Working in the pop up window enter the following values into the fields on the form:<br/>
 <br/>
-> **Integration name:** EWM(JKEBanking)<br/>
-> **Server URL:** need to update<br/>
-> **Projects (Comma Separated List):** JKE Banking (Change Management)<br/>
-> **User ID:** sysadmin<br/>
-> **Password:** passw0rd<br/>
-> **Show hidden properties:** enabled<br/>
-> **Logging level:** ALL<br/>
+**Integration name:** EWM(JKEBanking)<br/>
+**Server URL:** need to update<br/>
+**Projects (Comma Separated List):** JKE Banking (Change Management)<br/>
+**User ID:** sysadmin<br/>
+**Password:** passw0rd<br/>
+**Show hidden properties:** enabled<br/>
+**Logging level:** ALL<br/>
+<br/>
 
 <img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;">
 
