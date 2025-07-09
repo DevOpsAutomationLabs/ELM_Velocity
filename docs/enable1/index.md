@@ -46,7 +46,7 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 <img src="media/ewm_plugins.png" alt="ewm plugins" style="width:25%; height:auto;">
 6. Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37
 <img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;">
-7. Working in the pop up window enter the following values into the fields on the form:
+7. Working in the pop up window enter the following values into the fields on the form:<br/>
 | Field Name | Value |
 |----------|----------|
 | Integration name | EWM(JKEBanking) |
@@ -56,6 +56,7 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 | Password | passw0rd |
 | Show hidden properties | enabled |
 | Logging level | ALL |
+<br/>
 <img src="media/ewm_setup.png" alt="ewm integration" style="width:75%; height:auto;">
 
 <br/>
