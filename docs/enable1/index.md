@@ -47,8 +47,7 @@ While this exercise does not cover all topics related to plugins, know that admi
 <img src="media/ewm_plugins.png" alt="ewm plugins" style="width:25%; height:auto;">
 6. Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37
 <img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;">
-7. Working in the pop up window enter the following values into the fields on the form:
-<br/>
+7. Working in the pop up window enter the following values into the fields on the form:<br/>
 
 **Integration name:** EWM(JKEBanking)<br/>
 **Server URL:** need to update<br/>
@@ -58,7 +57,6 @@ While this exercise does not cover all topics related to plugins, know that admi
 **Show hidden properties:** enabled<br/>
 **Logging level:** ALL<br/>
 
-<br/>
 <img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;">
 
 <br/>
