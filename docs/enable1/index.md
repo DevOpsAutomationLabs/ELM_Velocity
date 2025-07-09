@@ -32,9 +32,7 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 ### Configuring the plugin to integrate DevOps Velocity and EWM
 
 1. To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the ![settings icon](media/setting_icon.png) icon (top RHS of the browser window).
-<br/>
 <img src="media/settings_orientation.png" alt="settings icon orientation" style="width:50%; height:auto;">
-<br/>
 2. Select Integrations from the LHS navigation bar.
 <br/>
 
