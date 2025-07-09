@@ -33,16 +33,16 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 1. To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the ![settings icon](media/setting_icon.png) icon (top RHS of the browser window).
 <br/>
-<img src="media/settings_orientation.png" alt="settings icon orientation image" style="width:200%; height:auto;">
+<img src="media/settings_orientation.png" alt="settings icon orientation image" style="width:100%; height:auto;">
 2. Select Integrations from the LHS navigation bar.
 <br/>
-<img src="media/integrations.png" alt="integrations orientation" style="width:200%; height:auto;">
+<img src="media/integrations.png" alt="integrations orientation" style="width:100%; height:auto;">
 3. Click on the Available tab and review the many plugins available.
 <br/>
-<img src="media/integrations_image.png" alt="integrations" style="width:200%; height:auto;">
+<img src="media/integrations_image.png" alt="integrations" style="width:100%; height:auto;">
 4. In the search control, enter “EWM”.
 <br/>
-<img src="media/search.png" alt="search control" style="width:200%; height:auto;">
+<img src="media/search.png" alt="search control" style="width:100%; height:auto;">
 5. Click the  icon and note that there are multiple versions of this plugin available for installation.
 6. 
 <br/>
