@@ -18,7 +18,7 @@ Included as part of a Velocity installation are plugins which allow the Velocity
 - Add an integration definition to a value stream JSON file.
 - Configure a deployment plan task for one of the native integration types.
 
-<img src="media/plugin_overview.png" alt="Plugin architecture image" style="width:200%; height:auto;">
+<img src="media/plugin_overview.png" alt="Plugin architecture image" style="width=100%; height:auto;">
 
 In total there are over 45 plugins available.
 
@@ -31,22 +31,19 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
 <br/>
-1. To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the settings icon. (Top RHS browser window)
-<img src="media/settings_orientation.png" alt="settings icon orientation" style="width:25%; height:auto;">
-2. Select Integrations from the LHS navigation bar.
-<img src="media/integrations.png" alt="integrations orientation" style="width:25%; height:auto;">
-3. Click on the Installed tab and review the many plugins already available.
-<img src="media/integrations_image.png" alt="integrations" style="width:25%; height:auto;">
-
-**NOTE:**
-While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature. <br/>
-
-4. In the search control, enter “EWM”.
-<img src="media/search.png" alt="search" style="width:25%; height:auto;">
-5. Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation.
-<img src="media/ewm_plugins.png" alt="ewm plugins" style="width:25%; height:auto;">
-6. Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37
-<img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;">
+1. To access the Velocity plugin interface, log into Velocity (uid: admin / pwd: admin), and click on the settings icon. (Top RHS browser window)<br/>
+<img src="media/settings_orientation.png" alt="settings icon orientation" style="width:25%; height:auto;"><br/>
+2. Select Integrations from the LHS navigation bar.<br/>
+<img src="media/integrations.png" alt="integrations orientation" style="width:25%; height:auto;"><br/>
+3. Click on the Installed tab and review the many plugins already available.<br/>
+<img src="media/integrations_image.png" alt="integrations" style="width:25%; height:auto;"><br/>
+**NOTE:** While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature.<br/>
+4. In the search control, enter “EWM”.<br/>
+<img src="media/search.png" alt="search" style="width:25%; height:auto;"><br/>
+5. Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation.<br/>
+<img src="media/ewm_plugins.png" alt="ewm plugins" style="width:25%; height:auto;"><br/>
+6. Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37<br/>
+<img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;"><br/>
 7. Working in the pop up window enter the following values into the fields on the form:<br/>
 <br/>
 
@@ -58,10 +55,7 @@ While this exercise does not cover all topics related to plugins, know that admi
 **Show hidden properties:** enabled<br/>
 **Logging level:** ALL<br/>
 <br/>
-
-<img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;">
-
-<br/>
+<img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;"><br/>
 
 [Return to List of Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
