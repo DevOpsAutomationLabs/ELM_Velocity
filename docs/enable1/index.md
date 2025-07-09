@@ -38,7 +38,8 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 3. Click on the Installed tab and review the many plugins already available.
 <img src="media/integrations_image.png" alt="integrations" style="width:25%; height:auto;">
 
-**Note**: While this exercise does not cover all topics related to plugins, know that administrator users can Install additional plugins from the Available tab or upload custom plugins using the Load Plugin feature. <br/>
+[!Note]
+While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature. <br/>
 
 4. In the search control, enter “EWM”.
 <img src="media/search.png" alt="search" style="width:25%; height:auto;">
@@ -46,7 +47,8 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 <img src="media/ewm_plugins.png" alt="ewm plugins" style="width:25%; height:auto;">
 6. Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37
 <img src="media/add_ewm.png" alt="add ewm integration" style="width:75%; height:auto;">
-7. Working in the pop up window enter the following values into the fields on the form:<br/>
+7. Working in the pop up window enter the following values into the fields on the form:
+<br/>
 | Field Name | Value |
 |----------|----------|
 | Integration name | EWM(JKEBanking) |
@@ -56,8 +58,9 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 | Password | passw0rd |
 | Show hidden properties | enabled |
 | Logging level | ALL |
+
 <br/>
-<img src="media/ewm_setup.png" alt="ewm integration" style="width:75%; height:auto;">
+<img src="media/ewm_setup.png" alt="ewm integration" style="width:25%; height:auto;">
 
 <br/>
 
