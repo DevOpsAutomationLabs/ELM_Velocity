@@ -39,7 +39,7 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 ### 1.5 Velocity and the Swimlane View
 <br/>
 
-[Return to Table of Contents](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
+[Return to List of Business Scenarios](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 
 <br/>
 
@@ -52,4 +52,4 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 ### 2.3 Velocity's Insights View - Working with DashBoards and Charts
 <br/>
 
-[Return to Table of Contents](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
+[Return to List of Business Scenarios](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
