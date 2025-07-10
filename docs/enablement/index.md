@@ -196,13 +196,13 @@ To complete the following exercise, ERM has been setup with two requirements pro
 | 2 | Click on the hamburger icon (top LHS) and open the "JKE Banking (Requirements Management)" RM project. | <img src="media/e33.png" alt="e33" style="width:25%; height:auto;"> |
 | 3 | Click on the gear icon (top LHS) and select "Manage Project Properties" from the options presented. | <img src="media/e34.png" alt="e34" style="width:50%; height:auto;"> |
 | 4 | Working in the Artifact Types list box, locate and select the Feature artifact type. | <img src="media/e35.png" alt="e35" style="width:50%; height:auto;"> |
-| 5 | In the editor window for the Feature artifact type, click on the workflow control and select the workflow used to architect the value stream. <br/> In this situation, the default workflow was used. | <img src="media/e36.png" alt="e36" style="width:50%; height:auto;"> |
+| 5 | In the editor window for the Feature artifact type, click on the workflow control and select the workflow used to architect the value stream. <br/> In this situation, the default workflow was used. | <img src="media/e36.png" alt="e36" style="width:100%; height:auto;"> |
 | 6 | Save the changes and repeat steps 4 and 5 setting the workflow for Artifact types Use Case Requirement and User Story Elaboration saving each time. |  |
 | **Note:** | The requirement types chosen for this enablement exercise don't necessarily represent all Artifact Types a user may want to visualize in Velocity. However the steps are the same regardless of the Artifact type. |  |
 | 7 | Click on the "Artifacts" tab in the ELM navigation bar. | <img src="media/e37.png" alt="e37" style="width:50%; height:auto;"> |
 | 8 | Select "All" Artifacts, select "Views" and clear all filters. | <img src="media/e38.png" alt="e38" style="width:50%; height:auto;"> |
 | 9 | Click on the Add filter icon. | <img src="media/e39.png" alt="e39" style="width:20%; height:auto;"> |
-| 10 | Select "Artifact Type" as the attribute and select Feature, Use Case Requirement, and User Story Elaboration as the Artifact type values. | <img src="media/e40.png" alt="e40" style="width:75%; height:auto;"> |
+| 10 | Select "Artifact Type" as the attribute and select Feature, Use Case Requirement, and User Story Elaboration as the Artifact type values. | <img src="media/e40.png" alt="e40" style="width:100%; height:auto;"> |
 | 11 | Click "Add and Close". |  |
 | 12 | Click the "Save as new view" icon. | <img src="media/e41.png" alt="e41" style="width:100%; height:auto;"> |
 | 13 | Enter a meaningful name, select "Shared", and click "OK". | <img src="media/e42.png" alt="e42" style="width:50%; height:auto;"> |
