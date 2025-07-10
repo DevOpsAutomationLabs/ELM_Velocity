@@ -166,16 +166,34 @@ However, even though much of the value stream architecture work has already been
 | 12 | Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout. | <img src="media/e31.png" alt="e31" style="width:100%; height:auto;"> |
 | 13 | Disable the drag feature when done. |  |
 
+Congratulations on successfully configuring the DevOps Velocity value stream to visualize EWM artifacts.
+
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ## Working with ERM
 
+Due to the flexibility provided to clients using ERM (DOORs NG), certain setup steps are necessary to properly visualize the requirement artifact types in a DevOps Velocity value stream. Know that all setup steps align to best practices user should be following.
+
+Because users can create new artifact types and artifact attributes, including attributes to capture status, it was decided that in order to visualize requirements in DevOps Velocity that to track status, users must specify a project workflow.
+
+Also, as there are many types of requirements, some of which the user would not visualize in Velocity, shared views must be configured allowing Velocity's DOORs NG plugin to know exactly which artifact type to sync on.
+
+This enablement exercise will walk through the steps to:<br/>
+1. Prepare the RM project to be able to synchronize with Velocity.<br/>
+2. Configure plugins for RM projects regardless of whther they have been enabled for Global Configuration or not.<br/>
+3. Create the Value Streams to visualize both a requirements management project and a global configuration project.<br/>
+
 ### Preparing RM projects (reg mgmt and global configurations) for integration with Velocity
-<br/>
+
+To complete the following exercise, ERM has been setup with two requirements projects:<br/>
+1. JKE Banking (Requirements Management)<br/>
+2 . Meter Reader GC (Global Configuration)<br/>
 
 | **Step** | **Details**  | **Additional Information** |
 | ------------- | ------------- | ------------- |
+| 1 | Launch ERM in a browser window and authenticate.<br/> (uid: sysadmin / pwd: passw0rd) |  |
+| 2 |  |  |
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
