@@ -164,7 +164,9 @@ However, even though much of the value stream architecture work has already been
 | **Note:** | DevOps Velocity offers version control to help in managing value stream map changes. With the recent change, note the addition of  a new version. | <img src="media/e27.png" alt="e27" style="width:50%; height:auto;"> |
 | 9 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
 | 10 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e29.png" alt="e29" style="width:100%; height:auto;"> |
-
+| 11 | To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar. | <img src="media/e30.png" alt="e30" style="width:50%; height:auto;"> |
+| 12 | Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout. | <img src="media/e31.png" alt="e31" style="width:100%; height:auto;"> |
+| 13 | Disable the drag feature when done. |  |
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
