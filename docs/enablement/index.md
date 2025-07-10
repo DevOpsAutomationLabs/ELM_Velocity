@@ -32,7 +32,7 @@ The pipeline capability enables organizations to drive releases by using applica
 
 DevOps Velocity’s enterprise-scale release management capabilities supports both cloud-native and on-premises deployment. Use DevOps Velocity to move releases through all of your development life-cycle environments including development, testing, and production. Create a predictable schedule of releases for your software applications. Share release statuses with all stakeholders so that they know the schedules, the key milestones, current status, and issues that may delay releases.
 
-The Insights view helps organizations to assess the efficiency of product teams and the speed at which they are able to deliver value to the end users. Teams can measure every aspect of the development lifecycle with the supplied charts. Teams can create their own charts with metric definitions and upload custom data to DevOps Velocity using the Application programming interface (API) endpoints. Since data sources also encompass plug-ins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment solutions.
+The Insights view helps organizations to assess the efficiency of product teams and the speed at which they are able to deliver value to the end users. Teams can measure every aspect of the development lifecycle with the supplied charts. Teams can create their own charts with metric definitions and upload custom data to DevOps Velocity using the Application programming interface (API) endpoints. Since data sources also encompass plug-ins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment solutions. 
 
 For more information about DevOps Velocity, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=high-level-overview).
 <br/>
@@ -60,6 +60,9 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 <br/>
 
 ### Understanding DevOps Velocity's value stream map file
+
+A Value Stream map file is used to describe the phases and stages a work item or artifact will go through from inception to implementation.
+Within each of the stages are queries which retrieve EWM artifact status from Velocity's MongoDB repository and 
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
@@ -70,9 +73,14 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 ## Working with EWM
 
+To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three basic steps must happen:
+1. Configure a plugin to allow Velocity to communicate with EWM.
+2. Create a Value Stream to provide a "single pane of glass" interface to visualize the "DOTS".
+3. Architect the Value Stream by editing the Value Stream Map (json file) to replicate the workflows being used in EWM
+
 ### Configuring the plugin to integrate DevOps Velocity and EWM
 
-The purpose of this exercise is to provide instruction on how to integration DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
+The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
 <br/> 
 
 | **Step** | **Details**  | **Additional Information** |
@@ -91,7 +99,7 @@ The purpose of this exercise is to provide instruction on how to integration Dev
 | 11 | After a few seconds, confirm that the integration Status shows online. |  <img src="media/e10.png" alt="e10" style="width:75%; height:auto;"> |
 | 12 | Click the 3 dots on RHS integration and select "View Logs" from the options presented. |  <img src="media/e11.png" alt="e11" style="width:100%; height:auto;"> |
 | **NOTE:** |  If the status is not showing as Online, ensure the ELM Server is available. If the server is running, check the plugin settings to ensure they are properly set  by selecting Edit. | <img src="media/e12.png" alt="e12" style="width:25%; height:auto;"> |
-| 13 | Select the Log file and view output contents | <img src="media/e13.png" alt="e13" style="width:100%; height:auto;"> |
+| 13 | Select the Log file and view output contents. | <img src="media/e13.png" alt="e13" style="width:100%; height:auto;"> |
 
 Congratulations on successfully configuring the EWM Plugin.
 
