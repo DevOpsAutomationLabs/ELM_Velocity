@@ -60,6 +60,9 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 <br/>
 
 ### Understanding DevOps Velocity's value stream map file
+
+A Value Stream map file is used to describe the phases and stages a work item or artifact will go through from inception to implementation.
+Within each of the stages are queries which retrieve EWM artifact status from Velocity's MongoDB repository and 
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
@@ -77,7 +80,7 @@ To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three ba
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
 
-The purpose of this exercise is to provide instruction on how to integration DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
+The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
 <br/> 
 
 | **Step** | **Details**  | **Additional Information** |
@@ -96,7 +99,7 @@ The purpose of this exercise is to provide instruction on how to integration Dev
 | 11 | After a few seconds, confirm that the integration Status shows online. |  <img src="media/e10.png" alt="e10" style="width:75%; height:auto;"> |
 | 12 | Click the 3 dots on RHS integration and select "View Logs" from the options presented. |  <img src="media/e11.png" alt="e11" style="width:100%; height:auto;"> |
 | **NOTE:** |  If the status is not showing as Online, ensure the ELM Server is available. If the server is running, check the plugin settings to ensure they are properly set  by selecting Edit. | <img src="media/e12.png" alt="e12" style="width:25%; height:auto;"> |
-| 13 | Select the Log file and view output contents | <img src="media/e13.png" alt="e13" style="width:100%; height:auto;"> |
+| 13 | Select the Log file and view output contents. | <img src="media/e13.png" alt="e13" style="width:100%; height:auto;"> |
 
 Congratulations on successfully configuring the EWM Plugin.
 
