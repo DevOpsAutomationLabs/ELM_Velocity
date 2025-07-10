@@ -603,9 +603,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#architecting-the-value-stream-aligned-to-the-ewm-artifact-workflow" class="md-nav__link">
+  <a href="#editing-the-value-stream-map-template-to-visualize-ewm-artifact-workflow" class="md-nav__link">
     <span class="md-ellipsis">
-      Architecting the value stream aligned to the EWM Artifact Workflow
+      Editing the value stream map template to visualize EWM Artifact Workflow
     </span>
   </a>
   
@@ -720,7 +720,7 @@
 <ol>
 <li><a href="#configuring-the-plugin-to-integrate-devops-velocity-and-ewm">Configuring the plugin to integrate DevOps Velocity and EWM</a></li>
 <li><a href="#creating-the-ewm-value-stream-in-devops-velocity">Creating the EWM Value Stream in DevOps Velocity</a></li>
-<li><a href="#architecting-the-value-stream-aligned-to-the-ewm-artifact-workflow">Architecting the value stream aligned to the EWM Artifact Workflow</a></li>
+<li><a href="#editing-the-value-stream-map-template-to-visualize-ewm-artifact-workflow">Editing the value stream map template to visualize EWM Artifact Workflow</a></li>
 </ol>
 <h3 id="working-with-erm">Working with ERM</h3>
 <ol>
@@ -776,10 +776,10 @@
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
 <h2 id="working-with-ewm_1">Working with EWM</h2>
-<p>To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three basic steps must happen:
-1. Configure a plugin to allow Velocity to communicate with EWM.
-2. Create a Value Stream to provide a "single pane of glass" interface to visualize the "DOTS".
-3. Architect the Value Stream by editing the Value Stream Map (json file) to replicate the workflows being used in EWM</p>
+<p>To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three basic steps must happen:<br/>
+1. Configure a plugin to allow Velocity to communicate with EWM.<br/>
+2. Create a Value Stream to provide a "single pane of glass" interface to visualize the "DOTS".<br/>
+3. Architect the Value Stream by editing the Value Stream Map (json file) to replicate the workflows being used in EWM.<br/></p>
 <h3 id="configuring-the-plugin-to-integrate-devops-velocity-and-ewm">Configuring the plugin to integrate DevOps Velocity and EWM</h3>
 <p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
 <br/> </p>
@@ -874,6 +874,7 @@
 <br/></p>
 <h3 id="creating-the-ewm-value-stream-in-devops-velocity">Creating the EWM Value Stream in DevOps Velocity</h3>
 <p><br/></p>
+<p>Visualizing the dots (Stories, Tasks, Defects) on a value stream dashboard requires a Value Stream created. This section will share instructions on how to create the Value Stream.</p>
 <table>
 <thead>
 <tr>
@@ -884,16 +885,49 @@
 </thead>
 <tbody>
 <tr>
+<td>1</td>
+<td>Continuing to work in DevOps Velocity, navigate to the Value Stream view page.</td>
+<td><img src="media/e15.png" alt="e15" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Click the "All value streams" tab top RHS of browser page.</td>
+<td><img src="media/e16.png" alt="e16" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Click the "Create" button</td>
+<td><img src="media/e17.png" alt="e17" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>4</td>
+<td>On the pop-up window, enter a meaningful name, and select Default team from the Team drop down list box.</td>
+<td><img src="media/e18.png" alt="e18" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Click the "Create" button</td>
+<td><img src="media/e19.png" alt="e19" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td><strong>Note:</strong></td>
+<td>Clicking the "Create &amp; Configure" will lead the user through a series of conifguration windows offering a wizard driven approach to creating the value stream.</td>
 <td></td>
-<td></td>
-<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>You should now be presented with a basic value stream visualization.</td>
+<td><img src="media/e20.png" alt="e20" style="width:50%; height:auto;"></td>
 </tr>
 </tbody>
 </table>
+<p>Congratulations on successfully configuring a basic DevOps Velocity value stream.</p>
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
-<h3 id="architecting-the-value-stream-aligned-to-the-ewm-artifact-workflow">Architecting the value stream aligned to the EWM Artifact Workflow</h3>
+<h3 id="editing-the-value-stream-map-template-to-visualize-ewm-artifact-workflow">Editing the value stream map template to visualize EWM Artifact Workflow</h3>
 <p><br/></p>
+<p>As previously mentioned, this enablement exercise is using a value stream template file to bootstrap the value stream creating process. More more information about configuring the value stream map file refer to section <a href="#devops-velocitys-value-stream-map-overview">DevOps Velocity's value stream map overview</a>. </p>
+<p>However, even though much of the value stream architecture work has already been completed, specific edits still need to be made to the template adding the plugin integration name so that Velocity knows which collection of data should be visualized in the value stream. </p>
 <table>
 <thead>
 <tr>
@@ -904,8 +938,73 @@
 </thead>
 <tbody>
 <tr>
+<td>1</td>
+<td>Continuing to work in the newly created value stream view, locate and click on the wrench icon.</td>
+<td><img src="media/e21.png" alt="e21" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Select the "edit value stream map" option.</td>
+<td><img src="media/e22.png" alt="e22" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Open the EWM VS map file in a browser tab.</td>
+<td><a href="https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/EWM_defaultWorkflow-vsm.json">EWM VS map Template</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Working in the new browser tab, select/highlight the entire VS map code, and copy.</td>
 <td></td>
-<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Returning to the value stream map editor in Velocity, select/highlight the entire contents of the editor and replace by pasting in the template code.</td>
+<td><img src="media/e23.png" alt="e23" style="width:100%; height:auto;"></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Working in the DevOps Velocity value stream editor, locate the integrations stanza within the json file near end of the file.</td>
+<td><img src="media/e24.png" alt="e24" style="width:100%; height:auto;"></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Replace the <EWM integration name> with the name of your EWM plugin. <br/> e.g. EWM(JKEBanking)</td>
+<td><img src="media/e25.png" alt="e25" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Verify that the update was saved successfully.</td>
+<td><img src="media/e26.png" alt="e26" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td><strong>Note:</strong></td>
+<td>DevOps Velocity offers version control to help in managing value stream map changes. With the recent change, note the addition of  a new version.</td>
+<td><img src="media/e27.png" alt="e27" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Click the "Back" button to return to the value stream view.</td>
+<td><img src="media/e28.png" alt="e28" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>10</td>
+<td>You should now see a re-configured value stream architecture with "DOTS".</td>
+<td><img src="media/e29.png" alt="e29" style="width:100%; height:auto;"></td>
+</tr>
+<tr>
+<td>11</td>
+<td>To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar.</td>
+<td><img src="media/e30.png" alt="e30" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout.</td>
+<td><img src="media/e31.png" alt="e31" style="width:100%; height:auto;"></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Disable the drag feature when done.</td>
 <td></td>
 </tr>
 </tbody>
