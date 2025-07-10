@@ -1007,11 +1007,21 @@
 </tr>
 </tbody>
 </table>
+<p>Congratulations on successfully configuring the DevOps Velocity value stream to visualize EWM artifacts.</p>
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
 <h2 id="working-with-erm_1">Working with ERM</h2>
+<p>Due to the flexibility provided to clients using ERM (DOORs NG), certain setup steps are necessary to properly visualize the requirement artifact types in a DevOps Velocity value stream. Know that all setup steps align to best practices user should be following.</p>
+<p>Because users can create new artifact types and artifact attributes, including attributes to capture status, it was decided that in order to visualize requirements in DevOps Velocity that to track status, users must specify a project workflow.</p>
+<p>Also, as there are many types of requirements, some of which the user would not visualize in Velocity, shared views must be configured allowing Velocity's DOORs NG plugin to know exactly which artifact type to sync on.</p>
+<p>This enablement exercise will walk through the steps to:<br/>
+1. Prepare the RM project to be able to synchronize with Velocity.<br/>
+2. Configure plugins for RM projects regardless of whther they have been enabled for Global Configuration or not.<br/>
+3. Create the Value Streams to visualize both a requirements management project and a global configuration project.<br/></p>
 <h3 id="preparing-rm-projects-reg-mgmt-and-global-configurations-for-integration-with-velocity">Preparing RM projects (reg mgmt and global configurations) for integration with Velocity</h3>
-<p><br/></p>
+<p>To complete the following exercise, ERM has been setup with two requirements projects:<br/>
+1. JKE Banking (Requirements Management)<br/>
+2 . Meter Reader GC (Global Configuration)<br/></p>
 <table>
 <thead>
 <tr>
@@ -1022,7 +1032,12 @@
 </thead>
 <tbody>
 <tr>
+<td>1</td>
+<td>Launch ERM in a browser window and authenticate.<br/> (uid: sysadmin / pwd: passw0rd)</td>
 <td></td>
+</tr>
+<tr>
+<td>2</td>
 <td></td>
 <td></td>
 </tr>
