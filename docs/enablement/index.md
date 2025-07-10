@@ -102,7 +102,7 @@ The purpose of this exercise is to provide instruction on how to setup the integ
 <br/> 
 
 | **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
+|:-------------:|:------------- |:------------- |
 | 1 | To access the Velocity plugin interface, open Velocity in a browser and log in. <br/> (uid: admin / pwd: admin) |   |
 | 2 | Click on the settings icon. (Top RHS browser window) | <img src="media/e2.png" alt="e2" style="width:50%; height:auto;"> |
 | 3 | Select Integrations from the LHS navigation bar. | <img src="media/e3.png" alt="e3" style="width:50%; height:auto;"> |
@@ -129,7 +129,7 @@ Congratulations on successfully configuring the EWM Plugin.
 Visualizing the dots (Stories, Tasks, Defects) on a value stream dashboard requires a Value Stream created. This section will share instructions on how to create the Value Stream.
 
 | **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
+|:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in DevOps Velocity, navigate to the Value Stream view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
 | 2 | Click the "All value streams" tab top RHS of browser page. | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
 | 3 | Click the "Create" button | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
@@ -150,9 +150,9 @@ As previously mentioned, this enablement exercise is using a value stream templa
 However, even though much of the value stream architecture work has already been completed, specific edits still need to be made to the template adding the plugin integration name so that Velocity knows which collection of data should be visualized in the value stream. 
 
 | **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
+|:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in the newly created value stream view, locate and click on the wrench icon. | <img src="media/e21.png" alt="e21" style="width:50%; height:auto;"> |
-| 2 | Select the "edit value stream map" option. | <img src="media/e22.png" alt="e22" style="width:50%; height:auto;"> |
+| 2 | Select the "Edit value stream map" option. | <img src="media/e22.png" alt="e22" style="width:50%; height:auto;"> |
 | 3 | Open the EWM VS map file in a browser tab.| [EWM VS map Template](https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/EWM_defaultWorkflow-vsm.json) |
 | 4 | Working in the new browser tab, select/highlight the entire VS map code, and copy. |  |
 | 5 | Returning to the value stream map editor in Velocity, select/highlight the entire contents of the editor and replace by pasting in the template code. | <img src="media/e23.png" alt="e23" style="width:100%; height:auto;"> |
@@ -188,12 +188,13 @@ This enablement exercise will walk through the steps to:<br/>
 
 To complete the following exercise, ERM has been setup with two requirements projects:<br/>
 1. JKE Banking (Requirements Management)<br/>
-2 . Meter Reader GC (Global Configuration)<br/>
+2. Meter Reader GC (Global Configuration)<br/>
 
 | **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
+|:-------------:|:------------- |:------------- |
 | 1 | Launch ERM in a browser window and authenticate.<br/> (uid: sysadmin / pwd: passw0rd) |  |
 | 2 |  |  |
+| 3 |  |  |
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
@@ -202,7 +203,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
+|:-------------:|:------------- |:------------- |
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
@@ -211,7 +212,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
+|:-------------:|:------------- |:------------- |
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
@@ -220,7 +221,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
+|:-------------:|:------------- |:------------- |
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
@@ -229,7 +230,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
+|:-------------:|:------------- |:------------- |
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
