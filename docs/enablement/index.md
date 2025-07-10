@@ -82,9 +82,8 @@ Reviewing the Value Stream Map image, notice the following:
 
 For the purposes of this enablement exercise, a template has been created to help bootstrap creation and configuration of the value stream.
 
-If you would like to review the entire VSM template, click the link:
-[EWM VS map Template](../../files/EWM_defaultWorkflow-vsm.json)
-
+If you would like to review the entire VSM template, open the link in a new browser tab:
+[EWM VS map Template](https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/EWM_defaultWorkflow-vsm.json)
 <br/>
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
