@@ -14,7 +14,7 @@
 8. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-req-mgmt-project)
 9. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-global-configuration)
 10. [Creating the ERM Value Stream in DevOps Velocity](#creating-the-erm-value-stream-in-devops-velocity)
-11. [Architecting the value stream aligned to the ERM Artifact Workflow](#architecting-the-value-stream-aligned-to-the-erm-artifact-workflow)
+11. [Editing the value stream map template to visualize EWM Artifact Workflow](#editing-the-value-stream-map-template-to-visualize-erm-artifact-workflow)
 
 
 ## Overview 
@@ -132,9 +132,9 @@ Visualizing the dots (Stories, Tasks, Defects) on a value stream dashboard requi
 |:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in DevOps Velocity, navigate to the Value Stream view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
 | 2 | Click the "All value streams" tab top RHS of browser page. | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
-| 3 | Click the "Create" button | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
+| 3 | Click the "Create" button. | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
 | 4 | On the pop-up window, enter a meaningful name, and select Default team from the Team drop down list box. <br/> e.g. JKE Banking (Change Management) | <img src="media/e18.png" alt="e18" style="width:50%; height:auto;"> |
-| 5 | Click the "Create" button | <img src="media/e19.png" alt="e19" style="width:50%; height:auto;"> |
+| 5 | Click the "Create" button. | <img src="media/e19.png" alt="e19" style="width:50%; height:auto;"> |
 | **Note:** | Clicking the "Create & Configure" will lead the user through a series of conifguration windows offering a wizard driven approach to creating the value stream. |  |
 | 6 | You should now be presented with a basic value stream visualization. | <img src="media/e20.png" alt="e20" style="width:50%; height:auto;"> |
 
@@ -162,7 +162,7 @@ However, even though much of the value stream architecture work has already been
 | **Note:** | DevOps Velocity offers version control to help in managing value stream map changes. With the recent change, note the addition of  a new version. | <img src="media/e27.png" alt="e27" style="width:50%; height:auto;"> |
 | 9 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
 | 10 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e29.png" alt="e29" style="width:100%; height:auto;"> |
-| 11 | To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar. | <img src="media/e30.png" alt="e30" style="width:50%; height:auto;"> |
+| 11 | To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar. | 4 |
 | 12 | Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout. | <img src="media/e31.png" alt="e31" style="width:100%; height:auto;"> |
 | 13 | Disable the drag feature when done. |  |
 
@@ -192,9 +192,23 @@ To complete the following exercise, ERM has been setup with two requirements pro
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Launch ERM in a browser window and authenticate.<br/> (uid: sysadmin / pwd: passw0rd) |  |
-| 2 |  |  |
-| 3 |  |  |
+| 1 | Launch ERM in a browser window and authenticate.<br/> (uid: sysadmin / pwd: passw0rd) | <img src="media/e32.png" alt="e32" style="width:50%; height:auto;"> |
+| 2 | Click on the hamburger icon (top LHS) and open the "JKE Banking (Requirements Management)" RM project. | <img src="media/e33.png" alt="e33" style="width:25%; height:auto;"> |
+| 3 | Click on the gear icon (top LHS) and select "Manage Project Properties" from the options presented. | <img src="media/e34.png" alt="e34" style="width:50%; height:auto;"> |
+| 4 | Working in the Artifact Types list box, locate and select the Feature artifact type. | <img src="media/e35.png" alt="e35" style="width:50%; height:auto;"> |
+| 5 | In the editor window for the Feature artifact type, click on the workflow control and select the workflow used to architect the value stream. <br/> In this situation, the default workflow was used. | <img src="media/e36.png" alt="e36" style="width:50%; height:auto;"> |
+| 6 | Save the changes and repeat steps 4 and 5 setting the workflow for Artifact types Use Case Requirement and User Story Elaboration saving each time. |  |
+| **Note:** | The requirement types chosen for this enablement exercise don't necessarily represent all Artifact Types a user may want to visualize in Velocity. However the steps are the same regardless of the Artifact type. |  |
+| 7 | Click on the "Artifacts" tab in the ELM navigation bar. | <img src="media/e37.png" alt="e37" style="width:50%; height:auto;"> |
+| 8 | Select "All" Artifacts, select "Views" and clear all filters. | <img src="media/e38.png" alt="e38" style="width:50%; height:auto;"> |
+| 9 | Click on the Add filter icon. | <img src="media/e39.png" alt="e39" style="width:20%; height:auto;"> |
+| 10 | Select "Artifact Type" as the attribute and select Feature, Use Case Requirement, and User Story Elaboration as the Artifact type values. | <img src="media/e40.png" alt="e40" style="width:75%; height:auto;"> |
+| 11 | Click "Add and Close". |  |
+| 12 | Click the "Save as new view" icon. | <img src="media/e41.png" alt="e41" style="width:100%; height:auto;"> |
+| 13 | Enter a meaningful name, select "Shared", and click "OK". | <img src="media/e42.png" alt="e42" style="width:50%; height:auto;"> |
+| **Note:** | If the userid/password combination used to configure the plugin is not an "Administrator". The userid must have access to the DOORs NG project and must be able to execute views. More on this later. |  | 
+
+
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
@@ -226,7 +240,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
-### Architecting the value stream aligned to the ERM Artifact Workflow
+### Editing the value stream map template to visualize ERM Artifact Workflow
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
