@@ -157,13 +157,13 @@ However, even though much of the value stream architecture work has already been
 | 2 | Select the "edit value stream map" option. | <img src="media/e22.png" alt="e22" style="width:50%; height:auto;"> |
 | 3 | Open the EWM VS map file in a browser tab.| [EWM VS map Template](https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/EWM_defaultWorkflow-vsm.json) |
 | 4 | Working in the new browser tab, select/highlight the entire VS map code, and copy. |  |
-| 5 | Returning to the value stream map editor in Velocity, select/highlight the entire contents of the editor and replace by pasting in the template code. | <img src="media/e23.png" alt="e23" style="width:50%; height:auto;"> |
-| 6 | Working in the DevOps Velocity value stream editor, locate the integrations stanza within the json file near end of the file. | <img src="media/e24.png" alt="e24" style="width:50%; height:auto;"> |
+| 5 | Returning to the value stream map editor in Velocity, select/highlight the entire contents of the editor and replace by pasting in the template code. | <img src="media/e23.png" alt="e23" style="width:100%; height:auto;"> |
+| 6 | Working in the DevOps Velocity value stream editor, locate the integrations stanza within the json file near end of the file. | <img src="media/e24.png" alt="e24" style="width:100%; height:auto;"> |
 | 7 | Replace the <EWM integration name> with the name of your EWM plugin. <br/> e.g. EWM(JKEBanking) | <img src="media/e25.png" alt="e25" style="width:50%; height:auto;"> |
 | 8 | Verify that the update was saved successfully. | <img src="media/e26.png" alt="e26" style="width:50%; height:auto;"> | 
 | **Note:** | DevOps Velocity offers version control to help in managing value stream map changes. With the recent change, note the addition of  a new version. | <img src="media/e27.png" alt="e27" style="width:50%; height:auto;"> |
 | 9 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
-| 10 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e29.png" alt="e29" style="width:50%; height:auto;"> |
+| 10 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e29.png" alt="e29" style="width:100%; height:auto;"> |
 
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
