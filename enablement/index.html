@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../demo1/">
+        <link rel="prev" href="../demonstration/">
       
       
       
@@ -220,11 +220,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../demo1/" class="md-tabs__link">
+        <a href="../demonstration/" class="md-tabs__link">
           
   
   
-  Demo1
+  Demonstration
 
         </a>
       </li>
@@ -246,7 +246,7 @@
           
   
   
-  Enable1
+  Enablement
 
         </a>
       </li>
@@ -343,7 +343,7 @@
   
   
   <span class="md-ellipsis">
-    Demo1
+    Demonstration
     
   </span>
   
@@ -354,7 +354,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Demo1
+            Demonstration
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -365,7 +365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../demo1/" class="md-nav__link">
+      <a href="../demonstration/" class="md-nav__link">
         
   
   
@@ -419,7 +419,7 @@
   
   
   <span class="md-ellipsis">
-    Enable1
+    Enablement
     
   </span>
   
@@ -430,7 +430,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Enable1
+            Enablement
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -739,7 +739,7 @@
 <p>The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.</p>
 <p>The pipeline capability enables organizations to drive releases by using application-focused methods. Add applications to logical environments and let DevOps Velocity generate basic release plans required to deploy the applications. Use quality gates to implement an enhanced level of automated governance helping organizations reduce business risk as software change moves through the delivery pipeline to the production environment.</p>
 <p>DevOps Velocity’s enterprise-scale release management capabilities supports both cloud-native and on-premises deployment. Use DevOps Velocity to move releases through all of your development life-cycle environments including development, testing, and production. Create a predictable schedule of releases for your software applications. Share release statuses with all stakeholders so that they know the schedules, the key milestones, current status, and issues that may delay releases.</p>
-<p>The Insights view helps organizations to assess the efficiency of product teams and the speed at which they are able to deliver value to the end users. Teams can measure every aspect of the development lifecycle with the supplied charts. Teams can create their own charts with metric definitions and upload custom data to DevOps Velocity using the Application programming interface (API) endpoints. Since data sources also encompass plug-ins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment solutions.</p>
+<p>The Insights view helps organizations to assess the efficiency of product teams and the speed at which they are able to deliver value to the end users. Teams can measure every aspect of the development lifecycle with the supplied charts. Teams can create their own charts with metric definitions and upload custom data to DevOps Velocity using the Application programming interface (API) endpoints. Since data sources also encompass plug-ins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment solutions. </p>
 <p>For more information about DevOps Velocity, visit <a href="https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=high-level-overview">Velocity's product documentation page</a>.
 <br/></p>
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
@@ -757,7 +757,9 @@
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
 <h3 id="understanding-devops-velocitys-value-stream-map-file">Understanding DevOps Velocity's value stream map file</h3>
-<p><br/></p>
+<p>A Value Stream map file is used to describe the phases and stages a work item or artifact will go through from inception to implementation.
+Within each of the stages are queries which retrieve EWM artifact status from Velocity's MongoDB repository and 
+<br/></p>
 <table>
 <thead>
 <tr>
@@ -777,8 +779,12 @@
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
 <h2 id="working-with-ewm_1">Working with EWM</h2>
+<p>To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three basic steps must happen:
+1. Configure a plugin to allow Velocity to communicate with EWM.
+2. Create a Value Stream to provide a "single pane of glass" interface to visualize the "DOTS".
+3. Architect the Value Stream by editing the Value Stream Map (json file) to replicate the workflows being used in EWM</p>
 <h3 id="configuring-the-plugin-to-integrate-devops-velocity-and-ewm">Configuring the plugin to integrate DevOps Velocity and EWM</h3>
-<p>The purpose of this exercise is to provide instruction on how to integration DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
+<p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
 <br/> </p>
 <table>
 <thead>
@@ -861,7 +867,7 @@
 </tr>
 <tr>
 <td>13</td>
-<td>Select the Log file and view output contents</td>
+<td>Select the Log file and view output contents.</td>
 <td><img src="media/e13.png" alt="e13" style="width:100%; height:auto;"></td>
 </tr>
 </tbody>
