@@ -4,7 +4,7 @@
 ### Overview
 1. [DevOps Velocity Overview](#devops-velocity-overview) 
 2. [What is a Velocity Plugin](#what-is-a-velocity-plugin) 
-3. [Understanding DevOps Velocity's value stream map file](#understanding-devops-velocitys-value-stream-map-file)
+3. [DevOps Velocity's value stream map overview](#devops-velocitys-value-stream-map-overview)
 ### Working with EWM
 4. [Configuring the plugin to integrate DevOps Velocity and EWM](#configuring-the-plugin-to-integrate-devops-velocity-and-ewm)
 5. [Creating the EWM Value Stream in DevOps Velocity](#creating-the-ewm-value-stream-in-devops-velocity)
@@ -59,14 +59,33 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
-### Understanding DevOps Velocity's value stream map file
+### DevOps Velocity's value stream map overview
 
-A Value Stream map file is used to describe the phases and stages a work item or artifact will go through from inception to implementation.
-Within each of the stages are queries which retrieve EWM artifact status from Velocity's MongoDB repository and 
+A Value Stream map file is used to describe the phases and stages a work item or artifact will go through from inception to implementation displaying the work items in their current state.
+
+The highest level of a value stream is a phase. Phases represent important, organizational parts of the value stream, such as "Planning," or "Development." On the Value stream view, processing is done in left-right order. For example, your first phase might be for planning and contain items created in an issue tracking system. Your next phase, used for development, can track source control activity related to the issues, and any builds triggered by the activity. Your final phase, used for deployment, might track the related build artifacts as they move through your testing environments toward production.
+
+Phases contain stages that define process flow within a phase. A development phase that integrates a source control tool might contain an In Progress stage followed by In Review and Merged stages. When you customize a value stream, you define the phases and stages and their order.
+
+Stages are containers for dots. Dots represent units of work from DevOps Velocity or tools that are integrated into the value stream. Git commits or Jira issues, to take just two, are represented by individual dots. Work items, such as commits and builds, can be combined into individual dots. A dot's position in the value stream conveys important information about the object. Dots in a stage named Merged might represent items merged into Git repositories. An item's shape and color convey information about the item's type and status. A dot outlined in red, for example, might mean the item is past schedule. When dots change state, they move to new stages in near-real time. Finally, when you click on a dot, the displayed card provides information about the work items, including their history, and provides links to associated tools.
+
+For this purposes of this enablement exercise, a very simple approach was followed in archtitecting the value stream. The phases and stages were mapped to the artifact workflows defined in EWM showing only the current state of the user stories, defects, and tasks.
+
+![Velocity Value Stream map](media/velocity_map.png)
+
+Reviewing the Value Stream Map image, notice the following:
+1. Definition of the four phases - Open, In Progress, Approval, Released
+2. Within the Open phase there are two stages named New and ReOpened
+3. The query statement in the Open stage instructs Velocity to display all work items which are currently in a New state.
+4. The query statement in the ReOpened stage instructs Velocity to display only work items of type Defect which in an ReOpened state.
+5. And finally the target stanza on each stage helps to visualize the next stage that a work item could be displayed in.
+
+For the purposes of this enablement exercise, a template has been created to help bootstrap creation and configuration of the value stream.
+
+If you would like to review the entire VSM template, click the link:
+[EWM VS map Template](../../files/EWM_defaultWorkflow-vsm.json)
+
 <br/>
-
-| **Step** | **Details**  | **Additional Information** |
-| ------------- | ------------- | ------------- |
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
