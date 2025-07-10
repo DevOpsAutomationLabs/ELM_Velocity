@@ -125,7 +125,6 @@ Congratulations on successfully configuring the EWM Plugin.
 <br/>
 
 ### Creating the EWM Value Stream in DevOps Velocity
-<br/>
 
 Visualizing the dots (Stories, Tasks, Defects) on a value stream dashboard requires a Value Stream created. This section will share instructions on how to create the Value Stream.
 
@@ -134,7 +133,7 @@ Visualizing the dots (Stories, Tasks, Defects) on a value stream dashboard requi
 | 1 | Continuing to work in DevOps Velocity, navigate to the Value Stream view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
 | 2 | Click the "All value streams" tab top RHS of browser page. | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
 | 3 | Click the "Create" button | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
-| 4 | On the pop-up window, enter a meaningful name, and select Default team from the Team drop down list box. | <img src="media/e18.png" alt="e18" style="width:50%; height:auto;"> |
+| 4 | On the pop-up window, enter a meaningful name, and select Default team from the Team drop down list box. <br/> e.g. JKE Banking (Change Management) | <img src="media/e18.png" alt="e18" style="width:50%; height:auto;"> |
 | 5 | Click the "Create" button | <img src="media/e19.png" alt="e19" style="width:50%; height:auto;"> |
 | **Note:** | Clicking the "Create & Configure" will lead the user through a series of conifguration windows offering a wizard driven approach to creating the value stream. |  |
 | 6 | You should now be presented with a basic value stream visualization. | <img src="media/e20.png" alt="e20" style="width:50%; height:auto;"> |
@@ -145,7 +144,6 @@ Congratulations on successfully configuring a basic DevOps Velocity value stream
 <br/>
 
 ### Editing the value stream map template to visualize EWM Artifact Workflow
-<br/>
 
 As previously mentioned, this enablement exercise is using a value stream template file to bootstrap the value stream creating process. More more information about configuring the value stream map file refer to section [DevOps Velocity's value stream map overview](#devops-velocitys-value-stream-map-overview). 
 
@@ -159,7 +157,7 @@ However, even though much of the value stream architecture work has already been
 | 4 | Working in the new browser tab, select/highlight the entire VS map code, and copy. |  |
 | 5 | Returning to the value stream map editor in Velocity, select/highlight the entire contents of the editor and replace by pasting in the template code. | <img src="media/e23.png" alt="e23" style="width:100%; height:auto;"> |
 | 6 | Working in the DevOps Velocity value stream editor, locate the integrations stanza within the json file near end of the file. | <img src="media/e24.png" alt="e24" style="width:100%; height:auto;"> |
-| 7 | Replace the <EWM integration name> with the name of your EWM plugin. <br/> e.g. EWM(JKEBanking) | <img src="media/e25.png" alt="e25" style="width:50%; height:auto;"> |
+| 7 | Replace the "EWM integration name" text string with the name of your EWM plugin. <br/> e.g. EWM(JKEBanking) | <img src="media/e25.png" alt="e25" style="width:50%; height:auto;"> |
 | 8 | Verify that the update was saved successfully. | <img src="media/e26.png" alt="e26" style="width:50%; height:auto;"> | 
 | **Note:** | DevOps Velocity offers version control to help in managing value stream map changes. With the recent change, note the addition of  a new version. | <img src="media/e27.png" alt="e27" style="width:50%; height:auto;"> |
 | 9 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
