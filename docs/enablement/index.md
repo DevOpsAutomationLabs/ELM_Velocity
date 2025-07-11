@@ -172,7 +172,7 @@ However, even though much of the value stream architecture work has already been
 | **NOTE:** | DevOps Velocity offers version control to help in managing value stream map changes. With the recent change, note the addition of  a new version. | <img src="media/e27.png" alt="e27" style="width:50%; height:auto;"> |
 | 9 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
 | 10 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e29.png" alt="e29" style="width:100%; height:auto;"> |
-| 11 | To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar. | 4 |
+| 11 | To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar. | <img src="media/e30.png" alt="e30" style="width:20%; height:auto;"> |
 | 12 | Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout. | <img src="media/e31.png" alt="e31" style="width:100%; height:auto;"> |
 | 13 | Disable the drag feature when done. |  |
 
@@ -292,6 +292,7 @@ Visualizing the requirements (artifact types) on a value stream dashboard requir
 | **Note:** | To create a value stream for a Global Configuration project, the steps are the same. The only difference with be the Value Stream name. | Meter Reader GC vs. JKE Banking (Requirements Management) |
 | 5 | Click the "Create" button. | <img src="media/e59.png" alt="e59" style="width:50%; height:auto;"> |
 | 6 | You should now be presented with a basic value stream visualization. | <img src="media/e60.png" alt="e60" style="width:50%; height:auto;"> |
+| 7 | Repeat the above steps creating a new value stream for the Meter Reader GC global configuration project. |  |
 
 Congratulations on successfully configuring a basic DevOps Velocity value stream to visualize ERM artifacts.
 
@@ -300,10 +301,32 @@ Congratulations on successfully configuring a basic DevOps Velocity value stream
 
 ### Editing the value stream map template to visualize ERM Artifact Workflow
 
-<br/>
+As previously mentioned, this enablement exercise is using a value stream template file to bootstrap the value stream creating process. More more information about configuring the value stream map file refer to section [DevOps Velocity's value stream map overview](#devops-velocitys-value-stream-map-overview).
+
+However, even though much of the value stream architecture work has already been completed, specific edits still need to be made to the template adding the plugin integration name so that Velocity knows which collection of data should be visualized in the value stream.
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
+| 1 | Continuing to work in the newly created value stream view, locate and click on the wrench icon. | <img src="media/e21.png" alt="e21" style="width:50%; height:auto;"> |
+| 2 | Select the "Edit value stream map" option. | <img src="media/e22.png" alt="e22" style="width:50%; height:auto;"> |
+| 3 | Open the ERM VS map file in a browser tab.| [ERM VS map Template](https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/DOORs_defaultWorkflow-vsm.json) |
+| 4 | Working in the new browser tab, select/highlight the entire VS map code, and copy. |  |
+| 5 | Returning to the value stream map editor in Velocity, select/highlight the entire contents of the editor and replace by pasting in the template code. | <img src="media/e61.png" alt="e61" style="width:100%; height:auto;"> |
+| 6 | Working in the DevOps Velocity value stream editor, locate the global query line within the json file at top of the file. | <img src="media/e62.png" alt="e62" style="width:75%; height:auto;"> |
+| 7 | Replace the "Project Name" text string with the name of your ERM project name. <br/> e.g. JKE Banking (Requirements Manangement) | <img src="media/e63.png" alt="e63" style="width:75%; height:auto;"> |
+| 8 | Working in the DevOps Velocity value stream editor, locate the integrations stanza within the json file near end of the file. | <img src="media/e64.png" alt="e64" style="width:50%; height:auto;"> |
+| 9 | Replace the "EWM integration name" text string with the name of your EWM plugin. <br/> e.g. EWM(JKEBanking) | <img src="media/e65.png" alt="e65" style="width:50%; height:auto;"> |
+| 10 | Verify that the update was saved successfully. | <img src="media/e26.png" alt="e26" style="width:50%; height:auto;"> |
+| 11 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
+| 12 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e66.png" alt="e66" style="width:100%; height:auto;"> |
+| 13 | To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar. | <img src="media/e30.png" alt="e30" style="width:20%; height:auto;"> |
+| 14 | Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout. | <img src="media/e67.png" alt="e67" style="width:100%; height:auto;"> |
+| 15 | Disable the drag feature when done. |  |
+| 16 | Working in the value stream, locate the "View value stream data by" control and select type from the list of options. | <img src="media/e68.png" alt="e68" style="width:50%; height:auto;"> |
+| 17 | Notice the color of the "DOTS" and the legend has changed to show the requirement types instead of requirement priority. | <img src="media/e69.png" alt="e69" style="width:100%; height:auto;"> |
+| 17 | Repeat the above steps to edit the value stream map file and arrange the stage for the Meter Reader GC global configuration project. | <img src="media/e70.png" alt="e70" style="width:100%; height:auto;"> |
+
+Congratulations on successfully configuring the DevOps Velocity value stream to visualize ERM artifacts.
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
