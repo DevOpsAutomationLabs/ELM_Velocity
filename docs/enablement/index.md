@@ -1,29 +1,34 @@
 # Configuring the integration between DevOps Velocity and ELM
 
 ## Topics covered in this Enablement exercise
+
 ### Overview
-1. [DevOps Velocity Overview](#devops-velocity-overview) 
-2. [What is a Velocity Plugin](#what-is-a-velocity-plugin) 
+
+1. [DevOps Velocity Overview](#devops-velocity-overview)
+2. [What is a Velocity Plugin](#what-is-a-velocity-plugin)
 3. [DevOps Velocity's value stream map overview](#devops-velocitys-value-stream-map-overview)
+
 ### Working with EWM
+
 4. [Configuring the plugin to integrate DevOps Velocity and EWM](#configuring-the-plugin-to-integrate-devops-velocity-and-ewm)
 5. [Creating the EWM Value Stream in DevOps Velocity](#creating-the-ewm-value-stream-in-devops-velocity)
 6. [Editing the value stream map template to visualize EWM Artifact Workflow](#editing-the-value-stream-map-template-to-visualize-ewm-artifact-workflow)
+
 ### Working with ERM
+
 7. [Preparing RM projects (reg mgmt and global configurations) for integration with Velocity](#preparing-rm-projects-reg-mgmt-and-global-configurations-for-integration-with-velocity)
 8. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-req-mgmt-project)
 9. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-global-configuration)
 10. [Creating the ERM Value Stream in DevOps Velocity](#creating-the-erm-value-stream-in-devops-velocity)
 11. [Editing the value stream map template to visualize EWM Artifact Workflow](#editing-the-value-stream-map-template-to-visualize-erm-artifact-workflow)
 
-
-## Overview 
+## Overview
 
 ### DevOps Velocity Overview
 
-DevOps Velocity is a multi-container application installed in a Kubernetes container management system. 
-<br/>
-<br/>
+DevOps Velocity is a multi-container application installed in a Kubernetes container management system.
+<br/><br/>
+
 ![Velocity Value Stream screenshot](media/velocity_overview.png)
 
 The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.
@@ -32,7 +37,7 @@ The pipeline capability enables organizations to drive releases by using applica
 
 DevOps Velocity’s enterprise-scale release management capabilities supports both cloud-native and on-premises deployment. Use DevOps Velocity to move releases through all of your development life-cycle environments including development, testing, and production. Create a predictable schedule of releases for your software applications. Share release statuses with all stakeholders so that they know the schedules, the key milestones, current status, and issues that may delay releases.
 
-The Insights view helps organizations to assess the efficiency of product teams and the speed at which they are able to deliver value to the end users. Teams can measure every aspect of the development lifecycle with the supplied charts. Teams can create their own charts with metric definitions and upload custom data to DevOps Velocity using the Application programming interface (API) endpoints. Since data sources also encompass plug-ins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment solutions. 
+The Insights view helps organizations to assess the efficiency of product teams and the speed at which they are able to deliver value to the end users. Teams can measure every aspect of the development lifecycle with the supplied charts. Teams can create their own charts with metric definitions and upload custom data to DevOps Velocity using the Application programming interface (API) endpoints. Since data sources also encompass plug-ins and API calls, project data can come from virtually anywhere, including planning and development tools, testing and building applications, and deployment solutions.
 
 For more information about DevOps Velocity, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=high-level-overview).
 <br/>
@@ -43,6 +48,7 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 ### What is a Velocity Plugin
 
 Included as part of a Velocity installation are plugins which allow the Velocity Administrator to create connections between delivery pipeline applications and synchronize data between Velocity and the target application source (ELM, Jira, GitHub, DevOps Control, etc). Each plugin defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must configure an integration. There are multiple ways to configure an integration:
+
 - Create an integration definition on the Plugins tab of the Integrations page.
 - Install the plug-in and then create an integration definition.
 - Add an integration definition to a value stream JSON file.
@@ -53,7 +59,6 @@ Included as part of a Velocity installation are plugins which allow the Velocity
 In total there are over 45 plugins available.
 
 Once configured and as per that plugin’s synchronization timing, Velocity starts a plugin container image, makes the connection with the target application, and retrieves all data changes from the last sync time. NOTE: that sync time duration will vary depending on the amount of data being added to Velocity’s MongoDB repository.
-
 <br/>
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
@@ -74,6 +79,7 @@ For this purposes of this enablement exercise, a very simple approach was follow
 ![Velocity Value Stream map](media/velocity_map.png)
 
 Reviewing the Value Stream Map image, notice the following:
+
 1. Definition of the four phases - Open, In Progress, Approval, Released
 2. Within the Open phase there are two stages named New and ReOpened
 3. The query statement in the Open stage instructs Velocity to display all work items which are currently in a New state.
@@ -92,6 +98,7 @@ If you would like to review the entire VSM template, open the link in a new brow
 ## Working with EWM
 
 To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three basic steps must happen:<br/>
+
 1. Configure a plugin to allow Velocity to communicate with EWM.<br/>
 2. Create a Value Stream to provide a "single pane of glass" interface to visualize the "DOTS".<br/>
 3. Architect the Value Stream by editing the Value Stream Map (json file) to replicate the workflows being used in EWM.<br/>
@@ -99,7 +106,7 @@ To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three ba
 ### Configuring the plugin to integrate DevOps Velocity and EWM
 
 The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
-<br/> 
+<br/>
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
@@ -145,9 +152,9 @@ Congratulations on successfully configuring a basic DevOps Velocity value stream
 
 ### Editing the value stream map template to visualize EWM Artifact Workflow
 
-As previously mentioned, this enablement exercise is using a value stream template file to bootstrap the value stream creating process. More more information about configuring the value stream map file refer to section [DevOps Velocity's value stream map overview](#devops-velocitys-value-stream-map-overview). 
+As previously mentioned, this enablement exercise is using a value stream template file to bootstrap the value stream creating process. More more information about configuring the value stream map file refer to section [DevOps Velocity's value stream map overview](#devops-velocitys-value-stream-map-overview).
 
-However, even though much of the value stream architecture work has already been completed, specific edits still need to be made to the template adding the plugin integration name so that Velocity knows which collection of data should be visualized in the value stream. 
+However, even though much of the value stream architecture work has already been completed, specific edits still need to be made to the template adding the plugin integration name so that Velocity knows which collection of data should be visualized in the value stream.
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
@@ -158,7 +165,7 @@ However, even though much of the value stream architecture work has already been
 | 5 | Returning to the value stream map editor in Velocity, select/highlight the entire contents of the editor and replace by pasting in the template code. | <img src="media/e23.png" alt="e23" style="width:100%; height:auto;"> |
 | 6 | Working in the DevOps Velocity value stream editor, locate the integrations stanza within the json file near end of the file. | <img src="media/e24.png" alt="e24" style="width:100%; height:auto;"> |
 | 7 | Replace the "EWM integration name" text string with the name of your EWM plugin. <br/> e.g. EWM(JKEBanking) | <img src="media/e25.png" alt="e25" style="width:50%; height:auto;"> |
-| 8 | Verify that the update was saved successfully. | <img src="media/e26.png" alt="e26" style="width:50%; height:auto;"> | 
+| 8 | Verify that the update was saved successfully. | <img src="media/e26.png" alt="e26" style="width:50%; height:auto;"> |
 | **Note:** | DevOps Velocity offers version control to help in managing value stream map changes. With the recent change, note the addition of  a new version. | <img src="media/e27.png" alt="e27" style="width:50%; height:auto;"> |
 | 9 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
 | 10 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e29.png" alt="e29" style="width:100%; height:auto;"> |
@@ -180,6 +187,7 @@ Because users can create new artifact types and artifact attributes, including a
 Also, as there are many types of requirements, some of which the user would not visualize in Velocity, shared views must be configured allowing Velocity's DOORs NG plugin to know exactly which artifact type to sync on.
 
 This enablement exercise will walk through the steps to:<br/>
+
 1. Prepare the RM project to be able to synchronize with Velocity.<br/>
 2. Configure plugins for RM projects regardless of whther they have been enabled for Global Configuration or not.<br/>
 3. Create the Value Streams to visualize both a requirements management project and a global configuration project.<br/>
@@ -187,6 +195,7 @@ This enablement exercise will walk through the steps to:<br/>
 ### Preparing RM projects (reg mgmt and global configurations) for integration with Velocity
 
 To complete the following exercise, ERM has been setup with two requirements projects:<br/>
+
 1. JKE Banking (Requirements Management)<br/>
 2. Meter Reader GC (Global Configuration)<br/>
 
@@ -206,14 +215,16 @@ To complete the following exercise, ERM has been setup with two requirements pro
 | 11 | Click "Add and Close". |  |
 | 12 | Click the "Save as new view" icon. | <img src="media/e41.png" alt="e41" style="width:100%; height:auto;"> |
 | 13 | Enter a meaningful name, select "Shared", and click "OK". | <img src="media/e42.png" alt="e42" style="width:50%; height:auto;"> |
-| **Note:** | If the userid/password combination used to configure the plugin is not an "Administrator". The userid must have access to the DOORs NG project and must be able to execute views. More on this later. |  | 
+| **Note:** | If the userid/password combination used to configure the Velocity plugin is not an "ELM Administrator". The userid must have access to the DOORs NG project and must be able to execute views. More on this later. |  |
+| 14 | The same process described above is used to prepare a Global Configuration project for integration with DevOps Velocity with the following differences:<br/>1. The project selected will be different (step 2). in the case of this exercise select Meter Reader GC.<br/>2. When you click on the gear icon (step 3), select Manage Components and Configurations.<br/>3. Select Stakeholder and System Requirements when setting the workflow and creating the view. | <img src="media/e43.png" alt="e43" style="width:25%; height:auto;"><br/><img src="media/e44.png" alt="e44" style="width:25%; height:auto;">
 
-
+Congratulations on successfully preparing the RM projects and Artifact types for visualization in DevOps Velocity.
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)
+
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
@@ -223,6 +234,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)
+
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
@@ -232,6 +244,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 <br/>
 
 ### Creating the ERM Value Stream in DevOps Velocity
+
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
@@ -241,6 +254,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 <br/>
 
 ### Editing the value stream map template to visualize ERM Artifact Workflow
+
 <br/>
 
 | **Step** | **Details**  | **Additional Information** |
@@ -248,4 +262,3 @@ To complete the following exercise, ERM has been setup with two requirements pro
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
-
