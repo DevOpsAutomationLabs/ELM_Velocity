@@ -1,15 +1,21 @@
 # Configuring the integration between DevOps Velocity and ELM
 
 ## Topics covered in this Enablement exercise
+
 ### Overview
+
 1. [DevOps Velocity Overview](#devops-velocity-overview) 
 2. [What is a Velocity Plugin](#what-is-a-velocity-plugin) 
 3. [DevOps Velocity's value stream map overview](#devops-velocitys-value-stream-map-overview)
+
 ### Working with EWM
+
 4. [Configuring the plugin to integrate DevOps Velocity and EWM](#configuring-the-plugin-to-integrate-devops-velocity-and-ewm)
 5. [Creating the EWM Value Stream in DevOps Velocity](#creating-the-ewm-value-stream-in-devops-velocity)
 6. [Editing the value stream map template to visualize EWM Artifact Workflow](#editing-the-value-stream-map-template-to-visualize-ewm-artifact-workflow)
+
 ### Working with ERM
+
 7. [Preparing RM projects (reg mgmt and global configurations) for integration with Velocity](#preparing-rm-projects-reg-mgmt-and-global-configurations-for-integration-with-velocity)
 8. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-req-mgmt-project)
 9. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-global-configuration)
@@ -22,8 +28,8 @@
 ### DevOps Velocity Overview
 
 DevOps Velocity is a multi-container application installed in a Kubernetes container management system. 
-<br/>
-<br/>
+<br/><br/>
+
 ![Velocity Value Stream screenshot](media/velocity_overview.png)
 
 The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.
@@ -53,7 +59,6 @@ Included as part of a Velocity installation are plugins which allow the Velocity
 In total there are over 45 plugins available.
 
 Once configured and as per that plugin’s synchronization timing, Velocity starts a plugin container image, makes the connection with the target application, and retrieves all data changes from the last sync time. NOTE: that sync time duration will vary depending on the amount of data being added to Velocity’s MongoDB repository.
-
 <br/>
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
@@ -74,6 +79,7 @@ For this purposes of this enablement exercise, a very simple approach was follow
 ![Velocity Value Stream map](media/velocity_map.png)
 
 Reviewing the Value Stream Map image, notice the following:
+
 1. Definition of the four phases - Open, In Progress, Approval, Released
 2. Within the Open phase there are two stages named New and ReOpened
 3. The query statement in the Open stage instructs Velocity to display all work items which are currently in a New state.
@@ -92,6 +98,7 @@ If you would like to review the entire VSM template, open the link in a new brow
 ## Working with EWM
 
 To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three basic steps must happen:<br/>
+
 1. Configure a plugin to allow Velocity to communicate with EWM.<br/>
 2. Create a Value Stream to provide a "single pane of glass" interface to visualize the "DOTS".<br/>
 3. Architect the Value Stream by editing the Value Stream Map (json file) to replicate the workflows being used in EWM.<br/>
