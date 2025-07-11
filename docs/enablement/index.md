@@ -8,13 +8,13 @@
 2. [What is a Velocity Plugin](#what-is-a-velocity-plugin)
 3. [DevOps Velocity's value stream map overview](#devops-velocitys-value-stream-map-overview)
 
-### Working with EWM
+### Integrating DevOps Velocity with EWM
 
 4. [Configuring the plugin to integrate DevOps Velocity and EWM](#configuring-the-plugin-to-integrate-devops-velocity-and-ewm)
 5. [Creating the EWM Value Stream in DevOps Velocity](#creating-the-ewm-value-stream-in-devops-velocity)
 6. [Editing the value stream map template to visualize EWM Artifact Workflow](#editing-the-value-stream-map-template-to-visualize-ewm-artifact-workflow)
 
-### Working with ERM
+### Integrating DevOps Velocity with ERM
 
 7. [Preparing RM projects (reg mgmt and global configurations) for integration with Velocity](#preparing-rm-projects-reg-mgmt-and-global-configurations-for-integration-with-velocity)
 8. [Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)](#configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-req-mgmt-project)
@@ -25,7 +25,7 @@
 ## About this Enablement Exercise
 This lab is not a complete enablement activity teaching individuals on the full features or functionality of DevOps Velocity and/or ELM. While there is some informational material provided, it is only to help establish foundational knowledge for those performing the steps below. This exercise simply focuses on integrating the two IBM solutions. To learn more about the individual solutions, review the product documentation for available tutorials and learning exercises.
 
-## Overview Section
+## Section: Overview
 
 ### DevOps Velocity Overview
 
@@ -98,7 +98,7 @@ If you would like to review the entire VSM template, open the link in a new brow
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
-## Working with EWM Section
+## Section: Integrating DevOps Velocity with EWM
 
 To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three basic steps must happen:<br/>
 
@@ -181,7 +181,7 @@ Congratulations on successfully configuring the DevOps Velocity value stream to 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
-## Working with ERM Section
+## Section: Integrating DevOps Velocity with ERM
 
 Due to the flexibility provided to clients using ERM (DOORs NG), certain setup steps are necessary to properly visualize the requirement artifact types in a DevOps Velocity value stream. Know that all setup steps align to best practices user should be following.
 
