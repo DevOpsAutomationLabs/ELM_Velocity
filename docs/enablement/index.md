@@ -281,10 +281,19 @@ Congratulations on successfully configuring the ERM Plugin to integrate DevOps V
 
 ### Creating the ERM Value Stream in DevOps Velocity
 
-<br/>
+Visualizing the requirements (artifact types) on a value stream dashboard requires a Value Stream created. This section will share instructions on how to create the Value Stream.
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
+| 1 | Continuing to work in DevOps Velocity, navigate to the Value Stream view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
+| 2 | Click the "All value streams" tab top RHS of browser page. | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
+| 3 | Click the "Create" button. | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
+| 4 | On the pop-up window, enter a meaningful name e.g. JKE Banking (Requirements Management), and select Default team from the Team drop down list box. | <img src="media/e58.png" alt="e58" style="width:50%; height:auto;"> |
+| **Note:** | To create a value stream for a Global Configuration project, the steps are the same. The only difference with be the Value Stream name. | Meter Reader GC vs. JKE Banking (Requirements Management) |
+| 5 | Click the "Create" button. | <img src="media/e59.png" alt="e59" style="width:50%; height:auto;"> |
+| 6 | You should now be presented with a basic value stream visualization. | <img src="media/e60.png" alt="e60" style="width:50%; height:auto;"> |
+
+Congratulations on successfully configuring a basic DevOps Velocity value stream to visualize ERM artifacts.
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
