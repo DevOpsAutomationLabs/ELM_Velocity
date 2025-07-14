@@ -11,18 +11,18 @@ Many DevOps organizations use Dora metrics or Flow metrics to measure the effici
 
 **DORA Metrics**
 
-1. Deployment Frequency - How often releases to production occur?
-2. Lead Time to Change - What is the length of time it takes for code changes to be made available in production?
-3. Change Failure Rate - What is the frequency of deployments which cause an issue in production?
-4. Mean Time to Recovery - What is the length of time it takes to recover from the production issue?
+1. Deployment Frequency: How often releases to production occur?
+2. Lead Time to Change: What is the length of time it takes for code changes to be made available in production?
+3. Change Failure Rate: What is the frequency of deployments which cause an issue in production?
+4. Mean Time to Recovery: What is the length of time it takes to recover from the production issue?
 
 **Flow Metrics**
 
-1. Flow Time - Is time-to-market getting shorter?
-2. Flow Velocity - Is value delivery accelerating? 
-3. Flow Efficiency - Is upstream work holding up delivery?
-4. Flow Load - Is demand vs capacity being balanced?
-5. Flow Distribution - Are we investing in both value generation and protection?
+1. Flow Time: Is time-to-market getting shorter?
+2. Flow Velocity: Is value delivery accelerating? 
+3. Flow Efficiency: Is upstream work holding up delivery?
+4. Flow Load: Is demand vs capacity being balanced?
+5. Flow Distribution: Are we investing in both value generation and protection?
 
 Now it is a well know fact that any process is only as fast as its slowest point. And all processes have a least slow point. The "trick" is to find the slow bottleneck, take action to improve, and measure the outcome to understand if the desired outcome was achieved.
 
@@ -55,13 +55,30 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ## Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity.
 
-### 1.1 What information is available in a DevOps Velocity Value Stream
+### 1.1 DevOps Velocity and the value stream data
+
+| **Step** | **Details**  | **Additional Information** |
+|:-------------:|:------------- |:------------- |
+| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
 
 ### 1.2 Working with DevOps Velocity KPIs and Metrics
 
+| **Step** | **Details**  | **Additional Information** |
+|:-------------:|:------------- |:------------- |
+| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+
 ### 1.3 Understanding DevOps Velocity's Alert capabilities
 
+| **Step** | **Details**  | **Additional Information** |
+|:-------------:|:------------- |:------------- |
+| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+
 ### 1.4 DevOps Velocity and the Swimlane View
+
+| **Step** | **Details**  | **Additional Information** |
+|:-------------:|:------------- |:------------- |
+| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+
 <br/>
 
 [Return to List of Business Scenarios](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
@@ -72,7 +89,16 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ### 2.1 Adding DevOps Velocity's Bottleneck Detection capability
 
+| **Step** | **Details**  | **Additional Information** |
+|:-------------:|:------------- |:------------- |
+| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+
 ### 2.2 Working with DevOps Velocity's DashBoards and Charts
+
+| **Step** | **Details**  | **Additional Information** |
+|:-------------:|:------------- |:------------- |
+| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+
 <br/>
 
 [Return to List of Business Scenarios](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
