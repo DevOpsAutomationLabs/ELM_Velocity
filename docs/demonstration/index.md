@@ -5,11 +5,39 @@
 ### * [Eliminate guess work and use data to make better investment decision for process improvement](#business-scenario-2-eliminate-guess-work-and-use-data-to-make-better-investment-decisions-for-process-improvement)
 
 
-## DevOps Velocity Overview
+## Understanding the Business Problem
+
+Many DevOps organizations use Dora metrics or Flow metrics to measure the efficiency of their software delivery pipeline. While flow metrics focus on the stream of work items and the efficiency of processes, Dora metrics provide insights into the effectiveness of software development and delivery practices. Regardless of which KPIs are adopted, both provide a high level measure of the end to end software delivery process.
+
+**DORA Metrics**
+
+1. Deployment Frequency - How often releases to production occur?
+2. Lead Time to Change - What is the length of time it takes for code changes to be made available in production?
+3. Change Failure Rate - What is the frequency of deployments which cause an issue in production?
+4. Mean Time to Recovery - What is the length of time it takes to recover from the production issue?
+
+**Flow Metrics**
+
+1. Flow Time - Is time-to-market getting shorter?
+2. Flow Velocity - Is value delivery accelerating? 
+3. Flow Efficiency - Is upstream work holding up delivery?
+4. Flow Load - Is demand vs capacity being balanced?
+5. Flow Distribution - Are we investing in both value generation and protection?
+
+Now it is a well know fact that any process is only as fast as its slowest point. And all processes have a least slow point. The "trick" is to find the slow bottleneck, take action to improve, and measure the outcome to understand if the desired outcome was achieved.
+
+Using these high level vanity metrics and armed with a desire to improve, the next typical step would be for the organization to execute a Value Stream Mapping exercise assembling a team of people to share their opinions on how long each step of the end to end process takes and recording their input on a value stream map - value add time, non-value add time, process efficiency for each individual step in their process. This can be a very expensive and laboreous process where the outcome is only valid until some improvement action is implemented. Because, once the fix is implemented, the bottleneck has probably moved to another location in the delivery pipeline.
+
+![Value Stream Map](media/velocity_stream_map.png)
+
+The alternative is to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the tools used in the software delivery pipeline and presenting them in a holistic value stream providing insight, in almost real time, on not only how efficient the software delivery pipeline is but where in the pipeline opportunities for improvement exist. Making Value Stream Management a much more scientific approach eliminating the guess work and taking action based on data instead of opinion.
+
+![Value Stream](media/value_stream.png)
+
+## Introducing DevOps Velocity
 
 DevOps Velocity is a multi-container application installed in a Kubernetes container management system. 
-<br/><br/>
-![Velocity Value Stream screenshot](media/velocity_overview.png)
+<br/><br/>![Velocity Value Stream screenshot](media/velocity_overview.png)
 
 The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.
 
@@ -25,15 +53,13 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ## Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity.
 
-### 1.1 Understanding the Business Problem
+### 1.1 What information is available in a DevOps Velocity Value Stream
 
-### 1.2 What is a Value Stream
+### 1.2 Working with DevOps Velocity KPIs and Metrics
 
-### 1.3 Working with KPIs and Metrics
+### 1.3 Understanding DevOps Velocity's Alert capabilities
 
-### 1.4 Understanding Velocity's Alert capabilities
-
-### 1.5 Velocity and the Swimlane View
+### 1.4 DevOps Velocity and the Swimlane View
 <br/>
 
 [Return to List of Business Scenarios](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
@@ -42,11 +68,9 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ## Business Scenario 2: Eliminate guess work and use data to make better investment decisions for process improvement
 
-### 2.1 Understanding the Business Problem
+### 2.1 Adding DevOps Velocity's Bottleneck Detection capability
 
-### 2.2 Adding the Bottleneck Detection capability
-
-### 2.3 Velocity's Insights View - Working with DashBoards and Charts
+### 2.2 Working with DevOps Velocity's DashBoards and Charts
 <br/>
 
 [Return to List of Business Scenarios](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
