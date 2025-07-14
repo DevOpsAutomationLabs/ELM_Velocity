@@ -34,7 +34,7 @@ The alternative is to Value Stream Mapping is Value Stream Management. A Value S
 
 ![Value Stream](media/value_stream.png)
 
-DevOps Velocity helps organizations by visualizing delivery pipeline data in a holistic dashboard allowing teams to make accurate decisions on where to invest for improvement to achieve their desired business outcomes.
+DevOps Velocity helps organizations by visualizing delivery pipeline data in a holistic dashboard allowing teams to make accurate decisions on where to invest in process improvement to optimize flow and achieve their desired business outcomes.
 
 ## Introducing DevOps Velocity
 
