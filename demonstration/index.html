@@ -483,9 +483,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#11-what-information-is-available-in-a-devops-velocity-value-stream" class="md-nav__link">
+  <a href="#11-devops-velocity-and-the-value-stream-data" class="md-nav__link">
     <span class="md-ellipsis">
-      1.1 What information is available in a DevOps Velocity Value Stream
+      1.1 DevOps Velocity and the value stream data
     </span>
   </a>
   
@@ -667,7 +667,7 @@
 <p>Many DevOps organizations use Dora metrics or Flow metrics to measure the efficiency of their software delivery pipeline. While flow metrics focus on the stream of work items and the efficiency of processes, Dora metrics provide insights into the effectiveness of software development and delivery practices. Regardless of which KPIs are adopted, both provide a high level measure of the end to end software delivery process.</p>
 <p><strong>DORA Metrics</strong></p>
 <ol>
-<li>Deployment Frequency - How often releases to production occur?</li>
+<li>Deployment Frequency - How often production releases occur?</li>
 <li>Lead Time to Change - What is the length of time it takes for code changes to be made available in production?</li>
 <li>Change Failure Rate - What is the frequency of deployments which cause an issue in production?</li>
 <li>Mean Time to Recovery - What is the length of time it takes to recover from the production issue?</li>
@@ -682,9 +682,10 @@
 </ol>
 <p>Now it is a well know fact that any process is only as fast as its slowest point. And all processes have a least slow point. The "trick" is to find the slow bottleneck, take action to improve, and measure the outcome to understand if the desired outcome was achieved.</p>
 <p>Using these high level vanity metrics and armed with a desire to improve, the next typical step would be for the organization to execute a Value Stream Mapping exercise assembling a team of people to share their opinions on how long each step of the end to end process takes and recording their input on a value stream map - value add time, non-value add time, process efficiency for each individual step in their process. This can be a very expensive and laboreous process where the outcome is only valid until some improvement action is implemented. Because, once the fix is implemented, the bottleneck has probably moved to another location in the delivery pipeline.</p>
-<p><img alt="Value Stream Map" src="media/velocity_stream_map.png" /></p>
+<p><img alt="Value Stream Map" src="media/value_stream_map.png" /></p>
 <p>The alternative is to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the tools used in the software delivery pipeline and presenting them in a holistic value stream providing insight, in almost real time, on not only how efficient the software delivery pipeline is but where in the pipeline opportunities for improvement exist. Making Value Stream Management a much more scientific approach eliminating the guess work and taking action based on data instead of opinion.</p>
 <p><img alt="Value Stream" src="media/value_stream.png" /></p>
+<p>DevOps Velocity helps organizations by visualizing delivery pipeline data in a holistic dashboard allowing teams to make decisions on where to improve to achieve their desired business outcomes.</p>
 <h2 id="introducing-devops-velocity">Introducing DevOps Velocity</h2>
 <p>DevOps Velocity is a multi-container application installed in a Kubernetes container management system. 
 <br/><br/><img alt="Velocity Value Stream screenshot" src="media/velocity_overview.png" /></p>
@@ -695,18 +696,115 @@
 <p>In this demonstration, you will focus on the Value Stream and Insights views.</p>
 <p>For more information about DevOps Velocity, visit <a href="https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=high-level-overview">Velocity's product documentation page</a>.</p>
 <h2 id="business-scenario-1-visualize-and-optimize-the-flow-of-work-to-improve-team-productivity">Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity.</h2>
-<h3 id="11-what-information-is-available-in-a-devops-velocity-value-stream">1.1 What information is available in a DevOps Velocity Value Stream</h3>
+<h3 id="11-devops-velocity-and-the-value-stream-data">1.1 DevOps Velocity and the value stream data</h3>
+<p>The value stream is architected to align with a software development team's phases and stages making up the software delivery pipeline. DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on improvement over wasting time trying to determine which stage is the software delivery pipeline is the slowest point.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Step</strong></th>
+<th style="text-align: left;"><strong>Details</strong></th>
+<th style="text-align: left;"><strong>Additional Information</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img src="media/d1.png" alt="d1" style="width:50%; height:auto;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="12-working-with-devops-velocity-kpis-and-metrics">1.2 Working with DevOps Velocity KPIs and Metrics</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Step</strong></th>
+<th style="text-align: left;"><strong>Details</strong></th>
+<th style="text-align: left;"><strong>Additional Information</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img src="media/d1.png" alt="d1" style="width:50%; height:auto;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="13-understanding-devops-velocitys-alert-capabilities">1.3 Understanding DevOps Velocity's Alert capabilities</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Step</strong></th>
+<th style="text-align: left;"><strong>Details</strong></th>
+<th style="text-align: left;"><strong>Additional Information</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img src="media/d1.png" alt="d1" style="width:50%; height:auto;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="14-devops-velocity-and-the-swimlane-view">1.4 DevOps Velocity and the Swimlane View</h3>
-<p><br/></p>
-<p><a href="#integrating-devops-velocity-with-elm-to-achieve-business-outcomes">Return to List of Business Scenarios</a></p>
-<p><br/></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Step</strong></th>
+<th style="text-align: left;"><strong>Details</strong></th>
+<th style="text-align: left;"><strong>Additional Information</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img src="media/d1.png" alt="d1" style="width:50%; height:auto;"></td>
+</tr>
+</tbody>
+</table>
+<p>Congratulations on successfully configuring the DevOps Velocity value stream to visualize ERM artifacts.</p>
+<p><a href="#integrating-devops-velocity-with-elm-to-achieve-business-outcomes">Return to Top of Demonstration Page</a>
+<br/></p>
 <h2 id="business-scenario-2-eliminate-guess-work-and-use-data-to-make-better-investment-decisions-for-process-improvement">Business Scenario 2: Eliminate guess work and use data to make better investment decisions for process improvement</h2>
 <h3 id="21-adding-devops-velocitys-bottleneck-detection-capability">2.1 Adding DevOps Velocity's Bottleneck Detection capability</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Step</strong></th>
+<th style="text-align: left;"><strong>Details</strong></th>
+<th style="text-align: left;"><strong>Additional Information</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img src="media/d1.png" alt="d1" style="width:50%; height:auto;"></td>
+</tr>
+</tbody>
+</table>
 <h3 id="22-working-with-devops-velocitys-dashboards-and-charts">2.2 Working with DevOps Velocity's DashBoards and Charts</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Step</strong></th>
+<th style="text-align: left;"><strong>Details</strong></th>
+<th style="text-align: left;"><strong>Additional Information</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><img src="media/d1.png" alt="d1" style="width:50%; height:auto;"></td>
+</tr>
+</tbody>
+</table>
 <p><br/></p>
-<p><a href="#integrating-devops-velocity-with-elm-to-achieve-business-outcomes">Return to List of Business Scenarios</a></p>
+<p><a href="#integrating-devops-velocity-with-elm-to-achieve-business-outcomes">Return to Top of Demonstration Page</a></p>
 
 
 
