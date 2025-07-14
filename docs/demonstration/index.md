@@ -34,6 +34,8 @@ The alternative is to Value Stream Mapping is Value Stream Management. A Value S
 
 ![Value Stream](media/value_stream.png)
 
+DevOps Velocity helps organizations by visualizing delivery pipeline data in a holistic dashboard allowing teams to make decisions on where to improve to achieve their desired business outcomes.
+
 ## Introducing DevOps Velocity
 
 DevOps Velocity is a multi-container application installed in a Kubernetes container management system. 
