@@ -30,9 +30,11 @@ Using these high level vanity metrics and armed with a desire to improve, the ne
 
 ![Value Stream Map](media/velocity_stream_map.png)
 
-The alternative is to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the tools used in the software delivery pipeline and presenting them in a holistic value stream providing insight, in almost real time, on not only how efficient the software delivery pipeline is but where in the pipeline opportunities for improvement exist. Making Value Stream Management a much more scientific approach eliminating the guess work and taking action based on data instead of opinion.
+The alternative is to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the tools used in the software delivery pipeline and presenting that data in a holistic value stream providing insight, in almost real time, on not only how efficient the software delivery pipeline is but where in the pipeline opportunities for improvement exist. Making Value Stream Management a much more scientific approach eliminating the guess work and taking action based on data instead of opinion.
 
 ![Value Stream](media/value_stream.png)
+
+DevOps Velocity helps organizations by visualizing delivery pipeline data in a holistic dashboard allowing teams to make accurate decisions on where to invest for improvement to achieve their desired business outcomes.
 
 ## Introducing DevOps Velocity
 
