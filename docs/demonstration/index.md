@@ -30,7 +30,7 @@ Using these high level vanity metrics and armed with a desire to improve, the ne
 
 ![Value Stream Map](media/value_stream_map.png)
 
-The alternative is to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the tools used in the software delivery pipeline and presenting that data in a holistic value stream providing insight, in almost real time, on not only how efficient the software delivery pipeline is but where in the pipeline opportunities for improvement exist. Making Value Stream Management a much more scientific approach eliminating the guess work and taking action based on data instead of opinion.
+The alternative to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the various tools used in the software delivery pipeline and presenting that data in a holistic view providing insight, in almost real time, on not only how efficient the software delivery pipeline is but where in the pipeline opportunities for improvement exist. The bottom line... Value Stream Management is a much more scientific approach eliminating the guess work and making decisions on where to improve based on data instead of opinion.
 
 ![Value Stream](media/value_stream.png)
 
@@ -58,11 +58,14 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ### 1.1 DevOps Velocity and the value stream data
 
-The value stream is architected to align with a software development team's phases and stages making up the software delivery pipeline. DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on improvement over wasting time trying to determine which stage is the software delivery pipeline is the slowest point.
+The value stream for this demo is architected to align with ELM's workflow including the phases and stages making up the software delivery pipeline. DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages defined in the ELM workflow. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on improvement over wasting time trying to determine which stage is the software delivery pipeline is the slowest point.
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+| 1 | Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark  | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+| 2 | Authenticate with Velocity using "admin" for both the user id and password.  | <img src="media/d2.png" alt="d2" style="width:50%; height:auto;"> |
+| 3 | 
+
 
 
 ### 1.2 Working with DevOps Velocity KPIs and Metrics
