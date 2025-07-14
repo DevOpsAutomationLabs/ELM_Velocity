@@ -5,7 +5,7 @@
 ### * [Eliminate guess work and use data to make better investment decision for process improvement](#business-scenario-2-eliminate-guess-work-and-use-data-to-make-better-investment-decisions-for-process-improvement)
 
 
-## Understanding the Business Problem
+## Understanding and Solving the Business Problem
 
 Many DevOps organizations use Dora metrics or Flow metrics to measure the efficiency of their software delivery pipeline. While flow metrics focus on the stream of work items and the efficiency of processes, Dora metrics provide insights into the effectiveness of software development and delivery practices. Regardless of which KPIs are adopted, both provide a high level measure of the end to end software delivery process.
 
@@ -34,7 +34,7 @@ The alternative is to Value Stream Mapping is Value Stream Management. A Value S
 
 ![Value Stream](media/value_stream.png)
 
-DevOps Velocity helps organizations by visualizing delivery pipeline data in a holistic dashboard allowing teams to make accurate decisions on where to invest for improvement to achieve their desired business outcomes.
+DevOps Velocity helps organizations by visualizing delivery pipeline data in a holistic dashboard allowing teams to make accurate decisions on where to invest in process improvement to optimize flow and achieve their desired business outcomes.
 
 ## Introducing DevOps Velocity
 
