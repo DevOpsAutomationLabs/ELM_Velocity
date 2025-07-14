@@ -52,6 +52,7 @@ The Insights view helps organizations to assess the efficiency of product teams 
 In this demonstration, you will focus on the Value Stream and Insights views.
 
 For more information about DevOps Velocity, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=high-level-overview).
+<br/>
 
 ## Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity.
 
