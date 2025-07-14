@@ -11,7 +11,7 @@ Many DevOps organizations use Dora metrics or Flow metrics to measure the effici
 
 **DORA Metrics**
 
-1. Deployment Frequency - How often production releases occur?
+1. Deployment Frequency - How often do production releases occur?
 2. Lead Time to Change - What is the length of time it takes for code changes to be made available in production?
 3. Change Failure Rate - What is the frequency of deployments which cause an issue in production?
 4. Mean Time to Recovery - What is the length of time it takes to recover from the production issue?
