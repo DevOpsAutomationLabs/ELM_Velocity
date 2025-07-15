@@ -7,7 +7,7 @@
 
 ## Understanding and Solving the Business Problem
 
-Many DevOps organizations use Dora metrics or Flow metrics to measure the efficiency of their software delivery pipeline. While flow metrics focus on the stream of work items and the efficiency of processes, Dora metrics provide insights into the effectiveness of software development and delivery practices. Regardless of which KPIs are adopted, both provide a high level measure of the end to end software delivery process.
+Many DevOps organizations use Dora metrics or Flow metrics to measure the efficiency of their software delivery pipeline. While Flow metrics focus on the stream of work items and the efficiency of processes, Dora metrics provide insights into the effectiveness of software development and delivery practices. However, regardless of which KPIs are adopted, both provide a high level measure of the end to end software delivery process.
 
 **DORA Metrics**
 
@@ -24,13 +24,13 @@ Many DevOps organizations use Dora metrics or Flow metrics to measure the effici
 4. Flow Load: Is demand vs capacity being balanced?
 5. Flow Distribution: Are we investing in both value generation and protection?
 
-Now it is a well know fact that any process is only as fast as its slowest point. And all processes have a least slow point. The "trick" is to find the slow bottleneck, take action to improve, and measure the outcome to understand if the desired outcome was achieved.
+Now it is a well know fact that any process is only as fast as its slowest point (Theory of Constraints). And all processes have at least one slow point. The "trick" is to find the bottleneck(s), take action to improve, and measure the outcome (better - same - worse) to understand if the desired result was achieved.
 
-Using these high level vanity metrics and armed with a desire to improve, the next typical step would be for the organization to execute a Value Stream Mapping exercise assembling a team of people to share their opinions on how long each step of the end to end process takes and recording their input on a value stream map - value add time, non-value add time, process efficiency for each individual step in their process. This can be a very expensive and laboreous process where the outcome is only valid until some improvement action is implemented. Because, once the fix is implemented, the bottleneck has probably moved to another location in the delivery pipeline.
+Using these high level metrics and armed with a desire to improve, the next typical step would be for the organization to execute a Value Stream Mapping exercise assembling a team of people to share their experience and opinions on how long each step of the end to end process takes and recording this information on a value stream map - value add time, non-value add time, process efficiency for each individual step in their process. This can be a very expensive and laboreous process where the outcome is only valid until some improvement action is implemented. Because, once the fix is implemented, the bottleneck has probably moved to another location in the delivery pipeline.
 
 ![Value Stream Map](media/value_stream_map.png)
 
-The alternative to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the various tools used in the software delivery pipeline and presenting that data in a holistic view providing insight, in almost real time, on not only how efficient the software delivery pipeline is but where in the pipeline opportunities for improvement exist. The bottom line... Value Stream Management is a much more scientific approach eliminating the guess work and making decisions on where to improve based on data instead of opinion.
+The alternative to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the various tools used in the software delivery pipeline and presenting that data in a holistic view providing insight, in almost real time, on not only how efficient the software delivery pipeline is but where in the pipeline opportunities for improvement exist. Value Stream Management is a much more scientific approach eliminating the guess work and helping teams make better decisions on where to improve based on data instead of opinion.
 
 ![Value Stream](media/value_stream.png)
 
@@ -58,7 +58,7 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ### 1.1 DevOps Velocity and the value stream data
 
-The value stream for this demo is architected to align with ELM's workflow including the phases and stages making up the software delivery pipeline. DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages defined in the ELM workflow. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on improvement over wasting time trying to determine which stage is the software delivery pipeline is the slowest point.
+The value stream for this demo is architected to align with ELM's workflow including the phases and stages making up the software delivery pipeline. DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages defined in the ELM workflow. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on improvement instead of wasting time trying to determine which stage is the software delivery pipeline is the slowest point.
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
