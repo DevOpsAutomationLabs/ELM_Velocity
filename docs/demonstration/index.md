@@ -83,9 +83,9 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | 6 | Notice the outlines around the In Progress and Implemented stages. <br/> In Progress is showing as slow and would be a location to investigate further. | <img src="media/d1_6.png" alt="d1_6" style="width:50%; height:auto;"> |
 | 7 | Focusing on the In Progress stage and looking below the circle, one can see that a work item stays in the In Progress stage for 4 months on average. | <img src="media/d1_7.png" alt="d1_7" style="width:50%; height:auto;"> |
 | 8 | Click on one of the "DOTS" in the In Progress stage which has a red circle around it. <br/> A red cirlce indicates that a work item has been in a stage longer than the average time. In this case, longer than 4 months. | <img src="media/d1_8.png" alt="d1_8" style="width:50%; height:auto;"> |
-| **HINT:** | Returning to the Legend, notice that DevOps Velocity can also track Commits and Pull Requests which are not linked to a work item - story, defect or task. |  |
-| 9 | Close the Legend pop up window . |  |
-| 10 | Continuing to work in the JKE Value Stream, locate the filters on the sub navigation bar in the value stream view. |   |
+| **HINT:** | Returning to the Legend, notice that DevOps Velocity can also track Commits and Pull Requests which are not linked to a work item - story, defect or task. | <img src="media/d1_9.png" alt="d1_9" style="width:50%; height:auto;"> |
+| 9 | Close the Legend pop up window . | <img src="media/d1_10.png" alt="d1_10" style="width:50%; height:auto;"> |
+| 10 | Continuing to work in the JKE Value Stream, locate the filters on the sub navigation bar in the value stream view. | <img src="media/d1_11.png" alt="d1_11" style="width:50%; height:auto;"> |
 
 
 
