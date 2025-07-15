@@ -11,14 +11,14 @@ For this demonstration, DevOps Velocity has already been integrated with ELM and
 The following table shares information on which ELM projects have been visualized in DevOps Velocity:
 
 | **ELM Project** | **Velocity Value Stream**  | **Additional Information** |
-|:-------------:|:------------- |:------------- |
-|JKE Banking (Change Management) | JKE Banking Demo (Change Management) | The JKE Banking project was created in ELM using the Money that Matters sample data which includes work items in EWM and requirements added to ERM. A DevOps Velocity plugin has configured allowing the EWM data to be sync'd with Velocity and display in the value stream. | 
+|:------------- |:------------- |:------------- |
+|JKE Banking (Change Management) | JKE Banking Demo (Change Management) | The JKE Banking project was created in ELM using the Money that Matters sample data which includes work items in EWM and requirements added to ERM. A DevOps Velocity plugin has configured allowing the EWM data to be sync'd with Velocity and displayed in the value stream. | 
 | JKE Banking (Requirements Management) | JKE Banking Demo (Requirements Management) | The JKE Banking Demo (Requirements Management) value stream is visualizing requirements synchronized by integrating DevOps Velocity with JKE Banking (Requirements Management) project.
-| Meter Reader GC | Meter Reader Demo GC | This value stream is visualizing requirements from a ERM project with Global Configuration enabled providing more robust requirements management capabilities enabling the use of DOORs NG components, streams and baselines. |
+| Meter Reader GC | Meter Reader Demo GC | This value stream is visualizing requirements synchronized with DevOPs Velocity from a ERM project which has Global Configuration enabled providing more robust requirements management capabilities enabling the use of DOORs NG components, streams and baselines. |
 
 **NOTE:** The images provided in the steps below may not exactly match what is seen in the DevOps Velocity browser window. Understand that they are provided as a reference as you work through the demo steps.
 
-## Understanding and Solving the Business Problem
+## Understanding the Business Challenge addressed in this demonstration
 
 Many DevOps organizations use Dora metrics or Flow metrics to measure the efficiency of their software delivery pipeline. While Flow metrics focus on the stream of work items and the efficiency of processes, Dora metrics provide insights into the effectiveness of software development and delivery practices. However, regardless of which KPIs are adopted, both provide a high level measure of the end to end software delivery process.
 
@@ -83,9 +83,9 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | 6 | Notice the outlines around the In Progress and Implemented stages. <br/> In Progress is showing as slow and would be a location to investigate further. | <img src="media/d1_6.png" alt="d1_6" style="width:50%; height:auto;"> |
 | 7 | Focusing on the In Progress stage and looking below the circle, one can see that a work item stays in the In Progress stage for 4 months on average. | <img src="media/d1_7.png" alt="d1_7" style="width:50%; height:auto;"> |
 | 8 | Click on one of the "DOTS" in the In Progress stage which has a red circle around it. <br/> A red cirlce indicates that a work item has been in a stage longer than the average time. In this case, longer than 4 months. | <img src="media/d1_8.png" alt="d1_8" style="width:50%; height:auto;"> |
-| **HINT:** | Returning to the Legend, notice that DevOps Velocity can also track Commits and Pull Requests which are not linked to a work item - story, defect or task. |  |
-| 9 | Close the Legend pop up window . |  |
-| 10 | Continuing to work in the JKE Value Stream, locate the filters on the sub navigation bar in the value stream view. |   |
+| **HINT:** | Returning to the Legend, notice that DevOps Velocity can also track Commits and Pull Requests which are not linked to a work item - story, defect or task. | <img src="media/d1_9.png" alt="d1_9" style="width:50%; height:auto;"> |
+| 9 | Close the Legend pop up window . | <img src="media/d1_10.png" alt="d1_10" style="width:50%; height:auto;"> |
+| 10 | Continuing to work in the JKE Value Stream, locate the filters on the sub navigation bar in the value stream view. | <img src="media/d1_11.png" alt="d1_11" style="width:50%; height:auto;"> |
 
 
 
