@@ -4,7 +4,7 @@
 ### * [Visualize and Optimize the flow of work to improve team productivity](#business-scenario-1-visualize-and-optimize-the-flow-of-work-to-improve-team-productivity)
 ### * [Eliminate guess work and use data to make better investment decision for process improvement](#business-scenario-2-eliminate-guess-work-and-use-data-to-make-better-investment-decisions-for-process-improvement)
 
-## The Demonstration Environment
+## About the Demonstration
 
 For this demonstration, DevOps Velocity has already been integrated with ELM and value streams created visualizing the ELM data as stories, bugs, tasks, features and requirements. This allows you to focus on the features of the integrated solution and how DevOps Velocity and ELM can work together.
 
