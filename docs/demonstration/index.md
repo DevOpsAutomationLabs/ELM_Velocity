@@ -26,7 +26,7 @@ Many DevOps organizations use Dora metrics or Flow metrics to measure the effici
 
 Now it is a well know fact that any process is only as fast as its slowest point (Theory of Constraints). And all processes have at least one slow point. The "trick" is to find the bottleneck(s), take action to improve, and measure the outcome (better - same - worse) to understand if the desired result was achieved.
 
-Using these high level metrics and armed with a desire to improve, the next typical step would be for the organization to execute a Value Stream Mapping exercise assembling a team of people to share their experience and opinions on how long each step of the end to end process takes and recording this information on a value stream map - value add time, non-value add time, process efficiency for each individual step in their process. This can be a very expensive and laboreous process where the outcome is only valid until some improvement action is implemented. Because, once the fix is implemented, the bottleneck has probably moved to another location in the delivery pipeline.
+Using these high level metrics and armed with a desire to improve, the next typical step would be for the organization to execute a Value Stream Mapping exercise assembling a team of people to share their experience and opinions on how long each stage of the end to end process takes and recording this information on a value stream map - value add time (VA), non-value add time (NVA), process efficiency (PE) for each individual stage in their process. This can be a very expensive and laboreous process where the outcome is only valid until some improvement action is implemented. Because, once the process improvement is implemented, the bottleneck has probably moved to another location in the delivery pipeline.
 
 ![Value Stream Map](media/value_stream_map.png)
 
@@ -63,7 +63,7 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark  | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
-| 2 | Authenticate with Velocity using "admin" for both the user id and password.  | <img src="media/d2.png" alt="d2" style="width:50%; height:auto;"> |
+| 2 | Authenticate with Velocity using "admin" for both the user id and password.  | <img src="media/d2.png" alt="d2" style="width:100%; height:auto;"> |
 | 3 | 
 
 
