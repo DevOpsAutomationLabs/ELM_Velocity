@@ -455,6 +455,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-demonstration-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Demonstration Environment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#understanding-and-solving-the-business-problem" class="md-nav__link">
     <span class="md-ellipsis">
       Understanding and Solving the Business Problem
@@ -663,6 +672,36 @@
 <h2 id="business-scenarios-covered-by-this-demonstration">Business Scenarios covered by this demonstration:</h2>
 <h3 id="visualize-and-optimize-the-flow-of-work-to-improve-team-productivity">* <a href="#business-scenario-1-visualize-and-optimize-the-flow-of-work-to-improve-team-productivity">Visualize and Optimize the flow of work to improve team productivity</a></h3>
 <h3 id="eliminate-guess-work-and-use-data-to-make-better-investment-decision-for-process-improvement">* <a href="#business-scenario-2-eliminate-guess-work-and-use-data-to-make-better-investment-decisions-for-process-improvement">Eliminate guess work and use data to make better investment decision for process improvement</a></h3>
+<h2 id="the-demonstration-environment">The Demonstration Environment</h2>
+<p>For this demonstration, DevOps Velocity has already been integrated with ELM and value streams created visualizing the ELM data as stories, bugs, tasks, features and requirements. This allows you to focus on the features of the integrated solution and how DevOps Velocity and ELM can work together.</p>
+<p>The following table shares information on which ELM projects have been visualized in DevOps Velocity:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>ELM Project</strong></th>
+<th style="text-align: left;"><strong>Velocity Value Stream</strong></th>
+<th style="text-align: left;"><strong>Additional Information</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">JKE Banking (Change Management)</td>
+<td style="text-align: left;">JKE Banking Demo (Change Management)</td>
+<td style="text-align: left;">The JKE Banking project was created in ELM using the Money that Matters sample data which includes work items in EWM and requirements added to ERM. A DevOps Velocity plugin has configured allowing the EWM data to be sync'd with Velocity and display in the value stream.</td>
+</tr>
+<tr>
+<td style="text-align: center;">JKE Banking (Requirements Management)</td>
+<td style="text-align: left;">JKE Banking Demo (Requirements Management)</td>
+<td style="text-align: left;">The JKE Banking Demo (Requirements Management) value stream is visualizing requirements synchronized by integrating DevOps Velocity with JKE Banking (Requirements Management) project.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Meter Reader GC</td>
+<td style="text-align: left;">Meter Reader Demo GC</td>
+<td style="text-align: left;">This value stream is visualizing requirements from a ERM project with Global Configuration enabled providing more robust requirements management capabilities enabling the use of DOORs NG components, streams and baselines.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>NOTE:</strong> The images provided in the steps below may not exactly match what is seen in the DevOps Velocity browser window. Understand that they are provided as a reference as you work through the demo steps.</p>
 <h2 id="understanding-and-solving-the-business-problem">Understanding and Solving the Business Problem</h2>
 <p>Many DevOps organizations use Dora metrics or Flow metrics to measure the efficiency of their software delivery pipeline. While Flow metrics focus on the stream of work items and the efficiency of processes, Dora metrics provide insights into the effectiveness of software development and delivery practices. However, regardless of which KPIs are adopted, both provide a high level measure of the end to end software delivery process.</p>
 <p><strong>DORA Metrics</strong></p>
@@ -711,21 +750,66 @@
 <tr>
 <td style="text-align: center;">1</td>
 <td style="text-align: left;">Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark</td>
-<td style="text-align: left;"><img src="media/d1.png" alt="d1" style="width:50%; height:auto;"></td>
+<td style="text-align: left;"><img src="media/d1_1.png" alt="d1_1" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
 <td style="text-align: left;">Authenticate with Velocity using "admin" for both the user id and password.</td>
-<td style="text-align: left;"><img src="media/d2.png" alt="d2" style="width:100%; height:auto;"></td>
+<td style="text-align: left;"><img src="media/d1_2.png" alt="d1_2" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
+<td style="text-align: left;">Click the Value Stream icon on the LH navigation bar in Velocity.</td>
+<td style="text-align: left;"><img src="media/d1_3.png" alt="d1_3" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Select the JKE Banking Demo (Change Management) value stream</td>
+<td style="text-align: left;"><img src="media/d1_4.png" alt="d1_4" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Click on Legend on the sub navigation bar (top RHS of browser window).</td>
+<td style="text-align: left;"><img src="media/d1_5.png" alt="d1_5" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Notice the outlines around the In Progress and Implemented stages. <br/> In Progress is showing as slow and would be a location to investigate further.</td>
+<td style="text-align: left;"><img src="media/d1_6.png" alt="d1_6" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">Focusing on the In Progress stage and looking below the circle, one can see that a work item stays in the In Progress stage for 4 months on average.</td>
+<td style="text-align: left;"><img src="media/d1_7.png" alt="d1_7" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">Click on one of the "DOTS" in the In Progress stage which has a red circle around it. <br/> A red cirlce indicates that a work item has been in a stage longer than the average time. In this case, longer than 4 months.</td>
+<td style="text-align: left;"><img src="media/d1_8.png" alt="d1_8" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HINT:</strong></td>
+<td style="text-align: left;">Returning to the Legend, notice that DevOps Velocity can also track Commits and Pull Requests which are not linked to a work item - story, defect or task.</td>
 <td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">Close the Legend pop up window .</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">Continuing to work in the JKE Value Stream, locate the filters on the sub navigation bar in the value stream view.</td>
 <td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
+<p>| 10 | click the Value Stream icon to return to the Value Stream view and open the Meter Reader Demo GC value stream. | <img src="media/d1_9.png" alt="d1_9" style="width:50%; height:auto;"> |
+| 11 | While the phases and stages are different that the JKE Banking value stream, notice that the same visuals for tracking the flow of DOORs NG requirements through the requirments management workflow is available. | <img src="media/d1_5.png" alt="d1_5" style="width:50%; height:auto;"> |
+| <strong>NOTE:</strong> | DevOps Velocity offering flexibility in how a value stream is architected allow teams to configure replicate their workflow and perform analysis on how long a "DOT" remains in a particular stage, which "DOT(s)" are taking more time than usual, and where further investigation is required to improve the flow of work through the pipeline.</p>
+<p>TO DO: need more on filtering view by etc...</p>
 <h3 id="12-working-with-devops-velocity-kpis-and-metrics">1.2 Working with DevOps Velocity KPIs and Metrics</h3>
+<p>DevOps Velocity provides numerous Key Performance Indicators (KPIs) out of the box which can be added and displayed at the top of the Value Stream. And depending on how the value stream has been architected, teams can display KPIs for Lead time to Change, Lead Time, Cycle Time and Dev Cycle Time. Each of which may be modified but in general are calculating the elapse time from a start stage to an end stage. In addition, the KPIs show trending. Is pipeline performance improving or not and by what percentage.</p>
 <table>
 <thead>
 <tr>
