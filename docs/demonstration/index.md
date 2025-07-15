@@ -62,13 +62,28 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark  | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
-| 2 | Authenticate with Velocity using "admin" for both the user id and password.  | <img src="media/d2.png" alt="d2" style="width:100%; height:auto;"> |
-| 3 | 
+| 1 | Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark  | <img src="media/d1_1.png" alt="d1_1" style="width:50%; height:auto;"> |
+| 2 | Authenticate with Velocity using "admin" for both the user id and password.  | <img src="media/d1_2.png" alt="d1_2" style="width:100%; height:auto;"> |
+| 3 | Click the Value Stream icon on the LH navigation bar in Velocity. | <img src="media/d1_3.png" alt="d1_3" style="width:50%; height:auto;"> |
+| 4 | Select the JKE Banking Demo (Change Management) value stream | <img src="media/d1_4.png" alt="d1_4" style="width:50%; height:auto;"> |
+| 5 | Click on Legend on the sub navigation bar (top RHS of browser window). | <img src="media/d1_5.png" alt="d1_5" style="width:50%; height:auto;"> |
+| 6 | Notice the outlines around the In Progress and Implemented stages. <br/> In Progress is showing as slow and would be a location to investigate further. | <img src="media/d1_6.png" alt="d1_6" style="width:50%; height:auto;"> |
+| 7 | Focusing on the In Progress stage and looking below the circle, one can see that a work item stays in the In Progress stage for 4 months on average. | <img src="media/d1_7.png" alt="d1_7" style="width:50%; height:auto;"> |
+| 8 | Click on one of the "DOTS" in the In Progress stage which has a red circle around it. <br/> A red cirlce indicates that a work item has been in a stage longer than the average time. In this case, longer than 4 months. | <img src="media/d1_8.png" alt="d1_8" style="width:50%; height:auto;"> |
+| **HINT:** | Returning to the Legend, notice that DevOps Velocity can also track Commits and Pull Requests which are not linked to a work item - story, defect or task. |  |
+| 9 | Close the Legend pop up window . |  |
+| 10 | Continuing to work in the JKE Value Stream, locate the filters on the sub navigation bar in the value stream view. |   |
 
 
+
+| 10 | click the Value Stream icon to return to the Value Stream view and open the Meter Reader Demo GC value stream. | <img src="media/d1_9.png" alt="d1_9" style="width:50%; height:auto;"> |
+| 11 | While the phases and stages are different that the JKE Banking value stream, notice that the same visuals for tracking the flow of DOORs NG requirements through the requirments management workflow is available. | <img src="media/d1_5.png" alt="d1_5" style="width:50%; height:auto;"> |
+| **NOTE:** | DevOps Velocity offering flexibility in how a value stream is architected allow teams to configure replicate their workflow and perform analysis on how long a "DOT" remains in a particular stage, which "DOT(s)" are taking more time than usual, and where further investigation is required to improve the flow of work through the pipeline.
+
+TO DO: need more on filtering view by etc...
 
 ### 1.2 Working with DevOps Velocity KPIs and Metrics
+DevOps Velocity provides numerous Key Performance Indicators (KPIs) out of the box which can be added and displayed at the top of the Value Stream. And depending on how the value stream has been architected, teams can display KPIs for Lead time to Change, Lead Time, Cycle Time and Dev Cycle Time. Each of which may be modified but in general are calculating the elapse time from a start stage to an end stage. In addition, the KPIs show trending. Is pipeline performance improving or not and by what percentage.
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
