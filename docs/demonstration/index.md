@@ -4,6 +4,19 @@
 ### * [Visualize and Optimize the flow of work to improve team productivity](#business-scenario-1-visualize-and-optimize-the-flow-of-work-to-improve-team-productivity)
 ### * [Eliminate guess work and use data to make better investment decision for process improvement](#business-scenario-2-eliminate-guess-work-and-use-data-to-make-better-investment-decisions-for-process-improvement)
 
+## The Demonstration Environment
+
+For this demonstration, DevOps Velocity has already been integrated with ELM and value streams created visualizing the ELM data as stories, bugs, tasks, features and requirements. This allows you to focus on the features of the integrated solution and how DevOps Velocity and ELM can work together.
+
+The following table shares information on which ELM projects have been visualized in DevOps Velocity:
+
+| **ELM Project** | **Velocity Value Stream**  | **Additional Information** |
+|:-------------:|:------------- |:------------- |
+|JKE Banking (Change Management) | JKE Banking Demo (Change Management) | The JKE Banking project was created in ELM using the Money that Matters sample data which includes work items in EWM and requirements added to ERM. A DevOps Velocity plugin has configured allowing the EWM data to be sync'd with Velocity and display in the value stream. | 
+| JKE Banking (Requirements Management) | JKE Banking Demo (Requirements Management) | The JKE Banking Demo (Requirements Management) value stream is visualizing requirements synchronized by integrating DevOps Velocity with JKE Banking (Requirements Management) project.
+| Meter Reader GC | Meter Reader Demo GC | This value stream is visualizing requirements from a ERM project with Global Configuration enabled providing more robust requirements management capabilities enabling the use of DOORs NG components, streams and baselines. |
+
+**NOTE:** The images provided in the steps below may not exactly match what is seen in the DevOps Velocity browser window. Understand that they are provided as a reference as you work through the demo steps.
 
 ## Understanding and Solving the Business Problem
 
