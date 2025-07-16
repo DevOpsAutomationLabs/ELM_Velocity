@@ -83,7 +83,7 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | 6 | Notice the outlines around the In Progress and Implemented stages. <br/> Referring to the Legend pop up window, the In Progress is showing as slow and would be a location to investigate further. | <img src="media/d1_6.png" alt="d1_6" style="width:50%; height:auto;"> |
 | 7 | Focusing on the In Progress stage and looking below the circle, one can see that a work item stays in the In Progress stage for 4 months on average. | <img src="media/d1_7.png" alt="d1_7" style="width:30%; height:auto;"> |
 | 8 | Above the average time a work item is a Work in Progress (WIP) limit. Notice that the WIP limit is set at 5 work items where an alert has been triggered because there are 6 work items in the In Progress stage. | <img src="media/d1_8.png" alt="d1_8" style="width:30%; height:auto;"> |
-| **NOTE:** | WIP measures the number of active work items which are still a work in progress. The rule of thumb for setting a WIP limit is to use the total number of people who execute in a particular pipeline stage + 1. When the WIP limit has been exceeded, it typically means that people are wasting time switching context as they shift work from one work item to another. And it is well documented that the average time wasted as a person shifts from working on one thing to another is approximately 45 minutes. Teams are more efficient when they focus on one work item at a time instead of juggling multiple assignements simultaneously.|   |
+| **NOTE:** | WIP measures the number of active work items which are still a work in progress. The rule of thumb for setting a WIP limit is to use the total number of people who execute in a particular pipeline stage + 1. When the WIP limit has been exceeded (indicated by the red font color), it typically means that people are wasting time switching context as they shift work between one work item and another. And it is well documented that the average time wasted as a person shifts from working on one thing to another is approximately 45 minutes. Teams are more efficient when they focus on one work item at a time instead of juggling multiple assignements simultaneously. |   |
 | 9 | Click on one of the "DOTS" in the In Progress stage which has a red circle around it. <br/> A red cirlce indicates that a work item has been in a stage longer than the average time. In this case, longer than 4 months. | <img src="media/d1_9.png" alt="d1_9" style="width:30%; height:auto;"> |
 | 10 | The work item card provides more detail about the specific work item, including and an audit trail, to assist in getting that work item moving forward. DevOps Velocity's State alert helps keep work items that are taking too long top of mind. Close the work item card by clicking the X top right. | <img src="media/d1_10.png" alt="d1_10" style="width:50%; height:auto;"> |
 | **HINT:** | Returning to the Legend, notice that DevOps Velocity can also track Commits and Pull Requests as well as Work Items - story, defect or task. | <img src="media/d1_11.png" alt="d1_11" style="width:50%; height:auto;"> |
@@ -91,9 +91,16 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | 12 | Continuing to work in the JKE Value Stream, locate the filters on the sub navigation bar in the value stream view. | <img src="media/d1_13.png" alt="d1_13" style="width:100%; height:auto;"> <br/> <img src="media/d1_14.png" alt="d1_14" style="width:100%; height:auto;"> |
 | 13 | Click on the following filters and select the filtering options listed below: <br/> Time: 60 days <br/> Type: Story <br/> Sprint: Sprint 2 | <img src="media/d1_18.png" alt="d1_18" style="width:100%; height:auto;"> |
 | 14 | Notice how only the work items matching the filter settings are displayed. This filtering capability helps teams focus on specific work items matching a specific criteria. | <img src="media/d1_19.png" alt="d1_19" style="width:100%; height:auto;"> |
-| 15 | Clear the filters. | <img src="media/d1_20.png" alt="d1_20" style="width:100%; height:auto;"> |
+| 15 | Clear the filters. | <img src="media/d1_20.png" alt="d1_20" style="width:25%; height:auto;"> |
 | 16 | Working with the "View value stream data by" drop down list box, select the different options available to observe how the work items can be viewed in different ways. | <img src="media/d1_21.png" alt="d1_21" style="width:100%; height:auto;"> |
+| 17 | Another means of filter is to use DevOps Velocity's search capabilities. Locate the plain text search textbox, enter the value "Allocate Dividends", and press the return key. | <img src="media/d1_22.png" alt="d1_22" style="width:100%; height:auto;"> |
+| 18 | Notice that only the work items matching that search criteria is displayed. Those that have "Dividend Allocations" in the title. | <img src="media/d1_23.png" alt="d1_23" style="width:100%; height:auto;"> |
+| 19 | Click on the Search with DQL (DevOps Query Language) | <img src="media/d1_24.png" alt="d1_24" style="width:100%; height:auto;"> |
+| 20 | Enter issue.owner = Bob in the text box | <img src="media/d1_25.png" alt="d1_25" style="width:100%; height:auto;"> |
+| 21 | Observe how DQL enables the user to return a collection of work items meeting the search criteria. In this case, Velocity has displayes ALL work items currently owned by Bob. |  |
+| **HINT:** | DQL provides the user with code assist to help build more complex queries to return the desired data. |   |
 
+Congratulations on successfully completing this section of the demonstration.
 
 ### 1.2 Working with DevOps Velocity's KPIs and Metrics
 DevOps Velocity provides numerous Key Performance Indicators (KPIs) out of the box which can be added and displayed at the top of the Value Stream. And depending on how the value stream has been architected, teams can display KPIs for Lead time to Change, Lead Time, Cycle Time and Dev Cycle Time. Each of which may be modified but in general are calculating the elapse time from a start stage to an end stage. In addition, the KPIs show trending. Is pipeline performance improving or not and by what percentage.
@@ -103,21 +110,14 @@ DevOps Velocity provides numerous Key Performance Indicators (KPIs) out of the b
 | 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
 
 
-### 1.3 Understanding DevOps Velocity's Alert capabilities
+### 1.3 DevOps Velocity and the Swimlane View
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
 
 
-### 1.4 DevOps Velocity and the Swimlane View
-
-| **Step** | **Details**  | **Additional Information** |
-|:-------------:|:------------- |:------------- |
-| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
-
-
-Congratulations on successfully configuring the DevOps Velocity value stream to visualize ERM artifacts.
+Congratulations on successfully completing this section of the demonstration.
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 <br/>
