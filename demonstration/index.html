@@ -510,18 +510,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#13-understanding-devops-velocitys-alert-capabilities" class="md-nav__link">
+  <a href="#13-devops-velocity-and-the-swimlane-view" class="md-nav__link">
     <span class="md-ellipsis">
-      1.3 Understanding DevOps Velocity's Alert capabilities
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#14-devops-velocity-and-the-swimlane-view" class="md-nav__link">
-    <span class="md-ellipsis">
-      1.4 DevOps Velocity and the Swimlane View
+      1.3 DevOps Velocity and the Swimlane View
     </span>
   </a>
   
@@ -789,7 +780,7 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>NOTE:</strong></td>
-<td style="text-align: left;">WIP measures the number of active work items which are still a work in progress. The rule of thumb for setting a WIP limit is to use the total number of people who execute in a particular pipeline stage + 1. When the WIP limit has been exceeded, it typically means that people are wasting time switching context as they shift work from one work item to another. And it is well documented that the average time wasted as a person shifts from working on one thing to another is approximately 45 minutes. Teams are more efficient when they focus on one work item at a time instead of juggling multiple assignements simultaneously.</td>
+<td style="text-align: left;">WIP measures the number of active work items which are still a work in progress. The rule of thumb for setting a WIP limit is to use the total number of people who execute in a particular pipeline stage + 1. When the WIP limit has been exceeded (indicated by the red font color), it typically means that people are wasting time switching context as they shift work between one work item and another. And it is well documented that the average time wasted as a person shifts from working on one thing to another is approximately 45 minutes. Teams are more efficient when they focus on one work item at a time instead of juggling multiple assignements simultaneously.</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
@@ -830,15 +821,46 @@
 <tr>
 <td style="text-align: center;">15</td>
 <td style="text-align: left;">Clear the filters.</td>
-<td style="text-align: left;"><img src="media/d1_20.png" alt="d1_20" style="width:100%; height:auto;"></td>
+<td style="text-align: left;"><img src="media/d1_20.png" alt="d1_20" style="width:25%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">16</td>
 <td style="text-align: left;">Working with the "View value stream data by" drop down list box, select the different options available to observe how the work items can be viewed in different ways.</td>
 <td style="text-align: left;"><img src="media/d1_21.png" alt="d1_21" style="width:100%; height:auto;"></td>
 </tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: left;">Another means of filter is to use DevOps Velocity's search capabilities. Locate the plain text search textbox, enter the value "Allocate Dividends", and press the return key.</td>
+<td style="text-align: left;"><img src="media/d1_22.png" alt="d1_22" style="width:100%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: left;">Notice that only the work items matching that search criteria is displayed. Those that have "Dividend Allocations" in the title.</td>
+<td style="text-align: left;"><img src="media/d1_23.png" alt="d1_23" style="width:100%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td style="text-align: left;">Click on the Search with DQL (DevOps Query Language)</td>
+<td style="text-align: left;"><img src="media/d1_24.png" alt="d1_24" style="width:100%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td style="text-align: left;">Enter issue.owner = Bob in the text box</td>
+<td style="text-align: left;"><img src="media/d1_25.png" alt="d1_25" style="width:100%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td style="text-align: left;">Observe how DQL enables the user to return a collection of work items meeting the search criteria. In this case, Velocity has displayes ALL work items currently owned by Bob.</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HINT:</strong></td>
+<td style="text-align: left;">DQL provides the user with code assist to help build more complex queries to return the desired data.</td>
+<td style="text-align: left;"></td>
+</tr>
 </tbody>
 </table>
+<p>Congratulations on successfully completing this section of the demonstration.</p>
 <h3 id="12-working-with-devops-velocitys-kpis-and-metrics">1.2 Working with DevOps Velocity's KPIs and Metrics</h3>
 <p>DevOps Velocity provides numerous Key Performance Indicators (KPIs) out of the box which can be added and displayed at the top of the Value Stream. And depending on how the value stream has been architected, teams can display KPIs for Lead time to Change, Lead Time, Cycle Time and Dev Cycle Time. Each of which may be modified but in general are calculating the elapse time from a start stage to an end stage. In addition, the KPIs show trending. Is pipeline performance improving or not and by what percentage.</p>
 <table>
@@ -857,7 +879,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="13-understanding-devops-velocitys-alert-capabilities">1.3 Understanding DevOps Velocity's Alert capabilities</h3>
+<h3 id="13-devops-velocity-and-the-swimlane-view">1.3 DevOps Velocity and the Swimlane View</h3>
 <table>
 <thead>
 <tr>
@@ -874,24 +896,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="14-devops-velocity-and-the-swimlane-view">1.4 DevOps Velocity and the Swimlane View</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;"><strong>Step</strong></th>
-<th style="text-align: left;"><strong>Details</strong></th>
-<th style="text-align: left;"><strong>Additional Information</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">1</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><img src="media/d1.png" alt="d1" style="width:50%; height:auto;"></td>
-</tr>
-</tbody>
-</table>
-<p>Congratulations on successfully configuring the DevOps Velocity value stream to visualize ERM artifacts.</p>
+<p>Congratulations on successfully completing this section of the demonstration.</p>
 <p><a href="#integrating-devops-velocity-with-elm-to-achieve-business-outcomes">Return to Top of Demonstration Page</a>
 <br/></p>
 <h2 id="business-scenario-2-eliminate-guess-work-and-use-data-to-make-better-investment-decisions-for-process-improvement">Business Scenario 2: Eliminate guess work and use data to make better investment decisions for process improvement</h2>
