@@ -769,12 +769,12 @@
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: left;">Click on "Legend link located on the sub navigation bar (top RHS of browser window).</td>
+<td style="text-align: left;">Click on "Legend" link located on the sub navigation bar (top RHS of browser window).</td>
 <td style="text-align: left;"><img src="media/d1_5.png" alt="d1_5" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">Notice the outlines around the In Progress and Implemented stages. <br/> Referring to the Legend pop up window, the In Progress is showing as slow and would be a location to investigate further.</td>
+<td style="text-align: left;">Notice the outlines around the In Progress and Implemented stages differ. <br/> Referring to the Legend pop up window, the In Progress is showing as slow and would be a location to investigate further. Implemented stage is showing as fast and not the main target of further investigation.</td>
 <td style="text-align: left;"><img src="media/d1_6.png" alt="d1_6" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -789,7 +789,7 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>NOTE:</strong></td>
-<td style="text-align: left;">WIP measures the number of active work items which are still a work in progress. The rule of thumb for setting a WIP limit is to use the total number of people who execute in a particular pipeline stage + 1. When the WIP limit has been exceeded (indicated by the red font color), it typically means that people are wasting time switching context as they shift work between one work item and another. And it is well documented that the average time wasted as a person shifts from working on one thing to another is approximately 45 minutes. Teams are more efficient when they focus on one work item at a time instead of juggling multiple assignements simultaneously.</td>
+<td style="text-align: left;">WIP measures the number of active work items which are still a work in progress. The rule of thumb for setting a WIP limit is to use the total number of people who execute in a particular pipeline stage + 1. When the WIP limit has been exceeded (indicated by the red font color), it typically means that people have too many work itms in flight and are wasting time switching context as they move to working between one work item and another. And it is well documented that the average time wasted as a person shifts from working on one thing to another is approximately 45 minutes each time they change focus. Teams are more efficient when they focus on one work item at a time instead of juggling multiple assignements simultaneously.</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
@@ -799,7 +799,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">10</td>
-<td style="text-align: left;">The work item card provides more detail about the specific work item, including and an audit trail, to assist in getting that work item moving forward. DevOps Velocity's State alert helps keep work items that are taking too long top of mind. Close the work item by clicking the X top right of the work item card.</td>
+<td style="text-align: left;">The work item card provides more detail about the specific work item, including and an audit trail, providing information to help in getting that work item moving forward. DevOps Velocity's Wait State alert helps keep work items that are taking too long top of mind. Close the work item details by clicking the X top right of the work item card.</td>
 <td style="text-align: left;"><img src="media/d1_10.png" alt="d1_10" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -819,7 +819,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
-<td style="text-align: left;">Click on the following filters and select the filtering options listed below: <br/> Time: 60 days <br/> Type: Story <br/> Sprint: Sprint 2</td>
+<td style="text-align: left;">Click on the following filters and select the filtering options listed below: <br/> Time: 60 days (display work items which have been modified in the last 60 days)<br/> Type: Story (display work items of Story type only) <br/> Sprint: Sprint 2 (display work items which are scheduled for Sprint 2 release)</td>
 <td style="text-align: left;"><img src="media/d1_18.png" alt="d1_18" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
@@ -829,17 +829,17 @@
 </tr>
 <tr>
 <td style="text-align: center;">15</td>
-<td style="text-align: left;">Clear the filters click the X beside the filter name.</td>
+<td style="text-align: left;">Clear the filters by clicking the X beside the filter name.</td>
 <td style="text-align: left;"><img src="media/d1_20.png" alt="d1_20" style="width:25%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">16</td>
-<td style="text-align: left;">Working with the "View value stream data by" drop down list box, select the different options available to observe how the work items can be viewed in different ways. Notice how the Value Stream legend changes depending on the view by optional selected.</td>
+<td style="text-align: left;">Working with the "View value stream data by" drop down list box (bottom left of browser window), select the different options available to observe how the work items can be viewed in different ways. Notice how the Value Stream legend changes depending on the view by option selected.</td>
 <td style="text-align: left;"><img src="media/d1_21.png" alt="d1_21" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">17</td>
-<td style="text-align: left;">Another means of filtering is to use DevOps Velocity's search capabilities. Locate the plain text search textbox, enter the value "Allocate Dividends", and press the return key.</td>
+<td style="text-align: left;">Another means of filtering is to use DevOps Velocity's search capabilities. Locate the plain text search textbox (top left), enter the value "Allocate Dividends", and press the return key.</td>
 <td style="text-align: left;"><img src="media/d1_22.png" alt="d1_22" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
@@ -854,7 +854,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">20</td>
-<td style="text-align: left;">Enter issue.owner = Bob in the text box</td>
+<td style="text-align: left;">Enter "issue.owner = Bob" in the text box.</td>
 <td style="text-align: left;"><img src="media/d1_25.png" alt="d1_25" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
@@ -873,7 +873,7 @@
 <h3 id="12-working-with-devops-velocitys-kpis-and-metrics">1.2 Working with DevOps Velocity's KPIs and Metrics</h3>
 <p>DevOps Velocity provides numerous Key Performance Indicators (KPIs) out of the box which can be added and displayed at the top of the Value Stream. And depending on how the value stream has been configured in the value stream map file, teams can display KPIs for Lead time to Change, Lead Time, Cycle Time and Dev Cycle Time. Each of which may be modified but in general are calculating the elapse time from a start stage to an end stage. In addition, these KPIs show trending. Is pipeline performance improving or not and by what percentage.</p>
 <p>In additional to the lead time and cycle time KPIs, other KPIS are available - Average Load, Throughput, Distribution etc... are also available to help measure team productivity and whether process improvement is necessary.</p>
-<p>This section of the demonstration will share details on the many of the KPIs readily available in DevOps Velocity.</p>
+<p>This section of the demonstration will share details on the many of the KPIs readily available in DevOps Velocity.6</p>
 <table>
 <thead>
 <tr>
