@@ -158,7 +158,7 @@ Imagine you are the Team Lead for the JKE Banking product and have assembled the
 | 17 | Click on the work items assigned to Bob in the In Progress stage. Notice, both are owned by Bob. |  |
 | 18 | Repeat step 17 for the work items owned by Marco. |   |
 
-Very quickly and with the help of Velocity, the Team Lead was able to review work item distribution and take corrective action to make both Bob and Marco more efficient as they now own the story and the children tasks to implement the story. 
+Very quickly and with the help of DevOps Velocity, the Team Lead was able to review work item distribution and take corrective action to make both Bob and Marco more efficient as they now own the story and the children tasks to implement the story. 
 
 Congratulations on successfully completing this section of the demonstration.
 
