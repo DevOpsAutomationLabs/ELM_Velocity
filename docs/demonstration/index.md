@@ -6,7 +6,7 @@
 
 ## About the Demonstration
 
-For this demonstration, DevOps Velocity has already been integrated with ELM and value streams created visualizing the ELM data as stories, bugs, tasks, features and requirements. This allows you to focus on the features of the integrated solution and how DevOps Velocity and ELM can work together.
+For this demonstration, DevOps Velocity has already been integrated with ELM and value streams have been created visualizing the ELM data as stories, bugs, tasks, features and requirements. This setup allows you to focus on the features of the integrated solution and how DevOps Velocity and ELM can work together. For details on how to setup the environment, review the steps presented in the enablement section.
 
 The following table shares information on which ELM projects have been visualized in DevOps Velocity:
 
@@ -39,11 +39,11 @@ Many DevOps organizations use Dora metrics or Flow metrics to measure the effici
 
 Now it is a well know fact that any process is only as fast as its slowest point (Theory of Constraints). And all processes have at least one slow point. The "trick" is to find the bottleneck(s), take action to improve, and measure the outcome (better - same - worse) to understand if the desired result was achieved.
 
-Using these high level metrics and armed with a desire to improve, the next typical step would be for the organization to execute a Value Stream Mapping exercise assembling a team of people to share their experience and opinions on how long each stage of the end to end process takes and recording this information on a value stream map - value add time (VA), non-value add time (NVA), process efficiency (PE) for each individual stage in their process. This can be a very expensive and laboreous process where the outcome is only valid until some improvement action is implemented. Because, once the process improvement is implemented, the bottleneck has probably moved to another location in the delivery pipeline.
+Using these high level metrics and armed with a desire to improve, the next typical step would be for the organization to execute a Value Stream Mapping exercise assembling a team of people to share their experience and opinions on how long each stage of the end to end process takes and recording this information on a value stream map - value add time (VA), non-value add time (NVA), process efficiency (PE) - for each individual stage in their process. This can be a very expensive and laboreous process where the outcome is only valid until some improvement action is implemented. Because, once the process improvement is implemented, the bottleneck will probably moved to another location in the delivery pipeline. Meaning, value stream mapping is not a one time exercise and should be a regular activity on one's journey to optimization.
 
 ![Value Stream Map](media/value_stream_map.png)
 
-The alternative to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the various tools used in the software delivery pipeline and presenting that data in a holistic view providing insight, in almost real time, on not only how efficient the software delivery pipeline is but where in the pipeline opportunities for improvement exist. Value Stream Management is a much more scientific approach eliminating the guess work and helping teams make better decisions on where to improve based on data instead of opinion.
+The alternative to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the various tools used in the software delivery pipeline and presenting that data in a holistic view providing insight, in almost real time, on not only how efficient the entire software delivery pipeline is but where in the pipeline opportunities for improvement exist. Value Stream Management is a much more scientific approach eliminating the guess work and helping teams make better decisions on where to improve using data instead of being based on opinion.
 
 ![Value Stream](media/value_stream.png)
 
@@ -71,7 +71,7 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ### 1.1 DevOps Velocity and the value stream data
 
-The value stream for this demo is architected to align with ELM's workflow including the phases and stages making up the software delivery pipeline. And through the integration between DevOps Velocity and ELM, DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages defined in the ELM workflow. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on where improvement is required instead of wasting time trying to determine which stage is the software delivery pipeline is the slowest point.
+The value stream for this demo is architected to align with ELM's workflow including the phases and stages making up the software delivery pipeline. And through the integration between DevOps Velocity and ELM, DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages defined in the ELM workflow. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on where improvement is required instead of wasting time trying to determine which stage in the software delivery pipeline is the slowest point.
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
@@ -103,7 +103,11 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 Congratulations on successfully completing this section of the demonstration.
 
 ### 1.2 Working with DevOps Velocity's KPIs and Metrics
-DevOps Velocity provides numerous Key Performance Indicators (KPIs) out of the box which can be added and displayed at the top of the Value Stream. And depending on how the value stream has been architected, teams can display KPIs for Lead time to Change, Lead Time, Cycle Time and Dev Cycle Time. Each of which may be modified but in general are calculating the elapse time from a start stage to an end stage. In addition, the KPIs show trending. Is pipeline performance improving or not and by what percentage.
+DevOps Velocity provides numerous Key Performance Indicators (KPIs) out of the box which can be added and displayed at the top of the Value Stream. And depending on how the value stream has been configured in the value stream map file, teams can display KPIs for Lead time to Change, Lead Time, Cycle Time and Dev Cycle Time. Each of which may be modified but in general are calculating the elapse time from a start stage to an end stage. In addition, these KPIs show trending. Is pipeline performance improving or not and by what percentage.
+
+In additional to the lead time and cycle time KPIs, other KPIS are available - Average Load, Throughput, Distribution etc... are also available to help measure team productivity and whether process improvement is necessary.
+
+This section of the demonstration will share details on the many of the KPIs readily available in DevOps Velocity.
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
