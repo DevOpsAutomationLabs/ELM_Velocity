@@ -330,3 +330,8 @@ Congratulations on successfully configuring the DevOps Velocity value stream to 
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
+
+| Software Installed for Enablement Exercises | Software Version |
+|:---- |:----:|
+| DevOps Velocity | v5.1.7 |
+| Engineering Lifecycle Management | v7.1 |
