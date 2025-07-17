@@ -100,6 +100,9 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | 21 | Observe how DQL enables the user to return a collection of work items meeting the search criteria. In this case, Velocity has displayes ALL work items currently owned by Bob. |  |
 | **HINT:** | DQL provides the user with code assist to help build more complex queries to return the desired data. |   |
 
+
+TO DO: Update status of a EWM Work Item.
+
 Congratulations on successfully completing this section of the demonstration.
 
 ### 1.2 Working with DevOps Velocity's KPIs and Metrics
@@ -111,16 +114,16 @@ This section of the demonstration will share details on the many of the KPIs rea
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 |  Working in the JKE Banking Demo (Change Management) value stream, locate the Lead Time and Cycle Time KPis. | <img src="media/d1_26.png" alt="d1_26" style="width:50%; height:auto;"> |
+| 1 |  Working in the JKE Banking Demo (Change Management) value stream, locate the Lead Time and Cycle Time KPis. | <img src="media/d1_26.png" alt="d1_26" style="width:100%; height:auto;"> |
 | 2 | These KPIs has been configured to calculate times and monitor change for all work items as those pass through the pipeline stages: <br/><br/> <strong>Lead Time:</strong> Start - In progress / End - Done/Verified <br/> <strong>Cycle Time:</strong> Start - In Progress / End - Done/Verified <br/> <strong>Dev Cycle Time:</strong> Start - In Progress / End - Implemented (Story) <br/> <strong>Lead Time to Change:</strong> Start - New / End - Done/Verified <br/> |   |
-| 3 | Click on the 3 dots beside the Dev Cycle Time KPI. | <img src="media/d1_27.png" alt="d1_27" style="width:50%; height:auto;"> |
-| 4 | Click on the Start Stage listbox and confirm that the "In Progress" stage is set. | <img src="media/d1_28.png" alt="d1_28" style="width:50%; height:auto;"> |
-| 5 | Click on the End Stage listbox and update selecting both the Implemented (Story) and Resolved (Defect). Click update when complete. | <img src="media/d1_29.png" alt="d1_29" style="width:50%; height:auto;"> | 
+| 3 | Click on the 3 dots beside the Dev Cycle Time KPI. | <img src="media/d1_27.png" alt="d1_27" style="width:100%; height:auto;"> |
+| 4 | Click on the Start Stage listbox and confirm that the "In Progress" stage is set. | <img src="media/d1_28.png" alt="d1_28" style="width:100%; height:auto;"> |
+| 5 | Click on the End Stage listbox and update selecting both the Implemented (Story) and Resolved (Defect). Click update when complete. | <img src="media/d1_29.png" alt="d1_29" style="width:100%; height:auto;"> | 
 | **NOTE:** | Changing the Start and End stages for one of the Lead Time and/or Cycle Time KPIs forces a re-calculation of the metrics. In the case where there are multiple Start and/or End Stages, DevOps Velocity calculates an average time considering all work items which have moved from the start stage(s) to the end stage(s). |  |
 | **HINT:** | Due to the older ELM data being synchronized with DevOps Velocity, the trending feauture is hard to demonstrate. However, as work items change state and new data is added, the trending KPIs will provide very important data. Red arrows indicate that the delivery pipeline is getting slower and Velocity will calculate and display a percentage of how much of a increase in time. Green arrows indicate positive change and again, Velocity will display a percentage of the level of improvement | <img src="media/d1_30.png" alt="d1_30" style="width:25%; height:auto;"> | 
 | 6 | Click on the + icon (right of the Lead Time and Cycle Time KPIs) to add some additional metrics to the metrics bar. | <img src="media/d1_31.png" alt="d1_31" style="width:50%; height:auto;"> |
-| 7 | From the list provided, select Average Load, Throughput and Distribution as 3 examples. | <img src="media/d1_32.png" alt="d1_32" style="width:50%; height:auto;"> |
-| **NOTE:** | <img src="media/d1_33.png" alt="d1_33" style="width:100%; height:auto;"> <br/> <br/> <strong>Metrics Definitions:</strong> <br/><br/> <strong>Average Load</strong>  - The number of work items active or waiting in a value stream at a given time. Load measures utilization capabilities of value streams related to productivity in the process flow. "Active" refers to the stages from the lead-time start until the lead-time end. <br/> <strong>Throughput</strong> - The rate of work items completed during a period of time. Improving throughput can result in better responsiveness to customer requirements and may yield lead time reductions for value streams. <br/> <strong>Distribution</strong> - The proportion of different types of work items over time. This provides teams visibility into the type of work being completed (features, defects, tasks, and so forth.) <br/><br/> For more information about DevOps Velocity Metrics, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-displaying#vsm_metricsBar). <br/> |  |
+| 7 | From the list provided, select Average Load, Throughput and Distribution as 3 examples. | <img src="media/d1_32.png" alt="d1_32" style="width:100%; height:auto;"> |
+| **NOTE:** | The metrics bar update should be displayed similar to the following: <br/><br/><img src="media/d1_33.png" alt="d1_33" style="width:100%; height:auto;"> <br/> <br/> <strong>Metrics Definitions:</strong> <br/><br/> <strong>Average Load</strong>  - The number of work items active or waiting in a value stream at a given time. Load measures utilization capabilities of value streams related to productivity in the process flow. "Active" refers to the stages from the lead-time start until the lead-time end. <br/> <strong>Throughput</strong> - The rate of work items completed during a period of time. Improving throughput can result in better responsiveness to customer requirements and may yield lead time reductions for value streams. <br/> <strong>Distribution</strong> - The proportion of different types of work items over time. This provides teams visibility into the type of work being completed (features, defects, tasks, and so forth.) <br/><br/> For more information about DevOps Velocity Metrics, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-displaying#vsm_metricsBar). <br/> |  |
 
 
 ### 1.3 DevOps Velocity and the Swimlane View
