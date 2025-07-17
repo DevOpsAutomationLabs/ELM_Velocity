@@ -101,8 +101,6 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | **HINT:** | DQL provides the user with code assist to help build more complex queries to return the desired data. |   |
 
 
-TO DO: Update status of a EWM Work Item.
-
 Congratulations on successfully completing this section of the demonstration.
 
 ### 1.2 Working with DevOps Velocity's KPIs and Metrics
@@ -128,10 +126,39 @@ This section of the demonstration will share details on the many of the KPIs rea
 
 ### 1.3 DevOps Velocity and the Swimlane View
 
+DevOps Velocity's swimlane view display the same work items as shown on the value stream but filtered into swimlanes by owner, by priority, by type, by release, and by sprint making this view a very powerful view in reviewing, managing, and updating team work during meetings. In this part of the demo, you will experience how the owner swim lane view can be used when communicating as a team. The Priority and Type swimlanes assist in determining if there is the right distribution of in flight work. And the Sprint/Release swimlanes allow the team to quickly see if work is progressing as planned or not.
+
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+| 1 |  Continuing to work in the JKE Banking Demo (Change Management) value stream, click on the Swimlanes link located on the sub navigation bar. | <img src="media/d1_34.png" alt="d1_34" style="width:50%; height:auto;"> |
+| 2 | Click on the "Sprint" swimlane. |  |
+| 3 | Notice how easily you can see the status of each work item in each phase and stage of the value stream helping teams determine if they will deliver work on time and as per plan.
+| 4 | Click on the Release, Type and Priority swimlanes to observe how DevOps Velocity visualizes the work items for each swimlane category similar to what was seen in the Sprint swimlane view. |  |
 
+**Challenge Scenario**<br/> 
+
+Imagine you are the Team Lead for the JKE Banking product and have assembled the team to review current assignments. How could Velocity assist you in conducting this meeting?<br/>
+
+| **Step** | **Details**  | **Additional Information** |
+|:-------------:|:------------- |:------------- |
+| 5 | Click on the "Owner" swimlane view and let's concentrate on the "In Progress" stage as that shows the work items currently being worked on. |   |
+| 6 | Notice that Marco has two active work items violating the WIP best practice of one work item at a time and both are exceeding the average wait time. |  |
+| 7 | Click on the Story work item to open the work item card and click on the work item title on the card. |   |
+| **HINT:** | If prompted to authenticate with the ELM system, use the following: <br/>User ID: sysadmin<br/>Password: passw0rd (passw-zero-rd)<br/> |  |
+| 8 | Working in EWM, click on the work item's Links tab. |   |
+| 9 | Hover over the child work item to display the Task overview information. |  |
+| 10 | Notice that "Bob" is the owner of the Task which is associated to the parent Story owned by "Marco". <br/> For the purpose of this demo scenario, let's assume that the individual who owns the story should also own the tasks to implement the story. The ownership of work items is clearly a violation of this rule. |   |
+| 11 | Returning to the work item Overview tab, change the owner of the Story to "Bob", save the change, and close the EWM browser tab. |   |
+| 12 | Click on the Task owned by Marco in the In Progress stage and again open the work item card clicking the card title to open the work item in EWM. |   |
+| 13 | Click on the Task work item's link tab and hover over the parent work item to view the Story overview. |   |
+| 14 | Notice that the Story is owned by "Al" but the Task to implement the story is owned by "Marco". |  |
+| 15 | Click on the Parent work item, change the owner to be Marco, save the changes and close the EWM browser tab. |   |
+| 16 | Notice how the work items being visualized are reflecting the changes made in EWM. |   |
+| **NOTE:** | For the purposes of this demo and to avoid wasting time waiting for the EWM changes to be visualized in Velocity, perform the following steps. <br/> |   |
+| 17 | Click on the work items assigned to Bob in the In Progress stage. Notice, both are owned by Bob. |  |
+| 18 | Repeat step 17 for the work items owned by Marco. |   |
+
+Very quickly and with the help of Velocity, the Team Lead was able to review work item distribution and take corrective action to make both Bob and Marco more efficient as they now own the story and the children tasks to implement the story. 
 
 Congratulations on successfully completing this section of the demonstration.
 
