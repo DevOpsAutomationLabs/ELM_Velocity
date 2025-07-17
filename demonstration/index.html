@@ -819,7 +819,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
-<td style="text-align: left;">Click on the following filters and select the filtering options listed below: <br/> Time: 60 days (display work items which have been modified in the last 60 days)<br/> Type: Story (display work items of Story type only) <br/> Sprint: Sprint 2 (display work items which are scheduled for Sprint 2 release)</td>
+<td style="text-align: left;">Click on the following filters and select the filtering options listed below: <br/><br/> <strong>Time:</strong> 60 days (display work items which have been modified in the last 60 days)<br/> <strong>Type:</strong> Story (display work items of Story type only) <br/> <strong>Sprint:</strong> Sprint 2 (display work items which are scheduled for Sprint 2 release)</td>
 <td style="text-align: left;"><img src="media/d1_18.png" alt="d1_18" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
@@ -885,8 +885,53 @@
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
+<td style="text-align: left;">Working in the JKE Banking Demo (Change Management) value stream, locate the Lead Time and Cycle Time KPis.</td>
+<td style="text-align: left;"><img src="media/d1_26.png" alt="d1_26" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">These KPIs has been configured to calculate times and monitor change for all work items as those pass through the pipeline stages: <br/><br/> <strong>Lead Time:</strong> Start - In progress / End - Done/Verified <br/> <strong>Cycle Time:</strong> Start - In Progress / End - Done/Verified <br/> <strong>Dev Cycle Time:</strong> Start - In Progress / End - Implemented (Story) <br/> <strong>Lead Time to Change:</strong> Start - New / End - Done/Verified <br/></td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;"><img src="media/d1.png" alt="d1" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Click on the 3 dots beside the Dev Cycle Time KPI.</td>
+<td style="text-align: left;"><img src="media/d1_27.png" alt="d1_27" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Click on the Start Stage listbox and confirm that the "In Progress" stage is set.</td>
+<td style="text-align: left;"><img src="media/d1_28.png" alt="d1_28" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Click on the End Stage listbox and update selecting both the Implemented (Story) and Resolved (Defect). Click update when complete.</td>
+<td style="text-align: left;"><img src="media/d1_29.png" alt="d1_29" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>NOTE:</strong></td>
+<td style="text-align: left;">Changing the Start and End stages for one of the Lead Time and/or Cycle Time KPIs forces a re-calculation of the metrics. In the case where there are multiple Start and/or End Stages, DevOps Velocity calculates an average time considering all work items which have moved from the start stage(s) to the end stage(s).</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>HINT:</strong></td>
+<td style="text-align: left;">Due to the older ELM data being synchronized with DevOps Velocity, the trending feauture is hard to demonstrate. However, as work items change state and new data is added, the trending KPIs will provide very important data. Red arrows indicate that the delivery pipeline is getting slower and Velocity will calculate and display a percentage of how much of a increase in time. Green arrows indicate positive change and again, Velocity will display a percentage of the level of improvement</td>
+<td style="text-align: left;"><img src="media/d1_30.png" alt="d1_30" style="width:25%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Click on the + icon (right of the Lead Time and Cycle Time KPIs) to add some additional metrics to the metrics bar.</td>
+<td style="text-align: left;"><img src="media/d1_31.png" alt="d1_31" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">From the list provided, select Average Load, Throughput and Distribution as 3 examples.</td>
+<td style="text-align: left;"><img src="media/d1_32.png" alt="d1_32" style="width:50%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>NOTE:</strong></td>
+<td style="text-align: left;"><img src="media/d1_33.png" alt="d1_33" style="width:100%; height:auto;"> <br/> <br/> <strong>Metrics Definitions:</strong> <br/><br/> <strong>Average Load</strong>  - The number of work items active or waiting in a value stream at a given time. Load measures utilization capabilities of value streams related to productivity in the process flow. "Active" refers to the stages from the lead-time start until the lead-time end. <br/> <strong>Throughput</strong> - The rate of work items completed during a period of time. Improving throughput can result in better responsiveness to customer requirements and may yield lead time reductions for value streams. <br/> <strong>Distribution</strong> - The proportion of different types of work items over time. This provides teams visibility into the type of work being completed (features, defects, tasks, and so forth.) <br/><br/> For more information about DevOps Velocity Metrics, visit <a href="https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-displaying#vsm_metricsBar">Velocity's product documentation page</a>. <br/></td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
@@ -964,6 +1009,24 @@
 </table>
 <p><br/></p>
 <p><a href="#integrating-devops-velocity-with-elm-to-achieve-business-outcomes">Return to Top of Demonstration Page</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Software Installed for Demonstration Steps</th>
+<th style="text-align: center;">Software Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">DevOps Velocity</td>
+<td style="text-align: center;">v5.1.7</td>
+</tr>
+<tr>
+<td style="text-align: left;">Engineering Lifecycle Management</td>
+<td style="text-align: center;">v7.1</td>
+</tr>
+</tbody>
+</table>
 
 
 
