@@ -151,10 +151,10 @@ DevOps Velocity's swimlane view display the same work items as shown on the valu
 | **NOTE:** | Through the integration between DevOps Velocity and ELM, Velocity will synchronize work item changes every 5 minutes. For the purposes of this demo and to avoid wasting time waiting for the EWM changes to be synchronized with Velocity, perform the following steps. |   |
 | | Click on the Settings icon, top RHS of DevOps Velocity browser tab. | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
 | | On the Settings page, select Integrations from the LH navigation bar. | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
-| | Click the Disable/Enable control for the EWM(JKEBanking) integration toggling from off to back on. <br/> This toggling action will force Velocity to re-sync with EWM and retrieve the changes. | <img src="media/d1_50.png" alt="d1_50" style="width:50%; height:auto;"> |
+| | Click the Disable/Enable control for the EWM(JKEBanking) integration toggling from off to back on. <br/> This toggling action will force Velocity to re-sync with EWM and retrieve the changes. | <img src="media/d1_50.png" alt="d1_50" style="width:100%; height:auto;"> |
 | | Return to the Owner Swimlane view of the JKE Banking Demo (Change Management) value stream. |   |
 | 17 | Perform a plain text search using the phrase "organizations can apply". | <img src="media/d1_51.png" alt="d1_51" style="width:50%; height:auto;"> |
-| 18 | Notice that after the changes in EWM, both the story and the task to implemented that story are owned by Marco. | <img src="media/d1_52.png" alt="d1_52" style="width:50%; height:auto;"> |
+| 18 | Notice that after the changes in EWM, both the story and the task to implemented that story are owned by Marco. | <img src="media/d1_52.png" alt="d1_52" style="width:100%; height:auto;"> |
 
 Very quickly and with the help of DevOps Velocity, the Team Lead was able to review work item distribution and take corrective action to make both Bob and Marco more efficient. As they now own the story and the children tasks to implement that story instead of working on tasks for others stories, this has reduced the time spent having to communicate on progress with others.
 
@@ -169,7 +169,7 @@ Very quickly and with the help of DevOps Velocity, the Team Lead was able to rev
 
 The activity performed against every work item visualized in DevOps Velocity is tracked from inception to completion. This assist the team when asked to verify that specific work items have followed the development process by auditors. What could be a large effort checking the different solutions used in the delivery pipeline, Velocity makes responding to the request simple. In fact, Auditors equipped with access to Velocity could check for themselves without interrupting the team. 
 
-| **Step** | <div style="width:500px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Working in the JKE Banking Demo (Change Management) value stream, perform a plain text search using the string value "78". | <img src="media/d2_1.png" alt="d2_1" style="width:100%; height:auto;"> |
 | 2 | Click on the one work item displayed in the Done/Verified stage of the Release phase. |   |
@@ -193,7 +193,7 @@ An **inflow/outflow asymmetry bottleneck** occurs when there is an unusually lar
 
 In this section, you will enable DevOps Velocity's Bottleneck Detection capability and add it to the JKE Banking Demo (Change Management) value stream.
 
-| **Step** | <div style="width:600px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:500px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Navigate to DevOps Velocity's Settings page click the gear icon (top right of browser window) | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
 | 2 | Click on the Integrations view. | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
