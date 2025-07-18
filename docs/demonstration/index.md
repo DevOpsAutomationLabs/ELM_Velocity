@@ -97,7 +97,7 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | 18 | Notice that only the work items matching that search criteria is displayed. Those work items that have "Dividend Allocations" in the title. | <img src="media/d1_23.png" alt="d1_23" style="width:100%; height:auto;"> |
 | 19 | Click on the Search with DQL (DevOps Query Language) | <img src="media/d1_24.png" alt="d1_24" style="width:100%; height:auto;"> |
 | 20 | Enter "issue.owner = Bob" in the text box. | <img src="media/d1_25.png" alt="d1_25" style="width:100%; height:auto;"> |
-| 21 | Observe how DQL enables the user to return a collection of work items meeting the search criteria. In this case, Velocity has displayes ALL work items currently owned by Bob. |   |
+| 21 | Observe how DQL enables the user to return a collection of work items meeting the search criteria. In this case, Velocity has displayes ALL work items currently owned by Bob. | <img src="media/d1_25_1.png" alt="d1_25_1" style="width:100%; height:auto;"> |
 | **HINT:** | DQL provides the user with code assist to help build more complex queries to return the desired data. |   |
 
 Congratulations on successfully completing this section of the demonstration.
