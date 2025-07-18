@@ -158,7 +158,7 @@ DevOps Velocity's swimlane view display the same work items as shown on the valu
 
 Very quickly and with the help of DevOps Velocity, the Team Lead was able to review work item distribution and take corrective action to make both Bob and Marco more efficient. As they now own the story and the children tasks to implement that story instead of working on tasks for others stories, this has reduced the time spent having to communicate on progress with others.
 
-Congratulations on successfully completing Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity of the demonstration.
+**Congratulations on successfully completing Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity of the demonstration.**
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 <br/>
@@ -171,7 +171,7 @@ The activity performed against every work item visualized in DevOps Velocity is 
 
 | **Step** | <div style="width:500px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Working in the JKE Banking Demo (Change Management) value stream, perform a plain text search using the string value "78". | <img src="media/d2_1.png" alt="d2_1" style="width:50%; height:auto;"> |
+| 1 | Working in the JKE Banking Demo (Change Management) value stream, perform a plain text search using the string value "78". | <img src="media/d2_1.png" alt="d2_1" style="width:100%; height:auto;"> |
 | 2 | Click on the one work item displayed in the Done/Verified stage of the Release phase. |   |
 | 3 | On the work item card displayed, scroll down to see a complete audit trail of activities performed. Including who performed the action and when the action was performed. | <img src="media/d2_2.png" alt="d2_2" style="width:50%; height:auto;"> |
 | 4 | Close the work item card by click the X top right. |   |
@@ -196,11 +196,17 @@ In this section, you will enable DevOps Velocity's Bottleneck Detection capabili
 | **Step** | <div style="width:600px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Navigate to DevOps Velocity's Settings page click the gear icon (top right of browser window) | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
-| 2 | Click on the Integrations view. | <img src="media/d1_49.png" alt="d1_49" style="width:25%; height:auto;"> |
-| 3 | Click the Available tab on the Integrations page. | <img src="media/d2_3.png" alt="d2_3" style="width:50%; height:auto;"> |
-| 4 | Search for the Bottleneck Detection plugin and click "Add Integration". | <img src="media/d2_4.png" alt="d2_4" style="width:50%; height:auto;"> |
-| 5 |
+| 2 | Click on the Integrations view. | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
+| 3 | Click the Installed tab on the Integrations page. | <img src="media/d2_3.png" alt="d2_3" style="width:50%; height:auto;"> |
+| 4 | Search for the Bottleneck Detection plugin and click "Add Integration". | <img src="media/d2_4.png" alt="d2_4" style="width:100%; height:auto;"> |
+| 5 |  Provide a meaningful name (e.g. Bottleneck Detection) to identify the plugin in the future and click Add.  | <img src="media/d2_5.png" alt="d2_5" style="width:50%; height:auto;"> |
+| 6 | Return to the JKE Banking Demo (Change Management) value stream. |   |
+| 7 | Click the + to add the Bottleneck Detection metric to the metrics bar. | <img src="media/d2_6.png" alt="d2_6" style="width:50%; height:auto;"> |
+| 8 | Select Bottleneck from the list of metrics displayed. |   <img src="media/d2_7.png" alt="d2_7" style="width:50%; height:auto;"> |
+| 9 | Notice that the Bottleneck Detection algorithm has run and that DevOps Velocity has identified that "In Progress" is the slowest point in the delivery pipeline. | <img src="media/d2_8.png" alt="d2_8" style="width:50%; height:auto;"> | 
+| 9 | Hover the mouse pointer of the Bottleneck metric to get more detail on the type of Bottleneck. | <img src="media/d2_9.png" alt="d2_9" style="width:100%; height:auto;"> |
 
+Congratulations on successfully completing this section of the demonstration.
 
 ### 2.3 Working with DevOps Velocity's DashBoards and Charts
 
@@ -208,6 +214,7 @@ In this section, you will enable DevOps Velocity's Bottleneck Detection capabili
 |:-------------:|:------------- |:------------- |
 | 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
 
+**Congratulations on successfully completing Business Scenario 2: Eliminate guess work and use data to make better investment decisions for process improvement of the demonstration.**
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 
