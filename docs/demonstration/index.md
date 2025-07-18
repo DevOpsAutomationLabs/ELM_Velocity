@@ -193,7 +193,7 @@ An **inflow/outflow asymmetry bottleneck** occurs when there is an unusually lar
 
 In this section, you will enable DevOps Velocity's Bottleneck Detection capability and add it to the JKE Banking Demo (Change Management) value stream.
 
-| **Step** | <div style="width:500px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Navigate to DevOps Velocity's Settings page click the gear icon (top right of browser window) | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
 | 2 | Click on the Integrations view. | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
@@ -212,7 +212,7 @@ Congratulations on successfully completing this section of the demonstration.
 
 Where the value stream visualize and display data over the past 30 days, Insights Dashboards display data from a little as 24 hours to all time depending on the filter settings. Having the ability to view delivery pipeline data across a longer time period, teams can use charts to understand change over time to understand if productivity is improving or not.
 
-| **Step** | <div style="width:500px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in DevOps Velocity, click on the Insights icon located on the left hand navigation bar.  | <img src="media/d2_10.png" alt="d2_10" style="width:50%; height:auto;"> |
 | 2 | Click on the JKE Banking card to open the dashboard. | <img src="media/d2_11.png" alt="d2_11" style="width:50%; height:auto;"> |
