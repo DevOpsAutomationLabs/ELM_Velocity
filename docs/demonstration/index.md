@@ -73,7 +73,7 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 The value stream for this demo is architected to align with ELM's workflow including the phases and stages making up the software delivery pipeline. And through the integration between DevOps Velocity and ELM, DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages defined in the ELM workflow. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on where improvement is required instead of wasting time trying to determine which stage in the software delivery pipeline is the slowest point.
 
-| **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark  | <img src="media/d1_1.png" alt="d1_1" style="width:75%; height:auto;"> |
 | 2 | Authenticate with Velocity using "admin" for both the user id and password.  | <img src="media/d1_2.png" alt="d1_2" style="width:100%; height:auto;"> |
@@ -109,7 +109,7 @@ In additional to the lead time and cycle time KPIs, other KPIS are available - A
 
 This section of the demonstration will share details on the many of the KPIs readily available in DevOps Velocity.6
 
-| **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 |  Working in the JKE Banking Demo (Change Management) value stream, locate the Lead Time and Cycle Time KPis. | <img src="media/d1_26.png" alt="d1_26" style="width:100%; height:auto;"> |
 | 2 | These KPIs has been configured to calculate times and monitor change for all work items as those pass through the pipeline stages: <br/><br/> <strong>Lead Time:</strong> Start - In progress / End - Done/Verified <br/> <strong>Cycle Time:</strong> Start - In Progress / End - Done/Verified <br/> <strong>Dev Cycle Time:</strong> Start - In Progress / End - Implemented (Story) <br/> <strong>Lead Time to Change:</strong> Start - New / End - Done/Verified <br/> |   |
@@ -128,7 +128,7 @@ Congratulations on successfully completing this section of the demonstration.
 
 DevOps Velocity's swimlane view display the same work items as shown on the value stream view but categorized by owner, by priority, by type, by release, and by sprint making this view a very powerful view in reviewing, managing, and updating team work during meetings. In this part of the demo, you will experience how the owner swim lane view can be used when communicating as a team. The Priority and Type swimlanes assist in determining if there is the right distribution of in flight work. And the Sprint/Release swimlanes allow the team to quickly see if work is progressing as planned or not.
 
-| **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 |  Continuing to work in the JKE Banking Demo (Change Management) value stream, click on the Swimlane link located on the sub navigation bar. | <img src="media/d1_34.png" alt="d1_34" style="width:50%; height:auto;"> |
 | 2 | Click on the "Sprint" swimlane. | <img src="media/d1_35.png" alt="d1_35" style="width:25%; height:auto;"> |
