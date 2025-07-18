@@ -127,7 +127,7 @@ Congratulations on successfully completing this section of the demonstration.
 
 DevOps Velocity's swimlane view display the same work items as shown on the value stream view but categorized by owner, by priority, by type, by release, and by sprint making this view a very powerful view in reviewing, managing, and updating team work during meetings. In this part of the demo, you will experience how the owner swim lane view can be used when communicating as a team. The Priority and Type swimlanes assist in determining if there is the right distribution of in flight work. And the Sprint/Release swimlanes allow the team to quickly see if work is progressing as planned or not.
 
-| **Step** | **Details**  | **Additional Information** |
+| **Step** | <div style="width:500px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 |  Continuing to work in the JKE Banking Demo (Change Management) value stream, click on the Swimlane link located on the sub navigation bar. | <img src="media/d1_34.png" alt="d1_34" style="width:50%; height:auto;"> |
 | 2 | Click on the "Sprint" swimlane. | <img src="media/d1_35.png" alt="d1_35" style="width:25%; height:auto;"> |
@@ -158,7 +158,7 @@ DevOps Velocity's swimlane view display the same work items as shown on the valu
 
 Very quickly and with the help of DevOps Velocity, the Team Lead was able to review work item distribution and take corrective action to make both Bob and Marco more efficient. As they now own the story and the children tasks to implement that story instead of working on tasks for others stories, this has reduced the time spent having to communicate on progress with others.
 
-**Congratulations on successfully completing Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity of the demonstration.**
+**Congratulations on successfully completing "Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity" of the demonstration.**
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 <br/>
@@ -210,15 +210,25 @@ Congratulations on successfully completing this section of the demonstration.
 
 ### 2.3 Working with DevOps Velocity's DashBoards and Charts
 
-| **Step** | **Details**  | **Additional Information** |
-|:-------------:|:------------- |:------------- |
-| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+Where the value stream visualize and display data over the past 30 days, Insights Dashboards display data from a little as 24 hours to all time depending on the filter settings. Having the ability to view delivery pipeline data across a longer time period, teams can use charts to understand change over time to understand if productivity is improving or not.
 
-**Congratulations on successfully completing Business Scenario 2: Eliminate guess work and use data to make better investment decisions for process improvement of the demonstration.**
+| **Step** | <div style="width:500px">**Details**</div>  | **Additional Information** |
+|:-------------:|:------------- |:------------- |
+| 1 | Continuing to work in DevOps Velocity, click on the Insights icon located on the left hand navigation bar.  | <img src="media/d2_10.png" alt="d2_10" style="width:50%; height:auto;"> |
+| 2 | Click on the JKE Banking card to open the dashboard. | <img src="media/d2_11.png" alt="d2_11" style="width:50%; height:auto;"> |
+| **NOTE:** | This dashboard has been configured for the purposes of this demonstration. Know that, dashboards can be configured to display data meeting the needs of your stakeholders. |    |
+| 3 | Take a moment to explore the data present. Explore how the data being displayed in the charts changes by modifying the Time and Group by filter settings. | <img src="media/d2_12.png" alt="d2_12" style="width:100%; height:auto;" > |
+| 4 | Click the magnifying glass icon on the "Lead Time to Change" chart drilling into the chart details. | <img src="media/d2_13.png" alt="d2_13" style="width:100%; height:auto;" > |
+| 5 | Scroll down in the chart details and see information for all the work items which have been completed including: <br/>  - Work item ID <br/> - Type <br/>  - Name <br/> - Owner <br/> - Lead Time to Change duration<br/> | <img src="media/d2_14.png" alt="d2_14" style="width:100%; height:auto;" > |
+| **NOTE:** | While the chart image presents overview of what has transpired and makes it easy to identify trends, the details view provides the team with more information related to individual work items included in the chart image. |   |
+| 6 | Click <- Back to charts to return to the dashboard view. | <img src="media/d2_15.png" alt="d2_15" style="width:25%; height:auto;" > |
+| 7 | The Lead Time and Cycle Time KPI charts use Insight rules set up for this demonstration which can display Technical Objectives. Insight rules allow the team to set goals related to productivity and instantly see progress in achieving those goals. <br/><br/> For the Lead Cycle KPI, an acceptable amount of time for a work item to go from inception to implementation is 25 days. And the Cycle Time shows delivery goal of 20 days from the time work starts until it is declared Done and in Production. | <img src="media/d2_16.png" alt="d2_16" style="width:100%; height:auto;" > |
+
+**Congratulations on successfully completing "Business Scenario 2: Eliminate guess work and use data to make better investment decisions for process improvement" of the demonstration.**
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 
 | Software Installed for Demonstration Steps | Software Version |
 |:---- |:----:|
 | DevOps Velocity | v5.1.7 |
-| Engineering Lifecycle Management | v7.1 |
+| Engineering Lifecycle Management | v7.1
