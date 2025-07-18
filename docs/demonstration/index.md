@@ -85,9 +85,9 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | 8 | Above the average time a work item is a Work in Progress (WIP) limit. Notice that the WIP limit is set at 5 work items where an alert has been triggered because there are 6 work items in the In Progress stage. | <img src="media/d1_8.png" alt="d1_8" style="width:30%; height:auto;"> |
 | **NOTE:** | WIP measures the number of active work items which are still a work in progress. The rule of thumb for setting a WIP limit is to use the total number of people who execute in a particular pipeline stage + 1. When the WIP limit has been exceeded (indicated by the red font color), it typically means that people have too many work itms in flight and are wasting time switching context as they move to working between one work item and another. And it is well documented that the average time wasted as a person shifts from working on one thing to another is approximately 45 minutes each time they change focus. Teams are more efficient when they focus on one work item at a time instead of juggling multiple assignements simultaneously. |   |
 | 9 | Click on one of the "DOTS" in the In Progress stage which has a red circle around it. A red cirlce indicates that a work item has been in a stage longer than the average time. In this case, longer than 4 months. | <img src="media/d1_9.png" alt="d1_9" style="width:30%; height:auto;"> |
-| 10 | The work item card provides more detail about the specific work item, including and an audit trail, providing information to help in getting that work item moving forward. DevOps Velocity's Wait State alert helps keep work items that are taking too long top of mind. Close the work item details by clicking the X top right of the work item card. | <img src="media/d1_10.png" alt="d1_10" style="width:100%; height:auto;"> |
+| 10 | The work item card provides more detail about the specific work item, including and an audit trail, providing information to help in getting that work item moving forward. DevOps Velocity's Wait State alert helps keep work items that are taking too long top of mind. Close the work item details by clicking the X top right of the work item card. | <img src="media/d1_10.png" alt="d1_10" style="width:50%; height:auto;"> |
 | **HINT:** | Returning to the Legend, notice that DevOps Velocity can also track Commits and Pull Requests as well as Work Items - story, defect or task. | <img src="media/d1_11.png" alt="d1_11" style="width:50%; height:auto;"> |
-| 11 | Close the Legend pop up window by clicking the X in the Legend pop up window. | <img src="media/d1_12.png" alt="d1_12" style="width:100%; height:auto;"> |
+| 11 | Close the Legend pop up window by clicking the X in the Legend pop up window. | <img src="media/d1_12.png" alt="d1_12" style="width:50%; height:auto;"> |
 | 12 | Continuing to work in the JKE Value Stream, locate the filters on the sub navigation bar in the value stream view. | <img src="media/d1_13.png" alt="d1_13" style="width:100%; height:auto;"> <br/> <img src="media/d1_14.png" alt="d1_14" style="width:100%; height:auto;"> |
 | 13 | Click on the following filters and select the filtering options listed below: <br/><br/> <strong>Time:</strong> 60 days (display work items which have been modified in the last 60 days)<br/> <strong>Type:</strong> Story (display work items of Story type only) <br/> <strong>Sprint:</strong> Sprint 2 (display work items which are scheduled for Sprint 2 release) | <img src="media/d1_18.png" alt="d1_18" style="width:100%; height:auto;"> |
 | 14 | Notice how only the work items matching the filter settings are displayed. This filtering capability helps teams focus on specific work items matching a specific criteria. | <img src="media/d1_19.png" alt="d1_19" style="width:100%; height:auto;"> |
@@ -99,8 +99,6 @@ The value stream for this demo is architected to align with ELM's workflow inclu
 | 20 | Enter "issue.owner = Bob" in the text box. | <img src="media/d1_25.png" alt="d1_25" style="width:100%; height:auto;"> |
 | 21 | Observe how DQL enables the user to return a collection of work items meeting the search criteria. In this case, Velocity has displayes ALL work items currently owned by Bob. |  |
 | **HINT:** | DQL provides the user with code assist to help build more complex queries to return the desired data. |   |
-
-
 Congratulations on successfully completing this section of the demonstration.
 
 ### 1.2 Working with DevOps Velocity's KPIs and Metrics
@@ -121,8 +119,9 @@ This section of the demonstration will share details on the many of the KPIs rea
 | **HINT:** | Due to the older ELM data being synchronized with DevOps Velocity, the trending feauture is showing infinity. However, as work items change state and new data is added, the trending KPIs will provide very important data. Red arrows indicate that the delivery pipeline is getting slower and Velocity will calculate and display a percentage of how much of a increase in time. Green arrows indicate positive change and again, Velocity will display a percentage of the level of improvement | <img src="media/d1_30.png" alt="d1_30" style="width:25%; height:auto;"> | 
 | 6 | Click on the + icon (right of the Lead Time and Cycle Time KPIs) to add some additional metrics to the metrics bar. | <img src="media/d1_31.png" alt="d1_31" style="width:50%; height:auto;"> |
 | 7 | From the list provided, select Average Load, Throughput and Distribution as 3 examples. | <img src="media/d1_32.png" alt="d1_32" style="width:100%; height:auto;"> |
-| 8 | The metrics bar update should be displayed similar to the following: <br/><br/><img src="media/d1_33.png" alt="d1_33" style="width:100%; height:auto;"> <br/> <br/> <strong>Metrics Definitions:</strong> <br/><br/> <strong>Average Load</strong>  - The number of work items active or waiting in a value stream at a given time. Load measures utilization capabilities of value streams related to productivity in the process flow. "Active" refers to the stages from the lead-time start until the lead-time end. <br/> <strong>Throughput</strong> - The rate of work items completed during a period of time. Improving throughput can result in better responsiveness to customer requirements and may yield lead time reductions for value streams. <br/> <strong>Distribution</strong> - The proportion of different types of work items over time. This provides teams visibility into the type of work being completed (features, defects, tasks, and so forth.) <br/><br/> For more information about DevOps Velocity Metrics, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-displaying#vsm_metricsBar). <br/> |  |
+| 8 | The metrics bar update should be displayed similar to the following: <br/><br/><img src="media/d1_33.png" alt="d1_33" style="width:100%; height:auto;"> <br/> <br/> <strong>Metrics Definitions:</strong> <br/><br/> <strong>Average Load</strong>  - The number of work items active or waiting in a value stream at a given time. Load measures utilization capabilities of value streams related to productivity in the process flow. "Active" refers to the stages from the lead-time start until the lead-time end. <br/> <strong>Throughput</strong> - The rate of work items completed during a period of time. Improving throughput can result in better responsiveness to customer requirements and may yield lead time reductions for value streams. <br/> <strong>Distribution</strong> - The proportion of different types of work items over time. This provides teams visibility into the type of work being completed (features, defects, tasks, and so forth.) <br/><br/> For more information about DevOps Velocity Metrics, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-displaying#vsm_metricsBar). |   |
 
+Congratulations on successfully completing this section of the demonstration.
 
 ### 1.3 DevOps Velocity and the Swimlane View
 
@@ -134,7 +133,7 @@ DevOps Velocity's swimlane view display the same work items as shown on the valu
 | 2 | Click on the "Sprint" swimlane. | <img src="media/d1_35.png" alt="d1_35" style="width:25%; height:auto;"> |
 | 3 | Notice how easily you can see the status of each work item in each phase and stage of the value stream helping teams determine if they will deliver work on time and as per plan. | <img src="media/d1_36.png" alt="d1_36" style="width:100%; height:auto;"> |
 | 4 | Click on the Release, Type and Priority swimlanes to observe how DevOps Velocity visualizes the work items for each swimlane category similar to what was seen in the Sprint swimlane view. |  |
-| **Example Scenario** | Imagine you are the Team Lead for the JKE Banking product team and have assembled the team to review current assignments.<br/><br/> How could Velocity assist in conducting this meeting? | |
+| **Example Scenario** | Imagine you are the Team Lead for the JKE Banking product team and have assembled the team to review current assignments.<br/><br/> How could Velocity assist in conducting this meeting? |  |
 | 5 | Click on the "Owner" swimlane view and let's concentrate on the "In Progress" stage as that shows the work items currently being worked on. | <img src="media/d1_37.png" alt="d1_37" style="width:100%; height:auto;"> |
 | 6 | Notice that Marco has two active work items violating the WIP best practice of one work item at a time and both are exceeding the average wait time. | <img src="media/d1_38.png" alt="d1_38" style="width:100%; height:auto;"> |
 | **NOTE:** | At this point, there would be a conversation asking Marco about the two open work items runnning long. And through that discussion Marco shared that time was being wasted having asking Bob for updates on the associated Task. And he was also having to provide status updates to Al, owner of the story, for the task assigned to him. |  |
@@ -146,18 +145,18 @@ DevOps Velocity's swimlane view display the same work items as shown on the valu
 | 11 | Returning to the work item Overview tab, change the owner of the Story to "Bob", save the change, and close the EWM browser tab. |  <img src="media/d1_44.png" alt="d1_44" style="width:100%; height:auto;"> |
 | 12 | Click on the Task owned by Marco in the In Progress stage and again open the work item card clicking the card title to open the work item in EWM. | <img src="media/d1_45.png" alt="d1_45" style="width:100%; height:auto;"> |
 | 13 | Click on the Task work item's link tab and hover over the parent work item to view the Story overview. | <img src="media/d1_46.png" alt="d1_46" style="width:100%; height:auto;"> |
-| 14 | Notice that the Story is owned by "Al" but the Task to implement the story is owned by "Marco". |  |
+| 14 | Notice that the Story is owned by "Al" but the Task to implement the story is owned by "Marco". |   |
 | 15 | Click on the Parent work item link, change the owner to be Marco, save the changes and close the EWM browser tab. | <img src="media/d1_47.png" alt="d1_47" style="width:100%; height:auto;"> |
-| 16 | Notice how the work items being visualized are reflecting the changes made in EWM. |  |
+| 16 | Notice how the work items being visualized are reflecting the changes made in EWM. |   |
 | **NOTE:** | Through the integration between DevOps Velocity and ELM, Velocity will synchronize work item changes every 5 minutes. For the purposes of this demo and to avoid wasting time waiting for the EWM changes to be synchronized with Velocity, perform the following steps. |   |
 | | Click on the Settings icon, top RHS of DevOps Velocity browser tab. | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
 | | On the Settings page, select Integrations from the LH navigation bar. | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
 | | Click the Disable/Enable control for the EWM(JKEBanking) integration toggling from off to back on. <br/> This toggling action will force Velocity to re-sync with EWM and retrieve the changes. | <img src="media/d1_50.png" alt="d1_50" style="width:50%; height:auto;"> |
-| | Return to the Owner Swimlane view of the JKE Banking Demo (Change Management) value stream. |  |
+| | Return to the Owner Swimlane view of the JKE Banking Demo (Change Management) value stream. |   |
 | 17 | Perform a plain text search using the phrase "organizations can apply". | <img src="media/d1_51.png" alt="d1_51" style="width:50%; height:auto;"> |
 | 18 | Notice that after the changes in EWM, both the story and the task to implemented that story are owned by Marco. | <img src="media/d1_52.png" alt="d1_52" style="width:50%; height:auto;"> |
 
-Very quickly and with the help of DevOps Velocity, the Team Lead was able to review work item distribution and take corrective action to make both Bob and Marco more efficient as they now own the story and the children tasks to implement that story instead of working on tasks for others stories and communicating on progress.
+Very quickly and with the help of DevOps Velocity, the Team Lead was able to review work item distribution and take corrective action to make both Bob and Marco more efficient. As they now own the story and the children tasks to implement that story instead of working on tasks for others stories, this has reduced the time spent having to communicate on progress with others.
 
 Congratulations on successfully completing Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity of the demonstration.
 
@@ -168,15 +167,39 @@ Congratulations on successfully completing Business Scenario 1: Visualize and Op
 
 ### 2.1 DevOps Velocity's "Digital Chain of Custody"
 
-| **Step** | **Details**  | **Additional Information** |
+The activity performed against every work item visualized in DevOps Velocity is tracked from inception to completion. This assist the team when asked to verify that specific work items have followed the development process by auditors. What could be a large effort checking the different solutions used in the delivery pipeline, Velocity makes responding to the request simple. In fact, Auditors equipped with access to Velocity could check for themselves without interrupting the team. 
+
+| **Step** | <div style="width:500px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+| 1 | Working in the JKE Banking Demo (Change Management) value stream, perform a plain text search using the string value "78". | <img src="media/d2_1.png" alt="d2_1" style="width:50%; height:auto;"> |
+| 2 | Click on the one work item displayed in the Done/Verified stage of the Release phase. |   |
+| 3 | On the work item card displayed, scroll down to see a complete audit trail of activities performed. Including who performed the action and when the action was performed. | <img src="media/d2_2.png" alt="d2_2" style="width:50%; height:auto;"> |
+| 4 | Close the work item card by click the X top right. |   |
+
+Congratulations on successfully completing this section of the demonstration.
 
 ### 2.2 Adding DevOps Velocity's Bottleneck Detection capability
 
-| **Step** | **Details**  | **Additional Information** |
+DevOps Velocity's Bottleneck Detection capability automatically executes AI algorithms against the work item's history, visualized in the value stream, checking for 3 specific types of bottlencks and identifying a specific stage which requires attention. Those bottleneck types are:
+1. Dominant stage bottleneck
+2. Batching bottleneck
+3. Inflow/outflow asymmetry bottleneck
+
+A **dominant stage bottleneck** occurs when one stage in a value stream has a time-in-stage value greater than or equal to the sum of the time-in-stages of all other stages in that value stream. The dominant stage detection algorithm detects this condition in a value stream and uses the severity value of the dominant stage to non-dominant stages time-in-stages to assess the severity. Each value stream will have only one dominant stage bottleneck detection at a given time.
+
+A **batching bottleneck** occurs when work items exit a given stage in short time intervals separated by large intervals with no associated activity. This algorithm detects batching by calculating stage exit event densities and comparing peak densities to off-peak densities. The severity of the batching bottleneck corresponds to the peak to off-peak density ratio. A value stream may contain multiple stages with batching bottlenecks at a given time.
+
+An **inflow/outflow asymmetry bottleneck** occurs when there is an unusually large difference of work items flowing into and out of a stage on a given day. This algorithms monitors 24 hour periods where the net work item flow for a stage is greater than two standard deviations from the mean net flow, and total stage flow is in the top five percent of the historical stage flow records. The severity of the bottleneck is assessed by the amount value above the net flow detection threshold. A value stream may have multiple stages with inflow/outflow asymmetry bottlenecks at a given time.
+
+In this section, you will enable DevOps Velocity's Bottleneck Detection capability and add it to the JKE Banking Demo (Change Management) value stream.
+
+| **Step** | <div style="width:600px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
+| 1 | Navigate to DevOps Velocity's Settings page click the gear icon (top right of browser window) | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
+| 2 | Click on the Integrations view. | <img src="media/d1_49.png" alt="d1_49" style="width:25%; height:auto;"> |
+| 3 | Click the Available tab on the Integrations page. | <img src="media/d2_3.png" alt="d2_3" style="width:50%; height:auto;"> |
+| 4 | Search for the Bottleneck Detection plugin and click "Add Integration". | <img src="media/d2_4.png" alt="d2_4" style="width:50%; height:auto;"> |
+| 5 |
 
 
 ### 2.3 Working with DevOps Velocity's DashBoards and Charts
@@ -185,8 +208,6 @@ Congratulations on successfully completing Business Scenario 1: Visualize and Op
 |:-------------:|:------------- |:------------- |
 | 1 |   | <img src="media/d1.png" alt="d1" style="width:50%; height:auto;"> |
 
-
-<br/>
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 
