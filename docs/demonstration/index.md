@@ -137,22 +137,22 @@ DevOps Velocity's swimlane view display the same work items as shown on the valu
 | 5 | Click on the "Owner" swimlane view and focussing on the "In Progress" stage see all the work items currently being worked on. | <img src="media/d1_37.png" alt="d1_37" style="width:100%; height:auto;"> |
 | 6 | Notice that Marco has two active work items violating the WIP best practice of one work item at a time and both work items are exceeding the average wait time for In Progress stage. | <img src="media/d1_38.png" alt="d1_38" style="width:100%; height:auto;"> |
 | **NOTE:** | At this point, there would be a conversation asking Marco about the two open work items runnning long. And through that discussion Marco shared that time was being wasted having to ask Bob for updates on the associated Tas assigned to him. And he was also having to provide status updates to Al, owner of the story, for the task assigned to himself. |  |
-| 7 | Click on the "Story" work item to open the work item card and click on the "work item title" on the card. | <img src="media/d1_39.png" alt="d1_39" style="width:100%; height:auto;"><br/> <img src="media/d1_40.png" alt="d1_40" style="width:50%; height:auto;">|
+| 7 | Click on the "Story" work item to open the work item card and click on the title "Customers can Nominate an Organization" to hyperlink to the work item in EWM. | <img src="media/d1_39.png" alt="d1_39" style="width:100%; height:auto;"><br/> <img src="media/d1_40.png" alt="d1_40" style="width:50%; height:auto;">|
 | **HINT:** | If prompted to authenticate with the ELM system, use the following: <br/>User ID: sysadmin<br/>Password: passw0rd (passw-zero-rd)<br/> |  |
-| 8 | Working in EWM, click on the work item's Links tab. | <img src="media/d1_41.png" alt="d1_41" style="width:50%; height:auto;"> |
-| 9 | Hover the mouse pointer over the child work item to display the Task overview information. | <img src="media/d1_42.png" alt="d1_42" style="width:100%; height:auto;"> |
-| 10 | Notice that "Bob" is the owner of the Task which is associated to the parent Story owned by "Marco". <br/> For the purpose of this demo scenario, let's assume that JKE Banking Engineering has a rule that the individual who owns the story should also own the tasks to implement the story. The ownership of work items is clearly a violation of this rule. | <img src="media/d1_43.png" alt="d1_43" style="width:100%; height:auto;"> |
+| 8 | Working in EWM, click on the work item's "Links" tab. | <img src="media/d1_41.png" alt="d1_41" style="width:50%; height:auto;"> |
+| 9 | Hover the mouse pointer over the "Implement - Customers can Nominate an Organization" child work item to display the Task overview information. | <img src="media/d1_42.png" alt="d1_42" style="width:100%; height:auto;"> |
+| 10 | Notice that "Bob" is the owner of the Task which is associated to the parent Story owned by "Marco". <br/> For the purpose of this demo scenario, let's assume that JKE Banking Engineering has a rule that the individual who owns the story should also own the tasks to implement the story. The different ownership of work items is clearly a violation of this rule. | <img src="media/d1_43.png" alt="d1_43" style="width:100%; height:auto;"> |
 | 11 | Returning to the work item Overview tab, change the owner of the Story to "Bob", save the change, and close the EWM browser tab. |  <img src="media/d1_44.png" alt="d1_44" style="width:100%; height:auto;"> |
-| 12 | Click on the Task owned by Marco in the In Progress stage and again open the work item card clicking the card title to open the work item in EWM. | <img src="media/d1_45.png" alt="d1_45" style="width:100%; height:auto;"> |
-| 13 | Click on the Task work item's link tab and hover over the parent work item to view the Story overview. | <img src="media/d1_46.png" alt="d1_46" style="width:100%; height:auto;"> |
+| 12 | Click on the "Task" owned by Marco in the "In Progress" stage and again open the work item card clicking the card title to open the work item in EWM. | <img src="media/d1_45.png" alt="d1_45" style="width:100%; height:auto;"> |
+| 13 | Click on the Task work item's "Links" tab and hover over the parent work item to view the Story overview. | <img src="media/d1_46.png" alt="d1_46" style="width:100%; height:auto;"> |
 | 14 | Notice that the Story is owned by "Al" but the Task to implement the story is owned by "Marco". |   |
-| 15 | Click on the Parent work item link, change the owner to be Marco, save the changes and close the EWM browser tab. | <img src="media/d1_47.png" alt="d1_47" style="width:100%; height:auto;"> |
-| 16 | Notice how the work items being visualized are reflecting the changes made in EWM. |   |
+| 15 | Click on the Parent work item link, change the owner to be "Marco", save the changes, and close the EWM browser tab. | <img src="media/d1_47.png" alt="d1_47" style="width:100%; height:auto;"> |
+| 16 | Notice how the work items being visualized in DevOps Velocity are reflecting the changes made in EWM. |   |
 | **NOTE:** | Through the integration between DevOps Velocity and ELM, Velocity will synchronize work item changes every 5 minutes. For the purposes of this demo and to avoid wasting time waiting for the EWM changes to be synchronized with Velocity, perform the following steps. |   |
-| | Click on the Settings icon, top RHS of DevOps Velocity browser tab. | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
-| | On the Settings page, select Integrations from the LH navigation bar. | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
-| | Click the Disable/Enable control for the EWM(JKEBanking) integration toggling from off to back on. <br/> This toggling action will force Velocity to re-sync with EWM and retrieve the changes. | <img src="media/d1_50.png" alt="d1_50" style="width:100%; height:auto;"> |
-| | Return to the Owner Swimlane view of the JKE Banking Demo (Change Management) value stream. |   |
+| | Click on the "Settings" icon (top RHS of DevOps Velocity browser window". | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
+| | On the Settings page, select "Integrations" (the LH navigation bar). | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
+| | Click the "Disable/Enable" control for the EWM(JKEBanking) integration toggling from off to back on. <br/> This toggling action will force Velocity to re-sync with EWM and retrieve the changes. | <img src="media/d1_50.png" alt="d1_50" style="width:100%; height:auto;"> |
+| | Return to the "Owner" Swimlane view of the "JKE Banking Demo (Change Management)" value stream. |   |
 | 17 | Perform a plain text search using the phrase "organizations can apply". | <img src="media/d1_51.png" alt="d1_51" style="width:50%; height:auto;"> |
 | 18 | Notice that after the changes in EWM, both the story and the task to implemented that story are owned by Marco. | <img src="media/d1_52.png" alt="d1_52" style="width:100%; height:auto;"> |
 
@@ -160,7 +160,7 @@ Very quickly and with the help of DevOps Velocity, the Team Lead was able to rev
 
 **Congratulations on successfully completing "Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity" of the demonstration.**
 
-Hopefully you have gained an appreciation for the many DevOps Velocity's features which can help teams identify slow points in the delivery pipeline and how Velocity presents an abundance of information to assist in determining where corrective action is needed in order to optimize the flow of work through the software delivery pipeline.
+Hopefully you have gained an appreciation for the many DevOps Velocity features which can help teams identify slow points in the delivery pipeline and how Velocity presents an abundance of information to assist in determining where corrective action is needed in order to optimize the flow of work through the software delivery pipeline.
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 <br/>
@@ -169,7 +169,7 @@ Hopefully you have gained an appreciation for the many DevOps Velocity's feature
 
 ### 2.1 DevOps Velocity's "Digital Chain of Custody"
 
-The activity performed against every work item visualized in DevOps Velocity is tracked from inception to completion. This assist the team when asked to verify that specific work items have followed the development process by auditors. What could be a large effort checking the different solutions used in the delivery pipeline, Velocity makes responding to the request simple. In fact, Auditors equipped with access to Velocity could check for themselves without interrupting the team. 
+The activity performed against every work item visualized in DevOps Velocity is tracked from inception to completion. This assists the team when asked to verify that specific work items have followed the development process by auditors. What could be a large effort checking the different solutions used in the delivery pipeline, Velocity makes responding to the request simple. In fact, Auditors equipped with access to Velocity could check for themselves without interrupting the team. 
 
 | **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
