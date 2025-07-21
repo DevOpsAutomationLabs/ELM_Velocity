@@ -169,20 +169,20 @@ Hopefully you have gained an appreciation for the many DevOps Velocity features 
 
 ### 2.1 DevOps Velocity's "Digital Chain of Custody"
 
-The activity performed against every work item visualized in DevOps Velocity is tracked from inception to completion. This assists the team when asked to verify that specific work items have followed the development process by auditors. What could be a large effort checking the different solutions used in the delivery pipeline, Velocity makes responding to the request simple. In fact, Auditors equipped with access to Velocity could check for themselves without interrupting the team. 
+The activity performed against every work item, being visualized in DevOps Velocity, is tracked from inception to completion. This assists the team when asked to verify that specific work items have followed the development process by Company Auditors. What could be a large effort checking the different solutions used across the delivery pipeline, DevOps Velocity makes responding to the request simple. In fact, Auditors equipped with access to Velocity could check on compliance for themselves without interrupting the team. 
 
 | **Step** | <div style="width:350px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Working in the JKE Banking Demo (Change Management) value stream, perform a plain text search using the string value "78". | <img src="media/d2_1.png" alt="d2_1" style="width:100%; height:auto;"> |
-| 2 | Click on the one work item displayed in the Done/Verified stage of the Release phase. |   |
-| 3 | On the work item card displayed, scroll down to see a complete audit trail of activities performed. Including who performed the action and when the action was performed. | <img src="media/d2_2.png" alt="d2_2" style="width:50%; height:auto;"> |
-| 4 | Close the work item card by click the X top right. |   |
+| 1 | Working in the "JKE Banking Demo (Change Management)" value stream, perform a plain text search using the string value "78". | <img src="media/d2_1.png" alt="d2_1" style="width:100%; height:auto;"> |
+| 2 | Click on the one work item displayed in the "Done/Verified" stage of the Release phase. |   |
+| 3 | On the work item card displayed, scroll down to see a complete audit trail of activities performed against this work item. Including who performed the action and when the action was performed. | <img src="media/d2_2.png" alt="d2_2" style="width:50%; height:auto;"> |
+| 4 | Close the work item card by click the "X" top right. |   |
 
 Congratulations on successfully completing this section of the demonstration.
 
 ### 2.2 Adding DevOps Velocity's Bottleneck Detection capability
 
-DevOps Velocity's Bottleneck Detection capability automatically executes AI algorithms against the work item's history, visualized in the value stream, checking for 3 specific types of bottlencks and identifying a specific stage which requires attention. Those bottleneck types are:
+DevOps Velocity's Bottleneck Detection capability automatically executes AI algorithms against the work item's history, visualized in the value stream, checking for 3 specific types of bottlencks and identifying a specific stage where the bottleneck was detected. The three bottleneck types are:
 1. Dominant stage bottleneck
 2. Batching bottleneck
 3. Inflow/outflow asymmetry bottleneck
@@ -198,35 +198,38 @@ In this section, you will enable DevOps Velocity's Bottleneck Detection capabili
 | **Step** | <div style="width:350px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Navigate to DevOps Velocity's Settings page click the gear icon (top right of browser window) | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
-| 2 | Click on the Integrations view. | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
-| 3 | Click the Installed tab on the Integrations page. | <img src="media/d2_3.png" alt="d2_3" style="width:50%; height:auto;"> |
+| 2 | Click on the "Integrations" view. | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
+| 3 | Click the "Installed" tab on the "Integrations" page. | <img src="media/d2_3.png" alt="d2_3" style="width:50%; height:auto;"> |
 | 4 | Search for the Bottleneck Detection plugin and click "Add Integration". | <img src="media/d2_4.png" alt="d2_4" style="width:100%; height:auto;"> |
-| 5 |  Provide a meaningful name (e.g. Bottleneck Detection) to identify the plugin in the future and click Add.  | <img src="media/d2_5.png" alt="d2_5" style="width:50%; height:auto;"> |
-| 6 | Return to the JKE Banking Demo (Change Management) value stream. |   |
-| 7 | Click the + to add the Bottleneck Detection metric to the metrics bar. | <img src="media/d2_6.png" alt="d2_6" style="width:50%; height:auto;"> |
-| 8 | Select Bottleneck from the list of metrics displayed. |   <img src="media/d2_7.png" alt="d2_7" style="width:50%; height:auto;"> |
+| 5 | Provide a meaningful name (e.g. Bottleneck Detection) to identify the plugin and click Add.  | <img src="media/d2_5.png" alt="d2_5" style="width:50%; height:auto;"> |
+| 6 | Return to the "JKE Banking Demo (Change Management)" value stream. |   |
+| 7 | Click the "+" to add the Bottleneck Detection metric to the metrics bar. | <img src="media/d2_6.png" alt="d2_6" style="width:50%; height:auto;"> |
+| 8 | Select "Bottleneck" from the list of metrics presented. |   <img src="media/d2_7.png" alt="d2_7" style="width:50%; height:auto;"> |
 | 9 | Notice that the Bottleneck Detection algorithm has run and that DevOps Velocity has identified that "In Progress" is the slowest point in the delivery pipeline. | <img src="media/d2_8.png" alt="d2_8" style="width:50%; height:auto;"> | 
 | 9 | Hover the mouse pointer of the Bottleneck metric to get more detail on the type of Bottleneck. | <img src="media/d2_9.png" alt="d2_9" style="width:100%; height:auto;"> |
+| 10 | DevOps Velocity has identified a dominant stage bottleneck because the 4 month wait time in stage value exceeds the sum of all other stage wait time in stage values. |   | 
 
 Congratulations on successfully completing this section of the demonstration.
 
 ### 2.3 Working with DevOps Velocity's DashBoards and Charts
 
-Where the value stream visualize and display data over the past 30 days, Insights Dashboards display data from a little as 24 hours to all time depending on the filter settings. Having the ability to view delivery pipeline data across a longer time period, teams can use charts to understand change over time to understand if productivity is improving or not.
+Where the value stream visualizes and displays data over the past 30 days, Insights Dashboards can display data from as little as 24 hours to all time depending on the filter settings. Having the ability to view delivery pipeline data across a longer time period, teams can use charts to understand change over time to understand if productivity is improving or not.
 
 | **Step** | <div style="width:350px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Continuing to work in DevOps Velocity, click on the Insights icon located on the left hand navigation bar.  | <img src="media/d2_10.png" alt="d2_10" style="width:50%; height:auto;"> |
-| 2 | Click on the JKE Banking card to open the dashboard. | <img src="media/d2_11.png" alt="d2_11" style="width:50%; height:auto;"> |
-| **NOTE:** | This dashboard has been configured for the purposes of this demonstration. Know that, dashboards can be configured to display data meeting the needs of your stakeholders. |    |
-| 3 | Take a moment to explore the data present. Explore how the data being displayed in the charts changes by modifying the Time and Group by filter settings. | <img src="media/d2_12.png" alt="d2_12" style="width:100%; height:auto;" > |
-| 4 | Click the magnifying glass icon on the "Lead Time to Change" chart drilling into the chart details. | <img src="media/d2_13.png" alt="d2_13" style="width:100%; height:auto;" > |
+| 1 | Continuing to work in DevOps Velocity, click on the "Insights" icon (left hand navigation bar in browser window).  | <img src="media/d2_10.png" alt="d2_10" style="width:50%; height:auto;"> |
+| 2 | Click on the "JKE Banking" card to open the dashboard. | <img src="media/d2_11.png" alt="d2_11" style="width:50%; height:auto;"> |
+| **NOTE:** | This dashboard has been configured for the purposes of this demonstration. Know that, dashboards can be created, configured, and/or modified to display data meeting the needs of your stakeholders. |    |
+| 3 | Take a moment to explore the data presented. Explore how the data being displayed in the charts changes by modifying the Time and Group by filter settings. | <img src="media/d2_12.png" alt="d2_12" style="width:100%; height:auto;" > |
+| 4 | Click the "magnifying glass" icon on the "Lead Time to Change" chart drilling into that chart's data details. | <img src="media/d2_13.png" alt="d2_13" style="width:100%; height:auto;" > |
 | 5 | Scroll down in the chart details and see information for all the work items which have been completed including: <br/>  - Work item ID <br/> - Type <br/>  - Name <br/> - Owner <br/> - Lead Time to Change duration<br/> | <img src="media/d2_14.png" alt="d2_14" style="width:100%; height:auto;" > |
-| **NOTE:** | While the chart image presents overview of what has transpired and makes it easy to identify trends, the details view provides the team with more information related to individual work items included in the chart image. |   |
-| 6 | Click <- Back to charts to return to the dashboard view. | <img src="media/d2_15.png" alt="d2_15" style="width:25%; height:auto;" > |
-| 7 | The Lead Time and Cycle Time KPI charts use Insight rules set up for this demonstration which can display Technical Objectives. Insight rules allow the team to set goals related to productivity and instantly see progress in achieving those goals. <br/><br/> For the Lead Cycle KPI, an acceptable amount of time for a work item to go from inception to implementation is 25 days. And the Cycle Time shows delivery goal of 20 days from the time work starts until it is declared Done and in Production. | <img src="media/d2_16.png" alt="d2_16" style="width:100%; height:auto;" > |
+| **NOTE:** | While the chart image presents an overview of what has transpired and makes it easy to identify trends, the details view provides the team with more information related to individual work items included in the chart image. |   |
+| 6 | Click "<- Back to charts" to return to the dashboard view. | <img src="media/d2_15.png" alt="d2_15" style="width:25%; height:auto;" > |
+| 7 | The "Lead Time KPI" and "Cycle Time KPI" charts use Insight rules set up for this demonstration which can display Technical Objectives. Insight rules allow the team to set goals related to value stream productivity and instantly see progress in achieving those goals. <br/><br/> For the Lead Cycle KPI, an acceptable amount of time for a work item to go from inception to implementation is 25 days. And the Cycle Time shows delivery goal of 20 days from the time work starts until it is declared Done and in Production. | <img src="media/d2_16.png" alt="d2_16" style="width:100%; height:auto;" > |
 
 **Congratulations on successfully completing "Business Scenario 2: Eliminate guess work and use data to make better investment decisions for process improvement" of the demonstration.**
+
+Hopefully you have gained an appreciation for the many ways DevOps Velocity makes data available for viewing and the advanced features like Bottleneck Detection and Insights charts to help teams use data to make better choices on where to invest in process improvement.
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 
