@@ -163,9 +163,9 @@ As previously mentioned, this enablement exercise is using a value stream templa
 
 However, even though much of the value stream architecture work has already been completed, specific edits still need to be made to the template adding the plugin integration name so that Velocity knows which collection of data should be visualized in the value stream.
 
-| **Step** | **Details**  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Continuing to work in the newly created value stream view, locate and click on the wrench icon (top RHS of browser window). | <img src="media/e21.png" alt="e21" style="width:50%; height:auto;"> |
+| 1 | Continuing to work in the newly created value stream view, locate and click on the "wrench" icon (top RHS of browser window). | <img src="media/e21.png" alt="e21" style="width:50%; height:auto;"> |
 | 2 | Select the "Edit value stream map" option. | <img src="media/e22.png" alt="e22" style="width:50%; height:auto;"> |
 | 3 | Open the EWM VS map file in a new browser tab.| [EWM VS map Template](https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/EWM_defaultWorkflow-vsm.json) |
 | 4 | Working in the new browser tab, select/highlight the entire VS map code, and copy. |  |
@@ -177,7 +177,7 @@ However, even though much of the value stream architecture work has already been
 | 9 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
 | 10 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e29.png" alt="e29" style="width:100%; height:auto;"> |
 | 11 | To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar. | <img src="media/e30.png" alt="e30" style="width:20%; height:auto;"> |
-| 12 | Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout. | <img src="media/e31.png" alt="e31" style="width:100%; height:auto;"> |
+| 12 | Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. Release the mouse button when the stages is positioned as required. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout. | <img src="media/e31.png" alt="e31" style="width:100%; height:auto;"> |
 | 13 | Disable the drag feature when done. |  |
 
 Congratulations on successfully configuring the DevOps Velocity value stream to visualize EWM artifacts.
@@ -187,11 +187,11 @@ Congratulations on successfully configuring the DevOps Velocity value stream to 
 
 ## Section: Integrating DevOps Velocity with ERM
 
-Due to the flexibility provided to clients using ERM (DOORs NG), certain setup steps are necessary to properly visualize the requirement artifact types in a DevOps Velocity value stream. Know that all setup steps align to best practices user should be following.
+Due to the flexibility provided to clients using ERM (DOORs NG), certain setup steps are necessary to properly integrate with ERM and visualize the requirement artifact types in a DevOps Velocity value stream. Know that all setup steps align to best practices user should be following.
 
 Because users can create new artifact types and artifact attributes, including attributes to capture status, it was decided that in order to visualize requirements in DevOps Velocity that to track status, users must specify a project workflow.
 
-Also, as there are many types of requirements, some of which the user would not visualize in Velocity, shared views must be configured allowing Velocity's DOORs NG plugin to know exactly which artifact type to sync on.
+Also, as there are many types of requirements, some of which the user would not visualize in Velocity, shared views must be configured allowing Velocity's DOORs NG plugin to know exactly which artifact type to sync on.ß
 
 This enablement exercise will walk through the steps to:<br/>
 
@@ -208,10 +208,10 @@ To complete the following exercise, ERM has been setup with two requirements pro
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Launch ERM in a browser window and authenticate.<br/> (uid: sysadmin / pwd: passw0rd) | <img src="media/e32.png" alt="e32" style="width:50%; height:auto;"> |
-| 2 | Click on the hamburger icon (top LHS) and open the "JKE Banking (Requirements Management)" RM project. | <img src="media/e33.png" alt="e33" style="width:25%; height:auto;"> |
-| 3 | Click on the gear icon (top LHS) and select "Manage Project Properties" from the options presented. | <img src="media/e34.png" alt="e34" style="width:50%; height:auto;"> |
-| 4 | Working in the Artifact Types list box, locate and select the Feature artifact type. | <img src="media/e35.png" alt="e35" style="width:50%; height:auto;"> |
+| 1 | Launch ERM in a Google browser window using the shortcut provided and authenticate with the ELM environment.<br/> (uid: sysadmin / pwd: passw0rd) | <img src="media/e32.png" alt="e32" style="width:75%; height:auto;"> |
+| 2 | Select "JKE Banking (Requirements Management)" from the list of projects displayed. | <img src="media/e33.png" alt="e33" style="width:50%; height:auto;"> |
+| 3 | Click on the gear icon (top LHS) and select "Manage Project Properties" from the options presented. | <img src="media/e34.png" alt="e34" style="width:100%; height:auto;"> |
+| 4 | Working in the Artifact Types list box, locate and select the "Feature" artifact type. | <img src="media/e35.png" alt="e35" style="width:50%; height:auto;"> |
 | 5 | In the editor window for the Feature artifact type, click on the workflow control and select the workflow used to architect the value stream. <br/> In this situation, the default workflow was used. | <img src="media/e36.png" alt="e36" style="width:100%; height:auto;"> |
 | 6 | Save the changes and repeat steps 4 and 5 setting the workflow for Artifact types Use Case Requirement and User Story Elaboration saving each time. |  |
 | **NOTE:** | The requirement types chosen for this enablement exercise don't necessarily represent all Artifact Types a user may want to visualize in Velocity. However the steps are the same regardless of the Artifact type. |  |
