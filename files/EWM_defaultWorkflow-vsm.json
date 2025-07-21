@@ -123,20 +123,20 @@
     }
   ],
   "leadTimeChange": {
-    "start": "New",
-    "end": "Done/Verified"
+    "start": ["New"],
+    "end": ["Done/Verified"]
   },
   "leadTime": {
-    "start": "In Progress",
-    "end": "Done/Verified"
+    "start": ["In Progress"],
+    "end": ["Done/Verified"]
   },
   "cycleTime": {
-    "start": "In Progress",
-    "end": "Done/Verified"
+    "start": ["In Progress"],
+    "end": ["Done/Verified"]
   },
   "devCycleTime": {
-    "start": "In Progress",
-    "end": "Implemented (Story)"
+    "start": ["In Progress"],
+    "end": ["Implemented (Story)"]
   },
   "mappings": {
     "priority": {

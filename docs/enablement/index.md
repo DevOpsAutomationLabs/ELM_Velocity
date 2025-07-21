@@ -52,7 +52,7 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ### What is a Velocity Plugin
 
-Included as part of a Velocity installation are plugins which allow the Velocity Administrator to create connections between delivery pipeline applications and synchronize data between Velocity and the integrated application repository data (ELM, Jira, GitHub, DevOps Control, etc). Each plugin defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must configure an integration. There are multiple ways to configure an integration:
+Included as part of a Velocity installation are plugins which allow the Velocity Administrator to create connections between delivery pipeline applications and synchronize data between Velocity and the integrated application's repository data (ELM, Jira, GitHub, DevOps Control, etc). Each plugin defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must first configure an integration. There are multiple ways to configure an integration:
 
 - Create an integration definition on the Plugins tab of the Integrations page.
 - Install the plug-in and then create an integration definition.
@@ -79,7 +79,7 @@ The highest level of a value stream is a phase. Phases represent important, orga
 
 Phases contain stages that define process flow within a phase. A development phase that integrates a source control tool might contain an In Progress stage followed by In Review and Merged stages. When you customize a value stream, you define the phases and stages and their order.
 
-Stages are containers for dots. Dots represent units of work from DevOps Velocity or tools that are integrated into the value stream. Git commits or Jira issues, to take just two, are represented by individual dots. Work items, such as commits and builds, can be combined into individual dots. A dot's position in the value stream conveys important information about the object. Dots in a stage named Merged might represent items merged into Git repositories. An item's shape and color convey information about the item's type and status. A dot outlined in red, for example, might mean the item is past schedule. When dots change state, they move to new stages in near-real time. Finally, when you click on a dot, the displayed card provides information about the work items, including their history, and provides links to associated tools.
+Stages are containers for dots. Dots represent units of work from DevOps Velocity or tools that are integrated into the value stream. Git commits or EWM work items, to take just two, are represented by individual dots. Work items, such as commits and builds, can be combined into individual dots. A dot's position in the value stream conveys important information about the object. Dots in a stage named Merged might represent items merged into Git repositories. An item's shape and color convey information about the item's type and status. A dot outlined in red, for example, might mean the item is past schedule. When dots change state, they move to new stages in near-real time. Finally, when you click on a dot, the displayed card provides information about the work items, including their history, and provides links to associated tools.
 
 For this purposes of this enablement exercise, a very simple approach was followed in archtitecting the value stream. The phases and stages were mapped to the artifact workflows defined in EWM showing only the current state of the user stories, defects, and tasks.
 
@@ -107,31 +107,31 @@ If you would like to review the entire VSM template, open the link in a new brow
 To visualize EWM artifacts as "DOTS" in a DevOps Velocity value stream, three basic steps must happen:<br/>
 
 1. Configure a plugin to allow Velocity to communicate with EWM.<br/>
-2. Create a Value Stream to provide a "single pane of glass" interface to visualize the "DOTS".<br/>
+2. Create a Value Stream to provide a dashboard user interface to visualize the "DOTS".<br/>
 3. Architect the Value Stream by editing the Value Stream Map (json file) to replicate the workflows being used in EWM.<br/>
 
 ### Configuring the plugin to integrate DevOps Velocity and EWM
 
-The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking sample application available with ELM.
+The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with EWM. It is assumed that the ELM server has already been setup and that an EWM project has been configured. For this lab exercise we will be using the JKE Banking MTM sample application available with ELM.
 <br/>
 
-| **Step** | **Details**  | **Additional Information** |
+| **Step** | <div style="width:250px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | To access the Velocity plugin interface, open Velocity in a browser and log in. <br/> (uid: admin / pwd: admin) |   |
-| 2 | Click on the settings icon. (Top RHS browser window) | <img src="media/e2.png" alt="e2" style="width:50%; height:auto;"> |
-| 3 | Select Integrations from the LHS navigation bar. | <img src="media/e3.png" alt="e3" style="width:50%; height:auto;"> |
-| 4 | Click on the Installed tab and review the many plugins already available. | <img src="media/e4.png" alt="e4" style="width:50%; height:auto;"> |
+| 1 | To access the Velocity plugin interface, open Velocity in a browser and log in. <br/> (uid: admin / pwd: admin) | <img src="media/d1_2.png" alt="d1_2" style="width:50%; height:auto;"> |
+| 2 | Click on the "Settings" icon. (top RHS of browser window) | <img src="media/e2.png" alt="e2" style="width:50%; height:auto;"> |
+| 3 | Select "Integrations" (LHS navigation bar of browser window). | <img src="media/e3.png" alt="e3" style="width:50%; height:auto;"> |
+| 4 | Click on the "Installed" tab and review the many plugins already available. | <img src="media/e4.png" alt="e4" style="width:50%; height:auto;"> |
 | **NOTE:** | While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature. |  |
 | 5 | In the search control, enter “EWM”. | <img src="media/e5.png" alt="e5" style="width:50%; height:auto;"> |
 | 6 | Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation. | <img src="media/e6.png" alt="e6" style="width:50%; height:auto;"> |
-| 7 | Click the "Add Integration" button (RHS of page) for IBM Engineering Workflow Management (EWM) v1.1.37. | <img src="media/e7.png" alt="e7" style="width:100%; height:auto;"> |
+| 7 | Click the "Add Integration" button (RHS of the browser window) for IBM Engineering Workflow Management (EWM) v1.1.37. | <img src="media/e7.png" alt="e7" style="width:100%; height:auto;"> |
 | 8 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** EWM(JKEBanking)<br/> **Server URL:** TODO: need to update<br/> **Projects (Comma Separated List):** JKE Banking (Change Management)<br/> **User ID:** sysadmin<br/> **Password:** passw0rd (0=zero)<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e8.png" alt="e8" style="width:50%; height:auto;"> |
 | 9 | Click the "Add" button when done. |  |
-| 10 | Click the Configured tab on the Integrations page. | <img src="media/e9.png" alt="e9" style="width:50%; height:auto;"> |
+| 10 | Click the "Configured" tab on the Integrations page. | <img src="media/e9.png" alt="e9" style="width:50%; height:auto;"> |
 | 11 | After a few seconds, confirm that the integration Status shows online. |  <img src="media/e10.png" alt="e10" style="width:75%; height:auto;"> |
-| 12 | Click the 3 dots on RHS of integration line and select "View Logs" from the options presented. |  <img src="media/e11.png" alt="e11" style="width:100%; height:auto;"> |
-| **NOTE:** |  If the status is not showing as Online, ensure the ELM Server is available. If the server is running, check the plugin settings to ensure they are properly set  by selecting Edit. | <img src="media/e12.png" alt="e12" style="width:25%; height:auto;"> |
-| 13 | Select the Log file and view output contents. | <img src="media/e13.png" alt="e13" style="width:100%; height:auto;"> |
+| 12 | Click the "3 dots" on the RHS of integration line and select "View Logs" from the options presented. |  <img src="media/e11.png" alt="e11" style="width:100%; height:auto;"> |
+| **NOTE:** |  If the status is not showing as Online, ensure the ELM Server is available. If the server is running, check the plugin settings to ensure they are properly set by clicking Edit. | <img src="media/e12.png" alt="e12" style="width:25%; height:auto;"> |
+| 13 | Click "View logs" and view output contents. | <img src="media/e13.png" alt="e13" style="width:100%; height:auto;"> |
 
 Congratulations on successfully configuring the EWM Plugin.
 
@@ -140,16 +140,16 @@ Congratulations on successfully configuring the EWM Plugin.
 
 ### Creating the EWM Value Stream in DevOps Velocity
 
-Visualizing the dots (Stories, Tasks, Defects) on a value stream dashboard requires a Value Stream created. This section will share instructions on how to create the Value Stream.
+Visualizing the "Dots" (Stories, Tasks, Defects) on a value stream dashboard requires that a Value Stream be created. This section will share instructions on how to create the Value Stream.
 
-| **Step** | **Details**  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Continuing to work in DevOps Velocity, navigate to the Value Stream view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
-| 2 | Click the "All value streams" tab top RHS of browser page. | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
+| 1 | Continuing to work in DevOps Velocity, navigate to the "Value Stream" view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
+| 2 | Click the "All value streams" (top RHS of browser window). | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
 | 3 | Click the "Create" button. | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
-| 4 | On the pop-up window, enter a meaningful name, and select Default team from the Team drop down list box. <br/> e.g. JKE Banking (Change Management) | <img src="media/e18.png" alt="e18" style="width:50%; height:auto;"> |
+| 4 | On the pop-up window, enter a meaningful name, and select "Default Team" from the Team drop down list box. <br/> e.g. JKE Banking (Change Management) | <img src="media/e18.png" alt="e18" style="width:50%; height:auto;"> |
 | 5 | Click the "Create" button. | <img src="media/e19.png" alt="e19" style="width:50%; height:auto;"> |
-| **NOTE:** | Clicking the "Create & Configure" will lead the user through a series of conifguration windows offering a wizard driven approach to creating the value stream. |  |
+| **NOTE:** | Clicking the "Create & Configure" button will lead the user through a series of conifguration windows offering a wizard driven approach to creating the value stream. |  |
 | 6 | You should now be presented with a basic value stream visualization. | <img src="media/e20.png" alt="e20" style="width:50%; height:auto;"> |
 
 Congratulations on successfully configuring a basic DevOps Velocity value stream.
@@ -165,15 +165,15 @@ However, even though much of the value stream architecture work has already been
 
 | **Step** | **Details**  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Continuing to work in the newly created value stream view, locate and click on the wrench icon. | <img src="media/e21.png" alt="e21" style="width:50%; height:auto;"> |
+| 1 | Continuing to work in the newly created value stream view, locate and click on the wrench icon (top RHS of browser window). | <img src="media/e21.png" alt="e21" style="width:50%; height:auto;"> |
 | 2 | Select the "Edit value stream map" option. | <img src="media/e22.png" alt="e22" style="width:50%; height:auto;"> |
-| 3 | Open the EWM VS map file in a browser tab.| [EWM VS map Template](https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/EWM_defaultWorkflow-vsm.json) |
+| 3 | Open the EWM VS map file in a new browser tab.| [EWM VS map Template](https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/EWM_defaultWorkflow-vsm.json) |
 | 4 | Working in the new browser tab, select/highlight the entire VS map code, and copy. |  |
-| 5 | Returning to the value stream map editor in Velocity, select/highlight the entire contents of the editor and replace by pasting in the template code. | <img src="media/e23.png" alt="e23" style="width:100%; height:auto;"> |
-| 6 | Working in the DevOps Velocity value stream editor, locate the integrations stanza within the json file near end of the file. | <img src="media/e24.png" alt="e24" style="width:100%; height:auto;"> |
+| 5 | Returning to the value stream map editor in DevOps Velocity, select/highlight the entire contents of the editor and replace by pasting in the template code from the clipboard. | <img src="media/e23.png" alt="e23" style="width:100%; height:auto;"> |
+| 6 | Working in the DevOps Velocity value stream editor, locate the "integrations stanza" within the json file (near end of the json file). | <img src="media/e24.png" alt="e24" style="width:100%; height:auto;"> |
 | 7 | Replace the "EWM integration name" text string with the name of your EWM plugin. <br/> e.g. EWM(JKEBanking) | <img src="media/e25.png" alt="e25" style="width:50%; height:auto;"> |
-| 8 | Verify that the update was saved successfully. | <img src="media/e26.png" alt="e26" style="width:50%; height:auto;"> |
-| **NOTE:** | DevOps Velocity offers version control to help in managing value stream map changes. With the recent change, note the addition of  a new version. | <img src="media/e27.png" alt="e27" style="width:50%; height:auto;"> |
+| 8 | Save and verify that the change was saved successfully. | <img src="media/e26.png" alt="e26" style="width:50%; height:auto;"> |
+| **NOTE:** | DevOps Velocity offers version control (out of the box) to help in managing value stream map changes. With the recent change, note the addition ofß a new version. | <img src="media/e27.png" alt="e27" style="width:50%; height:auto;"> |
 | 9 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
 | 10 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e29.png" alt="e29" style="width:100%; height:auto;"> |
 | 11 | To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar. | <img src="media/e30.png" alt="e30" style="width:20%; height:auto;"> |
