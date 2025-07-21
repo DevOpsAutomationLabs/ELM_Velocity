@@ -206,38 +206,36 @@ To complete the following exercise, ERM has been setup with two requirements pro
 1. JKE Banking (Requirements Management)<br/>
 2. Meter Reader GC (Global Configuration)<br/>
 
-| **Step** | **Details**  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Launch ERM in a Google browser window using the shortcut provided and authenticate with the ELM environment.<br/> (uid: sysadmin / pwd: passw0rd) | <img src="media/e32.png" alt="e32" style="width:75%; height:auto;"> |
-| 2 | Select "JKE Banking (Requirements Management)" from the list of projects displayed. | <img src="media/e33.png" alt="e33" style="width:50%; height:auto;"> |
+| 2 | Select "JKE Banking (Requirements Management)" from the list of projects displayed. | <img src="media/e33.png" alt="e33" style="width:100ß%; height:auto;"> |
 | 3 | Click on the gear icon (top LHS) and select "Manage Project Properties" from the options presented. | <img src="media/e34.png" alt="e34" style="width:100%; height:auto;"> |
 | 4 | Working in the Artifact Types list box, locate and select the "Feature" artifact type. | <img src="media/e35.png" alt="e35" style="width:50%; height:auto;"> |
-| 5 | In the editor window for the Feature artifact type, click on the workflow control and select the workflow used to architect the value stream. <br/> In this situation, the default workflow was used. | <img src="media/e36.png" alt="e36" style="width:100%; height:auto;"> |
-| 6 | Save the changes and repeat steps 4 and 5 setting the workflow for Artifact types Use Case Requirement and User Story Elaboration saving each time. |  |
+| 5 | In the editor window for the Feature artifact type, click on the "Workflow" control and select the workflow used to architect the value stream. <br/> In this exercise, the default workflow was used to architect the value stream. | <img src="media/e36.png" alt="e36" style="width:100%; height:auto;"> |
+| 6 | Save the changes and repeat steps 4 and 5 setting the workflow for Artifact types "Use Case Requirement" and "User Story Elaboration" saving each time. |  |
 | **NOTE:** | The requirement types chosen for this enablement exercise don't necessarily represent all Artifact Types a user may want to visualize in Velocity. However the steps are the same regardless of the Artifact type. |  |
-| 7 | Click on the "Artifacts" tab in the ELM navigation bar. | <img src="media/e37.png" alt="e37" style="width:50%; height:auto;"> |
+| 7 | Click on the "Artifacts" tab in the ELM navigation bar. | <img src="media/e37.png" alt="e37" style="width:100%; height:auto;"> |
 | 8 | Select "All" Artifacts, select "Views" and clear all filters. | <img src="media/e38.png" alt="e38" style="width:50%; height:auto;"> |
-| 9 | Click on the Add filter icon. | <img src="media/e39.png" alt="e39" style="width:20%; height:auto;"> |
-| 10 | Select "Artifact Type" as the attribute and select Feature, Use Case Requirement, and User Story Elaboration as the Artifact type values. | <img src="media/e40.png" alt="e40" style="width:100%; height:auto;"> |
+| 9 | Click on the "Add filter" icon. | <img src="media/e39.png" alt="e39" style="width:20%; height:auto;"> |
+| 10 | Select "Artifact Type" as the attribute and select "Feature", "Use Case Requirement", and "User Story Elaboration" as the Artifact type values. | <img src="media/e40.png" alt="e40" style="width:100%; height:auto;"> |
 | 11 | Click "Add and Close". |  |
 | 12 | Click the "Save as new view" icon. | <img src="media/e41.png" alt="e41" style="width:100%; height:auto;"> |
 | 13 | Enter a meaningful name (e.g. Velocity_Types), select "Shared", and click "OK". | <img src="media/e42.png" alt="e42" style="width:50%; height:auto;"> |
-| **NOTE:** | If the userid/password combination used to configure the Velocity plugin is not an "ELM Administrator". The userid must have access to the DOORs NG project and must be able to execute views. More on this later. |  |
-| 14 | The same process described above is used to prepare a Global Configuration project for integration with DevOps Velocity with the following differences:<br/>1. The project selected will be different (step 2). in the case of this exercise select Meter Reader GC.<br/>2. When you click on the gear icon (step 3), select Manage Components and Configurations.<br/>3. Select Stakeholder and System Requirements when setting the workflow. | <img src="media/e43.png" alt="e43" style="width:50%; height:auto;"><img src="media/e44.png" alt="e44" style="width:40%; height:auto;"> |
+| **NOTE:** | If the userid/password combination used to configure the Velocity plugin is not an "ELM Administrator". The userid must have access to the DOORs NG project and must be able to execute views. |  |
+| 14 | The same process described above is used to prepare a Global Configuration project for integration with DevOps Velocity with the following differences:<br/>1. The project selected will be different (step 2). In the case of this exercise select Meter Reader GC.<br/>2. When you click on the gear icon (step 3), select Manage Components and Configurations.<br/>3. Select "Stakeholder Requirements" and "System Requirements" when setting the workflow and creating the views. | <img src="media/e44.png" alt="e44" style="width:60%; height:auto;"> |
 | **HINT:** | Creating an individual view for each of the Artifact types provides more flexibility in selecting which Artifact types you want to sync with DevOps Velocity. |  |
 | 15 | For the Meter Reader GC project, in addition to creating a Velocity_Types view also create a view named Velocity_SystemRequirements for the System Requirement Artifact type and a view called Velocity_StakeholderRequirements for the Stakeholder Requirement Artifact type. | <img src="media/e55.png" alt="e55" style="width:50%; height:auto;"> |
 
 Congratulations on successfully preparing the RM projects and Artifact types for visualization in DevOps Velocity.
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
-<br/>
 
 ### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)
 
 The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG requirements management project. It is assumed that the ELM server has already been setup and that a DOORs NG requirements management project has been configured. For this lab exercise we will be using the JKE Banking (Requirements Management) sample application available with ELM.
-<br/>
 
-| **Step** | **Details**  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | To access the Velocity plugin interface, open Velocity in a browser and log in. <br/> (uid: admin / pwd: admin) |   |
 | 2 | Click on the settings icon. (Top RHS browser window) | <img src="media/e2.png" alt="e2" style="width:50%; height:auto;"> |
@@ -262,7 +260,7 @@ Congratulations on successfully configuring the ERM Plugin to integrate DevOps V
 The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG Global Configuration project. It is assumed that the ELM server has already been setup and that a DOORs NG Global Configuration project has been configured. For this lab exercise we will be using the Meter Reader GC sample application available with ELM.
 <br/>
 
-| **Step** | **Details**  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | To access the Velocity plugin interface, open Velocity in a browser and log in. <br/> (uid: admin / pwd: admin) |   |
 | 2 | Click on the settings icon. (Top RHS browser window) | <img src="media/e2.png" alt="e2" style="width:50%; height:auto;"> |
@@ -287,7 +285,7 @@ Congratulations on successfully configuring the ERM Plugin to integrate DevOps V
 
 Visualizing the requirements (artifact types) on a value stream dashboard requires a Value Stream created. This section will share instructions on how to create the Value Stream.
 
-| **Step** | **Details**  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in DevOps Velocity, navigate to the Value Stream view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
 | 2 | Click the "All value streams" tab top RHS of browser page. | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
@@ -309,7 +307,7 @@ As previously mentioned, this enablement exercise is using a value stream templa
 
 However, even though much of the value stream architecture work has already been completed, specific edits still need to be made to the template adding the plugin integration name so that Velocity knows which collection of data should be visualized in the value stream.
 
-| **Step** | **Details**  | **Additional Information** |
+| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in the newly created value stream view, locate and click on the wrench icon. | <img src="media/e21.png" alt="e21" style="width:50%; height:auto;"> |
 | 2 | Select the "Edit value stream map" option. | <img src="media/e22.png" alt="e22" style="width:50%; height:auto;"> |
