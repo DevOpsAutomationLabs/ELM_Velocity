@@ -23,18 +23,20 @@
 11. [Editing the value stream map template to visualize EWM Artifact Workflow](#editing-the-value-stream-map-template-to-visualize-erm-artifact-workflow)
 
 ## About this Enablement Exercise
-This lab is not a complete enablement activity teaching individuals on the full features or functionality of DevOps Velocity and/or ELM. While there is some informational material provided, it is only to help establish foundational knowledge for those performing the steps below. This exercise simply focuses on integrating the two IBM solutions. To learn more about the individual solutions, review the product documentation for available tutorials and learning exercises.
+This lab is not a complete enablement activity teaching individuals on the full features or functionality of DevOps Velocity and/or ELM. This enablement exercise simply focuses on integrating the two IBM solutions - ELM and DevOps Velocity. To learn more about the individual solutions, review the product documentation for available tutorials and learning exercises. While there is some informational material provided, it is only to help establish foundational knowledge for those performing the steps below.
+
+[DevOps Velocity's learning page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=learning)<br/>
+[IBM ELM's learning resources page](https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/lifecycle-management/7.0.3?topic=management-learning-resources)
 
 ## Section: Overview
 
 ### DevOps Velocity Overview
 
 DevOps Velocity is a multi-container application installed in a Kubernetes container management system.
-<br/><br/>
-
-![Velocity Value Stream screenshot](media/velocity_overview.png)
 
 The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.
+
+![Velocity Value Stream screenshot](media/velocity_overview.png)
 
 The pipeline capability enables organizations to drive releases by using application-focused methods. Add applications to logical environments and let DevOps Velocity generate basic release plans required to deploy the applications. Use quality gates to implement an enhanced level of automated governance helping organizations reduce business risk as software change moves through the delivery pipeline to the production environment.
 
@@ -50,7 +52,7 @@ For more information about DevOps Velocity, visit [Velocity's product documentat
 
 ### What is a Velocity Plugin
 
-Included as part of a Velocity installation are plugins which allow the Velocity Administrator to create connections between delivery pipeline applications and synchronize data between Velocity and the target application source (ELM, Jira, GitHub, DevOps Control, etc). Each plugin defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must configure an integration. There are multiple ways to configure an integration:
+Included as part of a Velocity installation are plugins which allow the Velocity Administrator to create connections between delivery pipeline applications and synchronize data between Velocity and the integrated application repository data (ELM, Jira, GitHub, DevOps Control, etc). Each plugin defines an expected record type and communication method. Communication can be uni-directional or bi-directional. To use a plug-in, you must configure an integration. There are multiple ways to configure an integration:
 
 - Create an integration definition on the Plugins tab of the Integrations page.
 - Install the plug-in and then create an integration definition.
@@ -59,7 +61,9 @@ Included as part of a Velocity installation are plugins which allow the Velocity
 
 <img src="media/e1.png" alt="e1" style="width=100%; height:auto;">
 
-In total there are over 45 plugins available.
+In total there are over 45 plugins available. 
+
+For a full list of available plugins, visit the [DevOps Velocity plugin page](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/)
 
 Once configured and as per that plugin’s synchronization timing, Velocity starts a plugin container image, makes the connection with the target application, and retrieves all data changes from the last sync time. NOTE: that sync time duration will vary depending on the amount of data being added to Velocity’s MongoDB repository.
 <br/>
