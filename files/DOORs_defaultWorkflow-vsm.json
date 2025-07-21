@@ -109,20 +109,20 @@
     }
   ],
   "leadTimeChange": {
-    "start": "No Status",
-    "end": "Complete"
+    "start": ["No Status"],
+    "end": ["Complete"]
   },
   "leadTime": {
-    "start": "New",
-    "end": "Complete"
+    "start": ["New"],
+    "end": ["Complete"]
   },
   "cycleTime": {
-    "start": "In Progress",
-    "end": "Complete"
+    "start": ["In Progress"],
+    "end": ["Complete"]
   },
   "devCycleTime": {
-    "start": "In Progress",
-    "end": "Approved"
+    "start": ["In Progress"],
+    "end": ["Approved"]
   },
   "mappings": {
     "priority": {
