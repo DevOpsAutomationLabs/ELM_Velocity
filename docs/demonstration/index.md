@@ -71,7 +71,7 @@ In this demonstration, you will focus on the Value Stream and Insights views.
 
 The value stream for this demo is architected to align with ELM's workflow including the phases and stages making up the software delivery pipeline. And through the integration between DevOps Velocity and ELM, DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages defined in the ELM workflow. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on where improvement is required instead of wasting time trying to determine which stage in the software delivery pipeline is the slowest point.
 
-| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:250px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark  | <img src="media/d1_1.png" alt="d1_1" style="width:75%; height:auto;"> |
 | 2 | Authenticate with Velocity using "admin" for both the user id and password.  | <img src="media/d1_2.png" alt="d1_2" style="width:100%; height:auto;"> |
@@ -107,7 +107,7 @@ In additional to the lead time and cycle time KPIs, other KPIS are available - A
 
 This section of the demonstration will share details on the many of the KPIs readily available in DevOps Velocity.
 
-| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:250px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 |  Working in the "JKE Banking Demo (Change Management)" value stream, locate the Lead Time and Cycle Time KPis. | <img src="media/d1_26.png" alt="d1_26" style="width:100%; height:auto;"> |
 | 2 | These KPIs has been configured to calculate times and monitor change for all work items as work passes through the pipeline stages: <br/><br/> <strong>Lead Time:</strong> Start - In progress / End - Done/Verified <br/> <strong>Cycle Time:</strong> Start - In Progress / End - Done/Verified <br/> <strong>Dev Cycle Time:</strong> Start - In Progress / End - Implemented (Story) <br/> <strong>Lead Time to Change:</strong> Start - New / End - Done/Verified <br/> |   |
@@ -127,7 +127,7 @@ Congratulations on successfully completing this section of the demonstration.
 
 DevOps Velocity's swimlane view display the same work items as shown on the value stream view but categorized by owner, by priority, by type, by release, and by sprint making this view a very powerful view in reviewing, managing, and updating team work during meetings. In this part of the demo, you will experience how the owner swim lane view can be used when communicating as a team. The Priority and Type swimlanes assist in determining if there is the right distribution of in flight work. And the Sprint/Release swimlanes allow the team to quickly see if work is progressing as planned or not.
 
-| **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:250px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 |  Continuing to work in the "JKE Banking Demo (Change Management)" value stream, click on the "Swimlane" link located on the sub navigation bar (top RHS of browser window). | <img src="media/d1_34.png" alt="d1_34" style="width:50%; height:auto;"> |
 | 2 | Click on the "Sprint" swimlane (LHS of browser window). | <img src="media/d1_35.png" alt="d1_35" style="width:25%; height:auto;"> |
@@ -171,7 +171,7 @@ Hopefully you have gained an appreciation for the many DevOps Velocity features 
 
 The activity performed against every work item visualized in DevOps Velocity is tracked from inception to completion. This assists the team when asked to verify that specific work items have followed the development process by auditors. What could be a large effort checking the different solutions used in the delivery pipeline, Velocity makes responding to the request simple. In fact, Auditors equipped with access to Velocity could check for themselves without interrupting the team. 
 
-| **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:350px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Working in the JKE Banking Demo (Change Management) value stream, perform a plain text search using the string value "78". | <img src="media/d2_1.png" alt="d2_1" style="width:100%; height:auto;"> |
 | 2 | Click on the one work item displayed in the Done/Verified stage of the Release phase. |   |
@@ -195,7 +195,7 @@ An **inflow/outflow asymmetry bottleneck** occurs when there is an unusually lar
 
 In this section, you will enable DevOps Velocity's Bottleneck Detection capability and add it to the JKE Banking Demo (Change Management) value stream.
 
-| **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:350px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Navigate to DevOps Velocity's Settings page click the gear icon (top right of browser window) | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
 | 2 | Click on the Integrations view. | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
@@ -214,7 +214,7 @@ Congratulations on successfully completing this section of the demonstration.
 
 Where the value stream visualize and display data over the past 30 days, Insights Dashboards display data from a little as 24 hours to all time depending on the filter settings. Having the ability to view delivery pipeline data across a longer time period, teams can use charts to understand change over time to understand if productivity is improving or not.
 
-| **Step** | <div style="width:400px">**Details**</div>  | **Additional Information** |
+| **Step** | <div style="width:350px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in DevOps Velocity, click on the Insights icon located on the left hand navigation bar.  | <img src="media/d2_10.png" alt="d2_10" style="width:50%; height:auto;"> |
 | 2 | Click on the JKE Banking card to open the dashboard. | <img src="media/d2_11.png" alt="d2_11" style="width:50%; height:auto;"> |
