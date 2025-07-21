@@ -231,6 +231,8 @@ Where the value stream visualizes and displays data over the past 30 days, Insig
 
 Hopefully you have gained an appreciation for the many ways DevOps Velocity makes data available for viewing and the advanced features like Bottleneck Detection and Insights charts to help teams use data to make better choices on where to invest in process improvement.
 
+Feel free to explore the steps shared above in the "JKE Banking Demo (Requirements Management)" or "Meter Reader Demo GC" value streams if you have implemented ELM ßrequirements management and want to learn more about the DevOps Velocity / DOORs NG integration.
+
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 
 | Software Installed for Demonstration Steps | Software Version |
