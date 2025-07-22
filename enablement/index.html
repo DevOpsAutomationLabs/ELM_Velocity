@@ -764,9 +764,8 @@
 <li>Configure a deployment plan task for one of the native integration types.</li>
 </ul>
 <p><img src="media/e1.png" alt="e1" style="width=100%; height:auto;"></p>
-<p>In total there are over 45 plugins available. </p>
 <p>For a full list of available plugins, visit the <a href="https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/">DevOps Velocity plugin page</a></p>
-<p>Once configured and as per that plugin’s synchronization timing, Velocity starts a plugin container image, makes the connection with the target application, and retrieves all data changes from the last sync time. NOTE: that sync time duration will vary depending on the amount of data being added to Velocity’s MongoDB repository.
+<p>Once configured and as per that plugin’s synchronization timing, Velocity starts a plugin container image, makes the connection with the target application, and retrieves all data changes from the last sync time. <strong>NOTE:</strong> that sync time duration will vary depending on the amount of data being added to Velocity’s MongoDB repository.
 <br/></p>
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
@@ -867,7 +866,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">11</td>
-<td style="text-align: left;">After a few seconds, confirm that the integration Status shows online.</td>
+<td style="text-align: left;">After a few seconds, confirm that the integration Status shows "Online".</td>
 <td style="text-align: left;"><img src="media/e10.png" alt="e10" style="width:75%; height:auto;"></td>
 </tr>
 <tr>
@@ -877,13 +876,18 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>NOTE:</strong></td>
-<td style="text-align: left;">If the status is not showing as Online, ensure the ELM Server is available. If the server is running, check the plugin settings to ensure they are properly set by clicking Edit.</td>
+<td style="text-align: left;">If the status is not showing as Online, ensure the ELM Server is available. If the server is running, check the plugin settings to ensure they are properly set by clicking "Edit".</td>
 <td style="text-align: left;"><img src="media/e12.png" alt="e12" style="width:25%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
-<td style="text-align: left;">Click "View logs" and view output contents.</td>
+<td style="text-align: left;">Select the first log file and view output contents.</td>
 <td style="text-align: left;"><img src="media/e13.png" alt="e13" style="width:100%; height:auto;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>Note:</strong></td>
+<td style="text-align: left;">Log files roll off so if you need to retain access to a log file, click the "Download log file" button.</td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
@@ -903,7 +907,7 @@
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: left;">Continuing to work in DevOps Velocity, navigate to the "Value Stream" view page.</td>
+<td style="text-align: left;">Continuing to work in DevOps Velocity, navigate to the "Value streams" view page.</td>
 <td style="text-align: left;"><img src="media/e15.png" alt="e15" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -919,12 +923,12 @@
 <tr>
 <td style="text-align: center;">4</td>
 <td style="text-align: left;">On the pop-up window, enter a meaningful name, and select "Default Team" from the Team drop down list box. <br/> e.g. JKE Banking (Change Management)</td>
-<td style="text-align: left;"><img src="media/e18.png" alt="e18" style="width:50%; height:auto;"></td>
+<td style="text-align: left;"><img src="media/e18.png" alt="e18" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
 <td style="text-align: left;">Click the "Create" button.</td>
-<td style="text-align: left;"><img src="media/e19.png" alt="e19" style="width:50%; height:auto;"></td>
+<td style="text-align: left;"><img src="media/e19.png" alt="e19" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>NOTE:</strong></td>
@@ -934,7 +938,7 @@
 <tr>
 <td style="text-align: center;">6</td>
 <td style="text-align: left;">You should now be presented with a basic value stream visualization.</td>
-<td style="text-align: left;"><img src="media/e20.png" alt="e20" style="width:50%; height:auto;"></td>
+<td style="text-align: left;"><img src="media/e20.png" alt="e20" style="width:100%; height:auto;"></td>
 </tr>
 </tbody>
 </table>
@@ -965,12 +969,12 @@
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: left;">Open the EWM VS map file in a new browser tab.</td>
+<td style="text-align: left;">Open the EWM VS map file in a new browser tab. <br/> Link to file provided in Additional Information.</td>
 <td style="text-align: left;"><a href="https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/EWM_defaultWorkflow-vsm.json">EWM VS map Template</a></td>
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: left;">Working in the new browser tab, select/highlight the entire VS map code, and copy.</td>
+<td style="text-align: left;">Working in the new browser tab, select/highlight the entire VS map code, and copy to the clipboard.</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
@@ -980,13 +984,13 @@
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">Working in the DevOps Velocity value stream editor, locate the "integrations stanza" within the json file (near end of the json file).</td>
+<td style="text-align: left;">Working in the DevOps Velocity value stream editor, locate the "integrations" stanza within the json file (near end of the json file).</td>
 <td style="text-align: left;"><img src="media/e24.png" alt="e24" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
 <td style="text-align: left;">Replace the "EWM integration name" text string with the name of your EWM plugin. <br/> e.g. EWM(JKEBanking)</td>
-<td style="text-align: left;"><img src="media/e25.png" alt="e25" style="width:50%; height:auto;"></td>
+<td style="text-align: left;"><img src="media/e25.png" alt="e25" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">8</td>
@@ -995,7 +999,7 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>NOTE:</strong></td>
-<td style="text-align: left;">DevOps Velocity offers version control (out of the box) to help in managing value stream map changes. With the recent change, note the addition ofß a new version.</td>
+<td style="text-align: left;">DevOps Velocity offers version control (out of the box) to help in managing value stream map changes. With the recent change, note the addition of a new version.</td>
 <td style="text-align: left;"><img src="media/e27.png" alt="e27" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1005,22 +1009,22 @@
 </tr>
 <tr>
 <td style="text-align: center;">10</td>
-<td style="text-align: left;">You should now see a re-configured value stream architecture with "DOTS".</td>
+<td style="text-align: left;">You should now see a re-configured value stream architecture with "DOTS" aligned to the phases and stages defined in the EWM workflow.</td>
 <td style="text-align: left;"><img src="media/e29.png" alt="e29" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">11</td>
-<td style="text-align: left;">To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar.</td>
+<td style="text-align: left;">To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the "pencil" icon located on the mini toolbar (LHS of value stream view).</td>
 <td style="text-align: left;"><img src="media/e30.png" alt="e30" style="width:20%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">12</td>
-<td style="text-align: left;">Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. Release the mouse button when the stages is positioned as required. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout.</td>
+<td style="text-align: left;">Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. Release the mouse button when the stages is positioned as desired. <strong>NOTE:</strong> The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout.</td>
 <td style="text-align: left;"><img src="media/e31.png" alt="e31" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
-<td style="text-align: left;">Disable the drag feature when done.</td>
+<td style="text-align: left;">Disable the drag feature when done by clicking on the "pencil" icon.</td>
 <td style="text-align: left;"></td>
 </tr>
 </tbody>
@@ -1029,9 +1033,9 @@
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
 <h2 id="section-integrating-devops-velocity-with-erm">Section: Integrating DevOps Velocity with ERM</h2>
-<p>Due to the flexibility provided to clients using ERM (DOORs NG), certain setup steps are necessary to properly integrate with ERM and visualize the requirement artifact types in a DevOps Velocity value stream. Know that all setup steps align to best practices user should be following.</p>
-<p>Because users can create new artifact types and artifact attributes, including attributes to capture status, it was decided that in order to visualize requirements in DevOps Velocity that to track status, users must specify a project workflow.</p>
-<p>Also, as there are many types of requirements, some of which the user would not visualize in Velocity, shared views must be configured allowing Velocity's DOORs NG plugin to know exactly which artifact type to sync on.ß</p>
+<p>Due to the flexibility provided to clients using ERM (DOORs NG), certain setup steps are necessary to properly integrate with ERM and visualize the requirement artifact types in a DevOps Velocity value stream. Know that all setup steps align to best practices users should be following.</p>
+<p>Because users can create new artifact types and artifact attributes, including attributes to capture status, it was decided that in order to visualize requirements in DevOps Velocity and track status of those requirements, users must specify a project workflow for the artifact type.</p>
+<p>Also, as there are many types of requirements, some of which the user would not visualize in Velocity, shared views must be configured allowing Velocity's DOORs NG plugin to know exactly which artifact type to sync on.</p>
 <p>This enablement exercise will walk through the steps to:<br/></p>
 <ol>
 <li>Prepare the RM project to be able to synchronize with Velocity.<br/></li>
@@ -1065,7 +1069,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: left;">Click on the gear icon (top LHS) and select "Manage Project Properties" from the options presented.</td>
+<td style="text-align: left;">Click on the gear icon (top LHS of browser window) and select "Manage Project Properties" from the options presented.</td>
 <td style="text-align: left;"><img src="media/e34.png" alt="e34" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
@@ -1080,7 +1084,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">Save the changes and repeat steps 4 and 5 setting the workflow for Artifact types "Use Case Requirement" and "User Story Elaboration" saving each time.</td>
+<td style="text-align: left;">Save the changes and repeat steps 4 and 5 setting the workflow for Artifact types "Use Case Requirement" and "User Story Elaboration" saving the changes each time.</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
@@ -1121,7 +1125,7 @@
 <tr>
 <td style="text-align: center;">13</td>
 <td style="text-align: left;">Enter a meaningful name (e.g. Velocity_Types), select "Shared", and click "OK".</td>
-<td style="text-align: left;"><img src="media/e42.png" alt="e42" style="width:50%; height:auto;"></td>
+<td style="text-align: left;"><img src="media/e42.png" alt="e42" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;"><strong>NOTE:</strong></td>
@@ -1130,7 +1134,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">14</td>
-<td style="text-align: left;">The same process described above is used to prepare a Global Configuration project for integration with DevOps Velocity with the following differences:<br/>1. The project selected will be different (step 2). In the case of this exercise select Meter Reader GC.<br/>2. When you click on the gear icon (step 3), select Manage Components and Configurations.<br/>3. Select "Stakeholder Requirements" and "System Requirements" when setting the workflow and creating the views.</td>
+<td style="text-align: left;">The same process described above is used to prepare a Global Configuration project for integration with DevOps Velocity with the following differences:<br/>1. The project selected will be different (step 2). For this enablement exercise, select Meter Reader GC.<br/>2. When you click on the gear icon (step 3), select "Manage Components and Configurations".<br/>3. Select "Stakeholder Requirements" and "System Requirements" when setting the workflow and creating the views.</td>
 <td style="text-align: left;"><img src="media/e44.png" alt="e44" style="width:60%; height:auto;"></td>
 </tr>
 <tr>
@@ -1143,12 +1147,17 @@
 <td style="text-align: left;">For the Meter Reader GC project, in addition to creating a Velocity_Types view also create a view named Velocity_SystemRequirements for the System Requirement Artifact type and a view called Velocity_StakeholderRequirements for the Stakeholder Requirement Artifact type.</td>
 <td style="text-align: left;"><img src="media/e55.png" alt="e55" style="width:50%; height:auto;"></td>
 </tr>
+<tr>
+<td style="text-align: center;"><strong>HINT:</strong></td>
+<td style="text-align: left;">It is recommended to prefix the View name with Velocity so that the view is not accidently deleted or modified.</td>
+<td style="text-align: left;"></td>
+</tr>
 </tbody>
 </table>
 <p>Congratulations on successfully preparing the RM projects and Artifact types for visualization in DevOps Velocity.</p>
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a></p>
 <h3 id="configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-req-mgmt-project">Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)</h3>
-<p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG requirements management project. It is assumed that the ELM server has already been setup and that a DOORs NG requirements management project has been configured. For this lab exercise we will be using the JKE Banking (Requirements Management) sample application available with ELM.</p>
+<p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG requirements management project. It is assumed that the ELM server has already been setup and that a DOORs NG requirements management project has been configured. For this lab exercise we will be using the JKE Banking (Requirements Management) sample project already available with ELM.</p>
 <table>
 <thead>
 <tr>
@@ -1160,22 +1169,22 @@
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: left;">To access the Velocity plugin interface, open Velocity in a browser and log in. <br/> (uid: admin / pwd: admin)</td>
+<td style="text-align: left;">To access the Velocity plugin interface, open Velocity in a browser and log in using the shortcut provided in the Chrome browser. <br/> (uid: admin / pwd: admin)</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: left;">Click on the settings icon. (Top RHS browser window)</td>
+<td style="text-align: left;">Click on the "Settings" icon. (Top RHS of browser window)</td>
 <td style="text-align: left;"><img src="media/e2.png" alt="e2" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: left;">Select Integrations from the LHS navigation bar.</td>
+<td style="text-align: left;">Select "Integrations" (LHS navigation bar of browser window).</td>
 <td style="text-align: left;"><img src="media/e3.png" alt="e3" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: left;">Click on the Installed tab and review the many plugins already available.</td>
+<td style="text-align: left;">Click on the "Installed" tab and review the many plugins already available.</td>
 <td style="text-align: left;"><img src="media/e4.png" alt="e4" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1185,17 +1194,17 @@
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: left;">In the search control, enter “DOORS”.</td>
+<td style="text-align: left;">In the search control, enter “DOORs”.</td>
 <td style="text-align: left;"><img src="media/e45.png" alt="e45" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">Click the twisty icon for the DOORS plugin and note that there are multiple versions of this plugin available for installation.</td>
+<td style="text-align: left;">Click the "twisty" icon for the DOORS plugin and note that there are multiple versions of this plugin available for installation.</td>
 <td style="text-align: left;"><img src="media/e46.png" alt="e46" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
-<td style="text-align: left;">Click the "Add Integration" button (RHS of page) for IBM Engineering Requirements Management (Doors) v1.0.101.</td>
+<td style="text-align: left;">Click the "Add Integration" button (RHS of browser window) for the IBM Engineering Requirements Management (Doors) v1.0.102 plugin.</td>
 <td style="text-align: left;"><img src="media/e47.png" alt="e47" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
@@ -1210,7 +1219,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">10</td>
-<td style="text-align: left;">Click the Configured tab on the Integrations page.</td>
+<td style="text-align: left;">Click the "Configured" tab on the Integrations page.</td>
 <td style="text-align: left;"><img src="media/e9.png" alt="e9" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1220,7 +1229,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">12</td>
-<td style="text-align: left;">Select the Log file and view output contents.</td>
+<td style="text-align: left;">Click the "3 dots" on the RHS of integration line and select "View Logs" from the options presented. View the contents of the first log file entry.</td>
 <td style="text-align: left;"><img src="media/e52.png" alt="e52" style="width:100%; height:auto;"></td>
 </tr>
 </tbody>
@@ -1229,7 +1238,7 @@
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
 <h3 id="configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-global-configuration">Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)</h3>
-<p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG Global Configuration project. It is assumed that the ELM server has already been setup and that a DOORs NG Global Configuration project has been configured. For this lab exercise we will be using the Meter Reader GC sample application available with ELM.
+<p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG Global Configuration project. It is assumed that the ELM server has already been setup and that a DOORs NG Global Configuration project has been configured. For this lab exercise we will be using the Meter Reader GC sample global configuration available with ELM.
 <br/></p>
 <table>
 <thead>
@@ -1242,22 +1251,22 @@
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: left;">To access the Velocity plugin interface, open Velocity in a browser and log in. <br/> (uid: admin / pwd: admin)</td>
+<td style="text-align: left;">To access the Velocity plugin interface, open Velocity in a browser and log in using the shortcut available in the Chrome browser. <br/> (uid: admin / pwd: admin)</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: left;">Click on the settings icon. (Top RHS browser window)</td>
+<td style="text-align: left;">Click on the "Settings" icon. (Top RHS of browser window)</td>
 <td style="text-align: left;"><img src="media/e2.png" alt="e2" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: left;">Select Integrations from the LHS navigation bar.</td>
+<td style="text-align: left;">Select "Integrations" (LHS navigation bar of browser window).</td>
 <td style="text-align: left;"><img src="media/e3.png" alt="e3" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">4</td>
-<td style="text-align: left;">Click on the Installed tab and review the many plugins already available.</td>
+<td style="text-align: left;">Click on the "Installed" tab and review the many plugins already available.</td>
 <td style="text-align: left;"><img src="media/e4.png" alt="e4" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1267,17 +1276,17 @@
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: left;">In the search control, enter “DOORS”.</td>
+<td style="text-align: left;">In the search control, enter “DOORs”.</td>
 <td style="text-align: left;"><img src="media/e45.png" alt="e45" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">Click the twisty icon for the DOORS plugin and note that there are multiple versions of this plugin available for installation.</td>
+<td style="text-align: left;">Click the "twisty" icon for the DOORS plugin and note that there are multiple versions of this plugin available for installation.</td>
 <td style="text-align: left;"><img src="media/e46.png" alt="e46" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">7</td>
-<td style="text-align: left;">Click the "Add Integration" button (RHS of page) for IBM Engineering Requirements Management (Doors) v1.0.101.</td>
+<td style="text-align: left;">Click the "Add Integration" button (RHS of browser page) for the IBM Engineering Requirements Management (Doors) v1.0.102 plugin.</td>
 <td style="text-align: left;"><img src="media/e47.png" alt="e47" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
@@ -1292,17 +1301,17 @@
 </tr>
 <tr>
 <td style="text-align: center;">10</td>
-<td style="text-align: left;">Click the Configured tab on the Integrations page.</td>
+<td style="text-align: left;">Click the "Configured" tab on the Integrations page.</td>
 <td style="text-align: left;"><img src="media/e9.png" alt="e9" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">11</td>
-<td style="text-align: left;">After a few seconds, confirm that the integration Status shows online.</td>
+<td style="text-align: left;">After a few seconds, confirm that the integration Status shows "Online".</td>
 <td style="text-align: left;"><img src="media/e56.png" alt="e56" style="width:75%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">12</td>
-<td style="text-align: left;">Select the Log file and view output contents.</td>
+<td style="text-align: left;">Click the "3 dots" on the RHS of integration line and select "View Logs" from the options presented. View the contents of the first log file entry.</td>
 <td style="text-align: left;"><img src="media/e57.png" alt="e57" style="width:100%; height:auto;"></td>
 </tr>
 </tbody>
@@ -1323,12 +1332,12 @@
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: left;">Continuing to work in DevOps Velocity, navigate to the Value Stream view page.</td>
+<td style="text-align: left;">Continuing to work in DevOps Velocity, navigate to the "Value Stream" view page.</td>
 <td style="text-align: left;"><img src="media/e15.png" alt="e15" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
-<td style="text-align: left;">Click the "All value streams" tab top RHS of browser page.</td>
+<td style="text-align: left;">Click the "All value streams" tab (top RHS of browser window).</td>
 <td style="text-align: left;"><img src="media/e16.png" alt="e16" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1343,7 +1352,7 @@
 </tr>
 <tr>
 <td style="text-align: center;"><strong>Note:</strong></td>
-<td style="text-align: left;">To create a value stream for a Global Configuration project, the steps are the same. The only difference with be the Value Stream name.</td>
+<td style="text-align: left;">To create a value stream for a Global Configuration project, the steps are the same as previous shared. The only difference with be the Value Stream name entered.</td>
 <td style="text-align: left;">Meter Reader GC vs. JKE Banking (Requirements Management)</td>
 </tr>
 <tr>
@@ -1368,7 +1377,7 @@
 <br/></p>
 <h3 id="editing-the-value-stream-map-template-to-visualize-erm-artifact-workflow">Editing the value stream map template to visualize ERM Artifact Workflow</h3>
 <p>As previously mentioned, this enablement exercise is using a value stream template file to bootstrap the value stream creating process. More more information about configuring the value stream map file refer to section <a href="#devops-velocitys-value-stream-map-overview">DevOps Velocity's value stream map overview</a>.</p>
-<p>However, even though much of the value stream architecture work has already been completed, specific edits still need to be made to the template adding the plugin integration name so that Velocity knows which collection of data should be visualized in the value stream.</p>
+<p>However, even though much of the value stream architecture work has already been completed, specific edits still need to be made to the template adding the plugin integration name as well as the project name so that Velocity knows which collection of data should be visualized in the value stream.</p>
 <table>
 <thead>
 <tr>
@@ -1380,7 +1389,7 @@
 <tbody>
 <tr>
 <td style="text-align: center;">1</td>
-<td style="text-align: left;">Continuing to work in the newly created value stream view, locate and click on the wrench icon.</td>
+<td style="text-align: left;">Continuing to work in the newly created value stream view, locate and click on the "wrench" icon.</td>
 <td style="text-align: left;"><img src="media/e21.png" alt="e21" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1405,7 +1414,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">Working in the DevOps Velocity value stream editor, locate the global query line within the json file at top of the file.</td>
+<td style="text-align: left;">Working in the DevOps Velocity value stream editor, locate the global "query" line within the json file at top of the file.</td>
 <td style="text-align: left;"><img src="media/e62.png" alt="e62" style="width:75%; height:auto;"></td>
 </tr>
 <tr>
@@ -1415,7 +1424,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">8</td>
-<td style="text-align: left;">Working in the DevOps Velocity value stream editor, locate the integrations stanza within the json file near end of the file.</td>
+<td style="text-align: left;">Working in the DevOps Velocity value stream editor, locate the "integrations" stanza within the json file near end of the file.</td>
 <td style="text-align: left;"><img src="media/e64.png" alt="e64" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1440,7 +1449,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
-<td style="text-align: left;">To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the pencil icon located on the mini toolbar.</td>
+<td style="text-align: left;">To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the "pencil" icon located on the mini toolbar.</td>
 <td style="text-align: left;"><img src="media/e30.png" alt="e30" style="width:20%; height:auto;"></td>
 </tr>
 <tr>
