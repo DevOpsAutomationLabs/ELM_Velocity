@@ -6,15 +6,15 @@
 
 ## About the Demonstration
 
-For this demonstration, DevOps Velocity has already been integrated with ELM and value streams have been created visualizing the ELM data as stories, bugs, tasks, features and requirements. This setup allows you to focus on the features of the integrated solution and how DevOps Velocity and ELM can work together. For details on how to setup the environment, review the steps presented in the enablement section.
+For this demonstration, DevOps Velocity has already been integrated with ELM and value streams have been created visualizing the EWM data as stories, bugs, tasks, features and ERM data as requirements. This setup allows you to focus on the features of the integrated solution and how DevOps Velocity and ELM can work together to help optimize flow in the software delivery pipeline. For details on how to setup the environment, review the steps presented in the enablement section.
 
 The following table shares information on which ELM projects have been visualized in DevOps Velocity:
 
 | **ELM Project** | **Velocity Value Stream**  | **Additional Information** |
 |:------------- |:------------- |:------------- |
 |JKE Banking (Change Management) | JKE Banking Demo (Change Management) | The JKE Banking project was created in ELM using the Money that Matters sample data which includes work items in EWM and requirements added to ERM. A DevOps Velocity plugin has configured allowing the EWM data to be sync'd with Velocity and displayed in the value stream. | 
-| JKE Banking (Requirements Management) | JKE Banking Demo (Requirements Management) | The JKE Banking Demo (Requirements Management) value stream is visualizing requirements synchronized by integrating DevOps Velocity with JKE Banking (Requirements Management) project.
-| Meter Reader GC | Meter Reader Demo GC | This value stream is visualizing requirements synchronized with DevOPs Velocity from a ERM project which has Global Configuration enabled providing more robust requirements management capabilities enabling the use of DOORs NG components, streams and baselines. |
+| JKE Banking (Requirements Management) | JKE Banking Demo (Requirements Management) | The JKE Banking Demo (Requirements Management) value stream is visualizing requirements synchronized by integrating DevOps Velocity with JKE Banking (Requirements Management) project loaded by the sample app.
+| Meter Reader GC | Meter Reader Demo Global Configuration | This value stream is visualizing requirements synchronized with DevOPs Velocity from a ERM project which has Global Configuration enabled providing more robust requirements management capabilities enabling the use of DOORs NG components, streams and baselines. |
 
 **NOTE:** The images provided in the steps below may not exactly match what is seen in the DevOps Velocity browser window. Understand that they are provided as a reference as you work through the demo steps.
 
@@ -43,7 +43,7 @@ Using these high level metrics and armed with a desire to improve, the next typi
 
 ![Value Stream Map](media/value_stream_map.png)
 
-The alternative to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the various tools used in the software delivery pipeline and presenting that data in a holistic dashboard providing insight, in almost real time, on not only how efficient the entire software delivery pipeline is but also where in the pipeline opportunities for improvement exist. Value Stream Management is a much more scientific approach eliminating the guess work and helping teams make better decisions on where to improve using data instead of making decisions based on opinion.
+The alternative to Value Stream Mapping is Value Stream Management. A Value Stream Management solution, like DevOps Velocity, is continuously ingesting data from the various tools used in the software delivery pipeline and presenting that data in a holistic dashboard providing insight, in almost real time, on not only how efficient the entire software delivery pipeline is but also where in the pipeline opportunities for improvement exist. Value Stream Management is a much more scientific approach eliminating the guess work and helping teams make better decisions on where to improve using data instead of making decisions based on opinion and guessing.
 
 ![Value Stream](media/value_stream.png)
 
@@ -51,7 +51,7 @@ DevOps Velocity helps organizations by visualizing delivery pipeline data in a h
 
 ## Introducing DevOps Velocity
 
-The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated with Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution, like IBM ELM, linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.
+The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated with Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution, like IBM ELM, linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream and modify the value stream map file.
 
 ![Velocity Value Stream screenshot](media/velocity_overview.png)
 
@@ -63,20 +63,20 @@ The Insights view helps organizations to assess the efficiency of product teams 
 
 For more information about DevOps Velocity, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=high-level-overview).
 
-In this demonstration, you will focus on the Value Stream and Insights views.
+In this demonstration, you will focus on the Value Stream and Insights views available in DevOps Velocity.
 
 ## Business Scenario 1: Visualize and Optimize the flow of work to improve team productivity.
 
 ### 1.1 DevOps Velocity and the value stream data
 
-The value stream for this demo is architected to align with ELM's default workflow including the phases and stages making up the software delivery pipeline. And through the integration between DevOps Velocity and ELM, DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages defined in the ELM workflow. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on where improvement is required instead of wasting time trying to determine which stage in the software delivery pipeline is the slowest point.
+The value stream for this demo is architected to align with ELM's default workflow including the phases and stages making up the software delivery pipeline as defined in EWM. And through the integration between DevOps Velocity and ELM, DevOps Velocity tracks the number of work items and average time a work item spends in each one of the stages defined in the ELM workflow. It is DevOps Velocity's ability to present this type of information in a single control plane which allows teams to focus on where improvement is required instead of wasting time trying to determine which stage in the software delivery pipeline is the slowest point.
 
 | **Step** | <div style="width:250px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 | Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark  | <img src="media/d1_1.png" alt="d1_1" style="width:75%; height:auto;"> |
 | 2 | Authenticate with Velocity using "admin" for both the user id and password.  | <img src="media/d1_2.png" alt="d1_2" style="width:100%; height:auto;"> |
 | 3 | Click the Value Stream icon on the navigation bar (LHS of browser window) in Velocity. | <img src="media/d1_3.png" alt="d1_3" style="width:50%; height:auto;"> |
-| 4 | Select the "JKE Banking Demo (Change Management)" value stream from the list of available value streams. | <img src="media/d1_4.png" alt="d1_4" style="width:75%; height:auto;"> |
+| 4 | Select the "JKE Banking Demo (Change Management)" value stream from the list of value streams presented. | <img src="media/d1_4.png" alt="d1_4" style="width:75%; height:auto;"> |
 | 5 | Click on the "Legend" link located on the sub navigation bar (top RHS of browser window). | <img src="media/d1_5.png" alt="d1_5" style="width:100%; height:auto;"> |
 | 6 | Notice the outlines around the "In Progress" and "Implemented" stages differ. <br/><br/> Referring to the Legend pop up window, the In Progress is showing as slow and would be a location in the delivery pipeline to investigate further. Implemented stage is showing as fast and not the main target of further investigation. | <img src="media/d1_6.png" alt="d1_6" style="width:50%; height:auto;"> |
 | 7 | Focusing on the "In Progress" stage and looking below the stage circle, one can quickly see the average amount of time a work item stays in the In Progress stage. | <img src="media/d1_7.png" alt="d1_7" style="width:30%; height:auto;"> |
