@@ -169,14 +169,14 @@ Hopefully you have gained an appreciation for the many DevOps Velocity features 
 
 ### 2.1 DevOps Velocity's "Digital Chain of Custody"
 
-The activity performed against every work item, being visualized in DevOps Velocity, is tracked from inception to completion. This assists the team when asked to verify that specific work items have followed the development process by Company Auditors. What could be a large effort checking the different solutions used across the delivery pipeline, DevOps Velocity makes responding to the request simple. In fact, Auditors equipped with access to Velocity could check on compliance for themselves without interrupting the team. 
+The activity performed against every work item, being visualized in DevOps Velocity, is tracked from inception to completion. This assists the team when asked to verify that specific work items have followed the development process by the company's Auditors. What could be a large effort checking the different tooling solutions used across the delivery pipeline, DevOps Velocity makes responding to the request simple. In fact, Auditors equipped with access to Velocity could check on process compliance for themselves without interrupting the team. 
 
 | **Step** | <div style="width:350px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Working in the "JKE Banking Demo (Change Management)" value stream, perform a plain text search using the string value "78". | <img src="media/d2_1.png" alt="d2_1" style="width:100%; height:auto;"> |
+| 1 | Working in the "JKE Banking Demo (Change Management)" value stream, perform a plain text search using the string value "71". | <img src="media/d2_1.png" alt="d2_1" style="width:100%; height:auto;"> |
 | 2 | Click on the one work item displayed in the "Done/Verified" stage of the Release phase. |   |
 | 3 | On the work item card displayed, scroll down to see a complete audit trail of activities performed against this work item. Including who performed the action and when the action was performed. | <img src="media/d2_2.png" alt="d2_2" style="width:50%; height:auto;"> |
-| 4 | Close the work item card by click the "X" top right. |   |
+| 4 | Close the work item card by clicking anywhere on the value stream view UI. |   |
 
 Congratulations on successfully completing this section of the demonstration.
 
@@ -205,9 +205,9 @@ In this section, you will enable DevOps Velocity's Bottleneck Detection capabili
 | 6 | Return to the "JKE Banking Demo (Change Management)" value stream. |   |
 | 7 | Click the "+" to add the Bottleneck Detection metric to the metrics bar. | <img src="media/d2_6.png" alt="d2_6" style="width:50%; height:auto;"> |
 | 8 | Select "Bottleneck" from the list of metrics presented. |   <img src="media/d2_7.png" alt="d2_7" style="width:50%; height:auto;"> |
-| 9 | Notice that the Bottleneck Detection algorithm has run and that DevOps Velocity has identified that "In Progress" is the slowest point in the delivery pipeline. | <img src="media/d2_8.png" alt="d2_8" style="width:50%; height:auto;"> | 
+| 9 | Notice that the Bottleneck Detection algorithm has run and that DevOps Velocity has identified that "Resolved (Defect)" is the slowest point in the delivery pipeline. | <img src="media/d2_8.png" alt="d2_8" style="width:50%; height:auto;"> | 
 | 9 | Hover the mouse pointer of the Bottleneck metric to get more detail on the type of Bottleneck. | <img src="media/d2_9.png" alt="d2_9" style="width:100%; height:auto;"> |
-| 10 | DevOps Velocity has identified a dominant stage bottleneck because the 4 month wait time in stage value exceeds the sum of all other stage wait time in stage values. |   | 
+| 10 | DevOps Velocity has identified a dominant stage bottleneck because the 11 day wait time in Resolved (Defect) stage value exceeds the sum of all other stage wait time in stage values. |   | 
 
 Congratulations on successfully completing this section of the demonstration.
 
@@ -237,5 +237,5 @@ Feel free to explore the steps shared above in the "JKE Banking Demo (Requiremen
 
 | Software Installed for Demonstration Steps | Software Version |
 |:---- |:----:|
-| DevOps Velocity | v5.1.7 |
-| Engineering Lifecycle Management | v7.1
+| DevOps Velocity | v5.1.9 |
+| Engineering Lifecycle Management | v7.1.0 SR1
