@@ -46,7 +46,7 @@
             "Resolved (Defect)",
             "Done/Verified"
           ],
-          "wipLimit": 10,
+          "wipLimit": 5,
           "showAlerts": true,
           "showSpeed": true,
           "gates": null

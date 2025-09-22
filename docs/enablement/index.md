@@ -34,7 +34,7 @@ This lab is not a complete enablement activity teaching individuals on the full 
 
 DevOps Velocity is a multi-container application installed in a Kubernetes container management system.
 
-The DevOps Velocity value stream’s view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.
+The DevOps Velocity value stream view provides a strategic window into your life-cycle workflow while simultaneously enabling you to drill-down and monitor individual elements with the intent of optimizing your software delivery pipeline flow. These elements typically represent work items/issues, commits, pull requests, builds, deployments, and tests that are collected from many tools making up your delivery pipeline and integrated into Velocity via plugins. Individual elements are represented graphically by small circles, squares, or triangles, depending on the type, providing information from logically related tools, such as issues managed in an ALM solution linked to one’s source control management (SCM) system. How elements are visualized in a DevOps Velocity value stream can be simple to very complex. You are only limited by your knowledge of how to architect a value stream.
 
 ![Velocity Value Stream screenshot](media/velocity_overview.png)
 
@@ -335,5 +335,5 @@ Congratulations on successfully configuring the DevOps Velocity value stream to 
 
 | Software Installed for Enablement Exercises | Software Version |
 |:---- |:----:|
-| DevOps Velocity | v5.1.7 |
-| Engineering Lifecycle Management | v7.1 |
+| DevOps Velocity | v5.1.9 |
+| Engineering Lifecycle Management | v7.1 SR1 |
