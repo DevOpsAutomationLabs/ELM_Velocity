@@ -268,7 +268,7 @@ The purpose of this exercise is to provide instruction on how to setup the integ
 | **NOTE:** | While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature. |  |
 | 5 | In the search control, enter “DOORs”. | <img src="media/e45.png" alt="e45" style="width:50%; height:auto;"> |
 | 6 | Click the "Add Integration" button (RHS of browser page) for the IBM Engineering Requirements Management (Doors) v1.0.4 plugin. | <img src="media/e47.png" alt="e47" style="width:100%; height:auto;"> |
-| 7 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** DOORS(MeterReaderGC)<br/> **Server URL:** TODO: need to update<br/> **Global Configuration Name:** Meter Reader GC<br/> **Component Name:** Meter Reader GC<br/> **Stream Name:** Meter Reader GC Initial Stream<br/> **Views (Comma Seperated List):** Velocity_StakeholderRequirements,Velocity_SystemRequirements<br/> **User ID:** sysadmin<br/> **Password:** passw0rd (0=zero)<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e53.png" alt="e53" style="width:50%; height:auto;"><img src="media/e54.png" alt="e54" style="width:50%; height:auto;"> |
+| 7 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** DOORS(MeterReaderGC)<br/> **Server URL:** https://ibmjazz.net:9443/rm<br/> **Global Configuration Name:** Meter Reader GC<br/> **Component Name:** Meter Reader GC<br/> **Stream Name:** Meter Reader GC Initial Stream<br/> **Views (Comma Seperated List):** Velocity_StakeholderRequirement,Velocity_SystemRequirement<br/> **User ID:** sysadmin<br/> **Password:** passw0rd (0=zero)<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e53.png" alt="e53" style="width:50%; height:auto;"><img src="media/e54.png" alt="e54" style="width:50%; height:auto;"> |
 | 8 | Click the "Add" button when done. |  |
 | 9 | Click the "Configured" tab on the Integrations page. | <img src="media/e9.png" alt="e9" style="width:50%; height:auto;"> |
 | 10 | After a few seconds, confirm that the integration Status shows "Online". |  <img src="media/e56.png" alt="e56" style="width:75%; height:auto;"> |
@@ -307,7 +307,7 @@ However, even though much of the value stream architecture work has already been
 
 | **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Continuing to work in the newly created value stream view, locate and click on the "wrench" icon. | <img src="media/e21.png" alt="e21" style="width:50%; height:auto;"> |
+| 1 | Working in the JKE Banking (Requirements Management) value stream view, locate and click on the "wrench" icon. | <img src="media/e21.png" alt="e21" style="width:50%; height:auto;"> |
 | 2 | Select the "Edit value stream map" option. | <img src="media/e22.png" alt="e22" style="width:50%; height:auto;"> |
 | 3 | Open the ERM VS map file in a browser tab.| [ERM VS map Template](https://github.com/DevOpsAutomationLabs/ELM_Velocity/raw/main/files/DOORs_defaultWorkflow-vsm.json) |
 | 4 | Working in the new browser tab, select/highlight the entire VS map code, and copy. |  |
@@ -315,7 +315,7 @@ However, even though much of the value stream architecture work has already been
 | 6 | Working in the DevOps Velocity value stream editor, locate the global "query" line within the json file at top of the file. | <img src="media/e62.png" alt="e62" style="width:75%; height:auto;"> |
 | 7 | Replace the "Project Name" text string with the name of your ERM project name. <br/> e.g. JKE Banking (Requirements Manangement) | <img src="media/e63.png" alt="e63" style="width:75%; height:auto;"> |
 | 8 | Working in the DevOps Velocity value stream editor, locate the "integrations" stanza within the json file near end of the file. | <img src="media/e64.png" alt="e64" style="width:50%; height:auto;"> |
-| 9 | Replace the "EWM integration name" text string with the name of your EWM plugin. <br/> e.g. EWM(JKEBanking) | <img src="media/e65.png" alt="e65" style="width:50%; height:auto;"> |
+| 9 | Replace the "DOORs integration name" text string with the name of your DOORS plugin. <br/> e.g. DOORS(JKEBanking) | <img src="media/e65.png" alt="e65" style="width:50%; height:auto;"> |
 | 10 | Verify that the update was saved successfully. | <img src="media/e26.png" alt="e26" style="width:50%; height:auto;"> |
 | 11 | Click the "Back" button to return to the value stream view. | <img src="media/e28.png" alt="e28" style="width:50%; height:auto;"> |
 | 12 | You should now see a re-configured value stream architecture with "DOTS". | <img src="media/e66.png" alt="e66" style="width:100%; height:auto;"> |
@@ -327,6 +327,8 @@ However, even though much of the value stream architecture work has already been
 | 17 | Repeat the above steps to edit the value stream map file and arrange the stage for the Meter Reader GC global configuration project. | <img src="media/e70.png" alt="e70" style="width:100%; height:auto;"> |
 
 Congratulations on successfully configuring the DevOps Velocity value stream to visualize ERM artifacts.
+
+This concludes the enablement material sharing how to integrate DevOps Velocity with ELM (EWN and ERM).
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
