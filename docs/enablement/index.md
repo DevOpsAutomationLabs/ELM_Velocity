@@ -268,13 +268,12 @@ The purpose of this exercise is to provide instruction on how to setup the integ
 | 4 | Click on the "Installed" tab and review the many plugins already available. | <img src="media/e4.png" alt="e4" style="width:50%; height:auto;"> |
 | **NOTE:** | While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature. |  |
 | 5 | In the search control, enter “DOORs”. | <img src="media/e45.png" alt="e45" style="width:50%; height:auto;"> |
-| 6 | Click the "twisty" icon for the DOORS plugin and note that there are multiple versions of this plugin available for installation. | <img src="media/e46.png" alt="e46" style="width:50%; height:auto;"> |
-| 7 | Click the "Add Integration" button (RHS of browser page) for the IBM Engineering Requirements Management (Doors) v1.0.102 plugin. | <img src="media/e47.png" alt="e47" style="width:100%; height:auto;"> |
-| 8 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** DOORS(MeterReaderGC)<br/> **Server URL:** TODO: need to update<br/> **Global Configuration Name:** Meter Reader GC<br/> **Component Name:** Meter Reader GC<br/> **Stream Name:** Meter Reader GC Initial Stream<br/> **Views (Comma Seperated List):** Velocity_StakeholderRequirements,Velocity_SystemRequirements<br/> **User ID:** sysadmin<br/> **Password:** passw0rd (0=zero)<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e53.png" alt="e53" style="width:50%; height:auto;"><img src="media/e54.png" alt="e54" style="width:50%; height:auto;"> |
-| 9 | Click the "Add" button when done. |  |
-| 10 | Click the "Configured" tab on the Integrations page. | <img src="media/e9.png" alt="e9" style="width:50%; height:auto;"> |
-| 11 | After a few seconds, confirm that the integration Status shows "Online". |  <img src="media/e56.png" alt="e56" style="width:75%; height:auto;"> |
-| 12 | Click the "3 dots" on the RHS of integration line and select "View Logs" from the options presented. View the contents of the first log file entry. | <img src="media/e57.png" alt="e57" style="width:100%; height:auto;"> |
+| 6 | Click the "Add Integration" button (RHS of browser page) for the IBM Engineering Requirements Management (Doors) v1.0.4 plugin. | <img src="media/e47.png" alt="e47" style="width:100%; height:auto;"> |
+| 7 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** DOORS(MeterReaderGC)<br/> **Server URL:** TODO: need to update<br/> **Global Configuration Name:** Meter Reader GC<br/> **Component Name:** Meter Reader GC<br/> **Stream Name:** Meter Reader GC Initial Stream<br/> **Views (Comma Seperated List):** Velocity_StakeholderRequirements,Velocity_SystemRequirements<br/> **User ID:** sysadmin<br/> **Password:** passw0rd (0=zero)<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e53.png" alt="e53" style="width:50%; height:auto;"><img src="media/e54.png" alt="e54" style="width:50%; height:auto;"> |
+| 8 | Click the "Add" button when done. |  |
+| 9 | Click the "Configured" tab on the Integrations page. | <img src="media/e9.png" alt="e9" style="width:50%; height:auto;"> |
+| 10 | After a few seconds, confirm that the integration Status shows "Online". |  <img src="media/e56.png" alt="e56" style="width:75%; height:auto;"> |
+| 11 | Click the "3 dots" on the RHS of integration line and select "View Logs" from the options presented. View the contents of the first log file entry. | <img src="media/e57.png" alt="e57" style="width:100%; height:auto;"> |
 
 Congratulations on successfully configuring the ERM Plugin to integrate DevOps Velocity with a DOORs NG Global Configuration project.
 
