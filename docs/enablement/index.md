@@ -121,15 +121,14 @@ The purpose of this exercise is to provide instruction on how to setup the integ
 | 4 | Click on the "Installed" tab and review the many plugins already available. | <img src="media/e4.png" alt="e4" style="width:50%; height:auto;"> |
 | **NOTE:** | While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature. |  |
 | 5 | In the search control, enter “EWM”. | <img src="media/e5.png" alt="e5" style="width:50%; height:auto;"> |
-| 6 | Click the twisty icon for the EWM plugin and note that there are multiple versions of this plugin available for installation. | <img src="media/e6.png" alt="e6" style="width:50%; height:auto;"> |
-| 7 | Click the "Add Integration" button (RHS of the browser window) for IBM Engineering Workflow Management (EWM) v1.1.37. | <img src="media/e7.png" alt="e7" style="width:100%; height:auto;"> |
-| 8 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** EWM(JKEBanking)<br/> **Server URL:** TODO: need to update<br/> **Projects (Comma Separated List):** JKE Banking (Change Management)<br/> **User ID:** sysadmin<br/> **Password:** passw0rd (0=zero)<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e8.png" alt="e8" style="width:50%; height:auto;"> |
-| 9 | Click the "Add" button when done. |  |
-| 10 | Click the "Configured" tab on the Integrations page. | <img src="media/e9.png" alt="e9" style="width:50%; height:auto;"> |
-| 11 | After a few seconds, confirm that the integration Status shows "Online". |  <img src="media/e10.png" alt="e10" style="width:75%; height:auto;"> |
-| 12 | Click the "3 dots" on the RHS of integration line and select "View Logs" from the options presented. |  <img src="media/e11.png" alt="e11" style="width:100%; height:auto;"> |
+| 6 | Click the "Add Integration" button (RHS of the browser window) for IBM Engineering Workflow Management (EWM) v1.1.34. | <img src="media/e7.png" alt="e7" style="width:100%; height:auto;"> |
+| 7 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** EWM(JKEBanking)<br/> **Server URL:** https://ibmjazz.net/ccm<br/> **Projects (Comma Separated List):** JKE Banking (Change Management)<br/> **User ID:** sysadmin<br/> **Password:** passw0rd (0=zero)<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e8.png" alt="e8" style="width:50%; height:auto;"> |
+| 8 | Click the "Add" button when done. |  |
+| 9 | Click the "Configured" tab on the Integrations page. | <img src="media/e9.png" alt="e9" style="width:50%; height:auto;"> |
+| 10 | After a few seconds, confirm that the integration Status shows "Online". |  <img src="media/e10.png" alt="e10" style="width:75%; height:auto;"> |
+| 11 | Click the "3 dots" on the RHS of integration line and select "View Logs" from the options presented. |  <img src="media/e11.png" alt="e11" style="width:100%; height:auto;"> |
 | **NOTE:** |  If the status is not showing as Online, ensure the ELM Server is available. If the server is running, check the plugin settings to ensure they are properly set by clicking "Edit". | <img src="media/e12.png" alt="e12" style="width:25%; height:auto;"> |
-| 13 | Select the first log file and view output contents. | <img src="media/e13.png" alt="e13" style="width:100%; height:auto;"> |
+| 12 | Select the first log file and view output contents. | <img src="media/e13.png" alt="e13" style="width:100%; height:auto;"> |
 | **Note:** | Log files roll off so if you need to retain access to a log file, click the "Download log file" button. |   |
 
 Congratulations on successfully configuring the EWM Plugin.
@@ -145,7 +144,7 @@ Visualizing the "Dots" (Stories, Tasks, Defects) on a value stream dashboard req
 |:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in DevOps Velocity, navigate to the "Value streams" view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
 | 2 | Click the "All value streams" (top RHS of browser window). | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
-| 3 | Click the "Create" button. | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
+| 3 | Click the "Create value stream" button. | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
 | 4 | On the pop-up window, enter a meaningful name, and select "Default Team" from the Team drop down list box. <br/> e.g. JKE Banking (Change Management) | <img src="media/e18.png" alt="e18" style="width:100%; height:auto;"> |
 | 5 | Click the "Create" button. | <img src="media/e19.png" alt="e19" style="width:100%; height:auto;"> |
 | **NOTE:** | Clicking the "Create & Configure" button will lead the user through a series of conifguration windows offering a wizard driven approach to creating the value stream. |  |
@@ -186,7 +185,7 @@ Congratulations on successfully configuring the DevOps Velocity value stream to 
 
 ## Section: Integrating DevOps Velocity with ERM
 
-Due to the flexibility provided to clients using ERM (DOORs NG), certain setup steps are necessary to properly integrate with ERM and visualize the requirement artifact types in a DevOps Velocity value stream. Know that all setup steps align to best practices users should be following.
+Due to the tremendous flexibility provided to clients using ERM (DOORs NG) for requirements management, certain setup steps are necessary to properly integrate with ERM and visualize the requirement artifact types in a DevOps Velocity value stream. Know that all setup steps align to best practices users should be following.
 
 Because users can create new artifact types and artifact attributes, including attributes to capture status, it was decided that in order to visualize requirements in DevOps Velocity and track status of those requirements, users must specify a project workflow for the artifact type.
 
