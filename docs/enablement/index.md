@@ -115,7 +115,7 @@ The purpose of this exercise is to provide instruction on how to setup the integ
 
 | **Step** | <div style="width:250px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | To access the Velocity plugin interface, open Velocity in a browser and log in. <br/> (uid: admin / pwd: admin) | <img src="media/d1_2.png" alt="d1_2" style="width:50%; height:auto;"> |
+| 1 | To access the Velocity plugin interface, open Velocity in a browser and log in.</br></br>[Link to Velocity](https://devops.velocity.com)<br/> (uid: admin / pwd: admin) | <img src="media/d1_2.png" alt="d1_2" style="width:50%; height:auto;"> |
 | 2 | Click on the "Settings" icon. (top RHS of browser window) | <img src="media/e2.png" alt="e2" style="width:50%; height:auto;"> |
 | 3 | Select "Integrations" (LHS navigation bar of browser window). | <img src="media/e3.png" alt="e3" style="width:50%; height:auto;"> |
 | 4 | Click on the "Installed" tab and review the many plugins already available. | <img src="media/e4.png" alt="e4" style="width:50%; height:auto;"> |
@@ -207,7 +207,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 
 | **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Launch ERM in a Google browser window using the shortcut provided and authenticate with the ELM environment.<br/> (uid: sysadmin / pwd: passw0rd) | <img src="media/e32.png" alt="e32" style="width:75%; height:auto;"> |
+| 1 | Launch ERM in a Google browser window using the shortcut provided and authenticate with the ELM environment.</br></br>[Link to ERM](https://ibmjazz.net:9443/rm)<br/> (uid: sysadmin / pwd: passw0rd) | <img src="media/e32.png" alt="e32" style="width:75%; height:auto;"> |
 | 2 | Select "JKE Banking (Requirements Management)" from the list of projects displayed. | <img src="media/e33.png" alt="e33" style="width:100ß%; height:auto;"> |
 | 3 | Click on the gear icon (top LHS of browser window) and select "Manage Project Properties" from the options presented. | <img src="media/e34.png" alt="e34" style="width:100%; height:auto;"> |
 | 4 | Working in the Artifact Types list box, locate and select the "Feature" artifact type. | <img src="media/e35.png" alt="e35" style="width:50%; height:auto;"> |
