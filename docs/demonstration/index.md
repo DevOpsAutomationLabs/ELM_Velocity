@@ -235,7 +235,7 @@ Feel free to explore the steps shared above in the "JKE Banking Demo (Requiremen
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 
-| Software Installed for Demonstration Steps | Software Version |
-|:---- |:----:|
-| DevOps Velocity | v5.1.9 |
-| Engineering Lifecycle Management | v7.1.0 SR1
+| Software Installed for Enablement Exercises | Software Version | Access |
+|:---- |:----:|:----:|
+| DevOps Velocity | v5.1.9 | https://ibm.devops.com |
+| Engineering Lifecycle Management | v7.1 SR1 | https://ibmjazz.net:9443 |
