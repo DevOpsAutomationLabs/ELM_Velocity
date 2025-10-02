@@ -333,7 +333,7 @@ This concludes the enablement material sharing how to integrate DevOps Velocity 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
-| Software Installed for Enablement Exercises | Software Version |
-|:---- |:----:|
-| DevOps Velocity | v5.1.9 |
-| Engineering Lifecycle Management | v7.1 SR1 |
+| Software Installed for Enablement Exercises | Software Version | Access |
+|:---- |:----:|:----:|
+| DevOps Velocity | v5.1.9 | https://ibm.devops.com |
+| Engineering Lifecycle Management | v7.1 SR1 | https://ibmjazz.net:9443 |
