@@ -14,9 +14,13 @@ The following table shares information on which ELM projects have been visualize
 |:------------- |:------------- |:------------- |
 |JKE Banking (Change Management) | JKE Banking Demo (Change Management) | The JKE Banking project was created in ELM using the Money that Matters sample data which includes work items in EWM and requirements added to ERM. A DevOps Velocity plugin has configured allowing the EWM data to be sync'd with Velocity and displayed in the value stream. | 
 | JKE Banking (Requirements Management) | JKE Banking Demo (Requirements Management) | The JKE Banking Demo (Requirements Management) value stream is visualizing requirements synchronized by integrating DevOps Velocity with JKE Banking (Requirements Management) project loaded by the sample app.
-| Meter Reader GC | Meter Reader Demo Global Configuration | This value stream is visualizing requirements synchronized with DevOPs Velocity from a ERM project which has Global Configuration enabled providing more robust requirements management capabilities enabling the use of DOORs NG components, streams and baselines. |
+| Meter Reader GC | Meter Reader Demo (Global Configuration) | This value stream is visualizing requirements synchronized with DevOPs Velocity from a ERM project which has Global Configuration enabled providing more robust requirements management capabilities enabling the use of DOORs NG components, streams and baselines. |
 
-**NOTE:** The images provided in the steps below may not exactly match what is seen in the DevOps Velocity browser window. Understand that they are provided as a reference as you work through the demo steps.
+<br/>
+
+**IMPORTANT: DevOps Velocity is a time sensitive value stream mapping solution which regularly pulls data from an active delivery pipeline to calculate KPIs, stage times, etc... However, the data contained in the learning image is stagant as a development team is not regularly working in the image and updating work items or requirements. As a result, the images provided in the steps below may not exactly match what is seen in the DevOps Velocity browser window. Understand that they are provided as a reference as you work through the demo steps.**
+
+<br/>
 
 ## Understanding the Business Challenge addressed in this demonstration
 
@@ -73,7 +77,7 @@ The value stream for this demo is architected to align with ELM's default workfl
 
 | **Step** | <div style="width:250px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
-| 1 | Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark</br></br>[Link to Velocity](https://devops.velocity.com) | <img src="media/d1_1.png" alt="d1_1" style="width:75%; height:auto;"> |
+| 1 | Launch the Chrome browser from the Windows toolbar and click on the DevOps Velocity bookmark</br> | <img src="media/d1_1.png" alt="d1_1" style="width:75%; height:auto;"> |
 | 2 | Authenticate with Velocity using "admin" for both the user id and password.  | <img src="media/d1_2.png" alt="d1_2" style="width:100%; height:auto;"> |
 | 3 | Click the Value Stream icon on the navigation bar (LHS of browser window) in Velocity. | <img src="media/d1_3.png" alt="d1_3" style="width:50%; height:auto;"> |
 | 4 | Select the "JKE Banking Demo (Change Management)" value stream from the list of value streams presented. | <img src="media/d1_4.png" alt="d1_4" style="width:75%; height:auto;"> |
@@ -107,6 +111,12 @@ In additional to the lead time and cycle time KPIs, other KPIS are available - A
 
 This section of the demonstration will share details on the many of the KPIs readily available in DevOps Velocity.
 
+<br/>
+
+**IMPORTANT: DevOps Velocity is a time sensitive value stream mapping solution which regularly pulls data from an active delivery pipeline to calculate KPIs, stage times, etc... However, the data contained in the learning image is stagant as a development team is not regularly working in the image and updating work items or requirements. As a result, the images provided in the steps below may not exactly match what is seen in the DevOps Velocity browser window. Understand that they are provided as a reference as you work through the demo steps.**
+
+<br/>
+
 | **Step** | <div style="width:250px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
 | 1 |  Working in the "JKE Banking Demo (Change Management)" value stream, locate the Lead Time and Cycle Time KPis. | <img src="media/d1_26.png" alt="d1_26" style="width:100%; height:auto;"> |
@@ -115,10 +125,9 @@ This section of the demonstration will share details on the many of the KPIs rea
 | 4 | Click on the "Start Stage" listbox and confirm that the "In Progress" stage is set. | <img src="media/d1_28.png" alt="d1_28" style="width:100%; height:auto;"> |
 | 5 | Click on the "End Stage" listbox and update selecting both the "Implemented (Story)" and "Resolved (Defect)" stages. Click "Update" when complete. | <img src="media/d1_29.png" alt="d1_29" style="width:100%; height:auto;"> | 
 | **NOTE:** | Changing the Start and End stages for any one of the Lead Time and/or Cycle Time KPIs forces a re-calculation of the metrics in DevOps Velocity. In the case where there are multiple Start and/or End Stages, DevOps Velocity calculates an average time considering all work items which have moved from the selected start stage(s) to the selected end stage(s). |  |
-| **HINT:** | Due to the older ELM data being synchronized with DevOps Velocity, the trending feature is showing infinity. However, as work items change state and new data is added, the trending KPIs will provide very important data. Red arrows indicate that the delivery pipeline is getting slower and Velocity will calculate and display a percentage of how much of a increase in time. Green arrows indicate positive change and again, Velocity will display a percentage indicating the level of improvement | <img src="media/d1_30.png" alt="d1_30" style="width:25%; height:auto;"> | 
 | 6 | Click on the "+" icon (to the right of the Lead Time and Cycle Time KPIs) to add some additional metrics to the metrics bar. | <img src="media/d1_31.png" alt="d1_31" style="width:50%; height:auto;"> |
-| 7 | From the list provided, select "Average Load", "Throughput", and "Distribution" as 3 examples. | <img src="media/d1_32.png" alt="d1_32" style="width:100%; height:auto;"> |
-| 8 | The metrics bar update should be display the additions similar to the following: <br/><br/><img src="media/d1_33.png" alt="d1_33" style="width:100%; height:auto;"> <br/> <br/> <strong>Metrics Definitions:</strong> <br/><br/> <strong>Average Load</strong>  - The number of work items active or waiting in a value stream at a given time. Load measures utilization capabilities of value streams related to productivity in the process flow. "Active" refers to the stages from the lead-time start until the lead-time end. <br/> <strong>Throughput</strong> - The rate of work items completed during a period of time. Improving throughput can result in better responsiveness to customer requirements and may yield lead time reductions for value streams. <br/> <strong>Distribution</strong> - The proportion of different types of work items over time. This provides teams visibility into the type of work being completed (features, defects, tasks, and so forth.) <br/><br/> For more information about DevOps Velocity Metrics, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-displaying#vsm_metricsBar). |   |
+| 7 | From the list provided, select "Throughput" and "Distribution" as 2 examples. | <img src="media/d1_32.png" alt="d1_32" style="width:100%; height:auto;"> |
+| 8 | The metrics bar update should be display the additions similar to the following: <br/><br/><img src="media/d1_33.png" alt="d1_33" style="width:100%; height:auto;"> <br/> <br/> <strong>Metrics Definitions:</strong> <br/><br/> <strong>Throughput</strong> - The rate of work items completed during a period of time. Improving throughput can result in better responsiveness to customer requirements and may yield lead time reductions for value streams. <br/> <strong>Distribution</strong> - The proportion of different types of work items over time. This provides teams visibility into the type of work being completed (features, defects, tasks, and so forth.) <br/><br/> For more information about DevOps Velocity Metrics, visit [Velocity's product documentation page](https://www.ibm.com/docs/en/devops-velocity/5.1.0?topic=metrics-displaying#vsm_metricsBar). |   |
 | **NOTE:** | Feel free to explore other metrics, however, some may not display data points due to a lack of data in Velocity's repository. |   |
 
 Congratulations on successfully completing this section of the demonstration.
