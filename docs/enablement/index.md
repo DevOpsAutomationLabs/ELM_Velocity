@@ -73,7 +73,7 @@ Once configured and as per that plugin’s synchronization timing, Velocity star
 
 A Value Stream map file is used to describe the phases and stages a work item or artifact will go through from inception to implementation displaying the work items in their current state.
 
-The highest level of a value stream is a phase. Phases represent important, organizational parts of the value stream, such as "Planning," or "Development." On the Value stream view, processing is done in left-right order. For example, your first phase might be for planning and contain items created in an issue tracking system. Your next phase, used for development, can track source control activity related to the issues, and any builds triggered by the activity. Your final phase, used for deployment, might track the related build artifacts as they move through your testing environments toward production.
+The highest level of a value stream is a phase. Phases represent important, organizational parts of the value stream, such as "Planning," or "Development." On the Value stream view, processing is done in left-right order. For example, your first phase might be for planning and contain items created in a work item management system. Your next phase, used for development, can track source control activity related to the issues, and any builds triggered by the activity. Your final phase, used for deployment, might track the related build artifacts as they move through your testing environments toward production.
 
 Phases contain stages that define process flow within a phase. A development phase that integrates a source control tool might contain an In Progress stage followed by In Review and Merged stages. When you customize a value stream, you define the phases and stages and their order.
 
@@ -87,7 +87,7 @@ Reviewing the Value Stream Map image, notice the following:
 
 1. Definition of the four phases - Open, In Progress, Approval, Released
 2. Within the Open phase there are two stages named New and ReOpened
-3. The query statement in the Open stage instructs Velocity to display all work items which are currently in a New state.
+3. The query statement in the New stage instructs Velocity to display all work items which are currently in a New state.
 4. The query statement in the ReOpened stage instructs Velocity to display only work items of type Defect which in an ReOpened state.
 5. And finally the target stanza on each stage helps to visualize the next stage that a work item could be displayed in.
 
@@ -144,7 +144,7 @@ Visualizing the "Dots" (Stories, Tasks, Defects) on a value stream dashboard req
 |:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in DevOps Velocity, navigate to the "Value streams" view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
 | 2 | Click the "All value streams" (top RHS of browser window). | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
-| 3 | Click the "Create value stream" button. | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
+| 3 | Click the "Add new value stream" button. | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
 | 4 | On the pop-up window, enter a meaningful name, and select "Default Team" from the Team drop down list box. <br/> e.g. JKE Banking (Change Management) | <img src="media/e18.png" alt="e18" style="width:100%; height:auto;"> |
 | 5 | Click the "Create" button. | <img src="media/e19.png" alt="e19" style="width:100%; height:auto;"> |
 | **NOTE:** | Clicking the "Create & Configure" button will lead the user through a series of conifguration windows offering a wizard driven approach to creating the value stream. |  |
@@ -198,6 +198,8 @@ This enablement exercise will walk through the steps to:<br/>
 2. Configure plugins for RM projects regardless of whther they have been enabled for Global Configuration or not.<br/>
 3. Create the Value Streams to visualize both a requirements management project and a global configuration project.<br/>
 
+**NOTE: Steps 1 through 6 have already been completed as both RM Projects in ERM were used to set up the demo value streams - JKE Banking Demo (Requirements Management) & Meter Reader Demo (Global Configuration). However, if you are not familiar with how to assign a workflow to an artifact type in DOORS Next, you may want to run through the steps yourself.**
+
 ### Preparing RM projects (reg mgmt and global configurations) for integration with Velocity
 
 To complete the following exercise, ERM has been setup with two requirements projects:<br/>
@@ -222,7 +224,7 @@ To complete the following exercise, ERM has been setup with two requirements pro
 | 12 | Click the "Save as new view" icon. | <img src="media/e41.png" alt="e41" style="width:100%; height:auto;"> |
 | 13 | Enter a meaningful name (e.g. Velocity_Types), select "Shared", and click "OK". | <img src="media/e42.png" alt="e42" style="width:100%; height:auto;"> |
 | **NOTE:** | If the userid/password combination used to configure the Velocity plugin is not an "ELM Administrator". The userid must have access to the DOORs NG project and must be able to execute views. |  |
-| 14 | The same process described above is used to prepare a Global Configuration project for integration with DevOps Velocity with the following differences:<br/>1. The project selected will be different (step 2). For this enablement exercise, select Meter Reader GC.<br/>2. When you click on the gear icon (step 3), select "Manage Component Properties ".<br/>3. Select "Stakeholder Requirements" and "System Requirements" artifact types when setting the workflow and creating the views. | <img src="media/e44.png" alt="e44" style="width:60%; height:auto;"> |
+| 14 | The same process described above is used to prepare a Global Configuration project for integration with DevOps Velocity with the following differences:<br/>1. The project selected will be different (step 2). For this enablement exercise, select Meter Reader GC project and open Meter Reader GC component.<br/>2. When you click on the gear icon (step 3), select "Manage Component Properties ".<br/>3. Select "Stakeholder Requirements" and "System Requirements" artifact types when setting the workflow and creating the views. | <img src="media/e44.png" alt="e44" style="width:60%; height:auto;"> |
 | **HINT:** | Creating an individual view for each of the Artifact types provides more flexibility in selecting which Artifact types you want to sync with DevOps Velocity. |  |
 | 15 | For the Meter Reader GC project, create a view named Velocity_SystemRequirement for the System Requirement Artifact type and a view called Velocity_StakeholderRequirement for the Stakeholder Requirement Artifact type. | <img src="media/e55.png" alt="e55" style="width:50%; height:auto;"> |
 | **HINT:** | It is recommended to prefix the View name with Velocity so that the view is not accidently deleted or modified. |   |
@@ -233,7 +235,7 @@ Congratulations on successfully preparing the RM projects and Artifact types for
 
 ### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)
 
-The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG requirements management project. It is assumed that the ELM server has already been setup and that a DOORs NG requirements management project has been configured. For this lab exercise we will be using the JKE Banking (Requirements Management) sample project already available with ELM.
+The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORS Next requirements management project. It is assumed that the ERM server has already been setup and that a DOORS Next requirements management project has been configured. For this lab exercise we will be using the JKE Banking (Requirements Management) sample project already available with ERM.
 
 | **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
@@ -242,7 +244,7 @@ The purpose of this exercise is to provide instruction on how to setup the integ
 | 3 | Select "Integrations" (LHS navigation bar of browser window). | <img src="media/e3.png" alt="e3" style="width:50%; height:auto;"> |
 | 4 | Click on the "Installed" tab and review the many plugins already available. | <img src="media/e4.png" alt="e4" style="width:50%; height:auto;"> |
 | **NOTE:** | While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature. |  |
-| 5 | In the search control, enter “DOORs”. | <img src="media/e45.png" alt="e45" style="width:50%; height:auto;"> |
+| 5 | In the search control, enter “DOORS”. | <img src="media/e45.png" alt="e45" style="width:50%; height:auto;"> |
 | 6 | Click the "Add Integration" button (RHS of browser window) for the IBM Engineering Requirements Management (Doors) v1.0.102 plugin. | <img src="media/e47.png" alt="e47" style="width:100%; height:auto;"> |
 | 7 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** DOORS(JKEBanking)<br/> **Server URL:** https://ibmjazz.net:9443/rm<br/> **Project:** JKE Banking (Requirements Management)<br/> **Views (Comma Seperated List):** Velocity_Types<br/> **User ID:** sysadmin<br/> **Password:** passw0rd (0=zero)<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e48.png" alt="e48" style="width:50%; height:auto;"><img src="media/e49.png" alt="e49" style="width:49.7%; height:auto;"> |
 | 8 | Click the "Add" button when done. |  |
@@ -256,7 +258,7 @@ Congratulations on successfully configuring the ERM Plugin to integrate DevOps V
 <br/>
 
 ### Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)
-The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG Global Configuration project. It is assumed that the ELM server has already been setup and that a DOORs NG Global Configuration project has been configured. For this lab exercise we will be using the Meter Reader GC sample global configuration available with ELM.
+The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORS Next Global Configuration project. It is assumed that the ERM server has already been setup and that a DOORS Next Global Configuration project has been configured. For this lab exercise we will be using the Meter Reader GC sample global configuration available with ERM.
 <br/>
 
 | **Step** | <div style="width:300px">**Details**</div>  | **Additional Information** |
@@ -266,7 +268,7 @@ The purpose of this exercise is to provide instruction on how to setup the integ
 | 3 | Select "Integrations" (LHS navigation bar of browser window). | <img src="media/e3.png" alt="e3" style="width:50%; height:auto;"> |
 | 4 | Click on the "Installed" tab and review the many plugins already available. | <img src="media/e4.png" alt="e4" style="width:50%; height:auto;"> |
 | **NOTE:** | While this exercise does not cover all topics related to plugins, know that administrator users can install additional plugins from the "Available" tab or upload custom plugins using the "Load Plugin" feature. |  |
-| 5 | In the search control, enter “DOORs”. | <img src="media/e45.png" alt="e45" style="width:50%; height:auto;"> |
+| 5 | In the search control, enter “DOORS”. | <img src="media/e45.png" alt="e45" style="width:50%; height:auto;"> |
 | 6 | Click the "Add Integration" button (RHS of browser page) for the IBM Engineering Requirements Management (Doors) v1.0.4 plugin. | <img src="media/e47.png" alt="e47" style="width:100%; height:auto;"> |
 | 7 | Working in the pop up window enter the following values into the fields on the form: <br/> <br/> **Integration name:** DOORS(MeterReaderGC)<br/> **Server URL:** https://ibmjazz.net:9443/rm<br/> **Global Configuration Name:** Meter Reader GC<br/> **Component Name:** Meter Reader GC<br/> **Stream Name:** Meter Reader GC Initial Stream<br/> **Views (Comma Seperated List):** Velocity_StakeholderRequirement,Velocity_SystemRequirement<br/> **User ID:** sysadmin<br/> **Password:** passw0rd (0=zero)<br/> **Show hidden properties:** enabled<br/> **Logging level:** ALL<br/>  | <img src="media/e53.png" alt="e53" style="width:50%; height:auto;"><img src="media/e54.png" alt="e54" style="width:50%; height:auto;"> |
 | 8 | Click the "Add" button when done. |  |
@@ -287,9 +289,9 @@ Visualizing the requirements (artifact types) on a value stream dashboard requir
 |:-------------:|:------------- |:------------- |
 | 1 | Continuing to work in DevOps Velocity, navigate to the "Value Stream" view page. | <img src="media/e15.png" alt="e15" style="width:50%; height:auto;"> |
 | 2 | Click the "All value streams" tab (top RHS of browser window). | <img src="media/e16.png" alt="e16" style="width:50%; height:auto;"> |
-| 3 | Click the "Create" button. | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
+| 3 | Click the "Add new value stream" button. | <img src="media/e17.png" alt="e17" style="width:50%; height:auto;"> |
 | 4 | On the pop-up window, enter a meaningful name e.g. JKE Banking (Requirements Management), and select Default team from the Team drop down list box. | <img src="media/e58.png" alt="e58" style="width:50%; height:auto;"> |
-| **Note:** | To create a value stream for a Global Configuration project, the steps are the same as previous shared. The only difference with be the Value Stream name entered. | Meter Reader GC vs. JKE Banking (Requirements Management) |
+| **Note:** | To create a value stream for a Global Configuration project, the steps are the same as previous shared. The only difference with be the Value Stream name entered. | Meter Reader (Global Configuration) instead of JKE Banking (Requirements Management) |
 | 5 | Click the "Create" button. | <img src="media/e59.png" alt="e59" style="width:50%; height:auto;"> |
 | 6 | You should now be presented with a basic value stream visualization. | <img src="media/e60.png" alt="e60" style="width:50%; height:auto;"> |
 | 7 | Repeat the above steps creating a new value stream for the Meter Reader GC global configuration project. |  |
@@ -322,18 +324,18 @@ However, even though much of the value stream architecture work has already been
 | 13 | To arrange the Stages and location of Stages on the value stream view, enable the drag feature by clicking on the "pencil" icon located on the mini toolbar. | <img src="media/e30.png" alt="e30" style="width:20%; height:auto;"> |
 | 14 | Hover the mouse cursor over one of the stages. Click and hold the mouse button while moving the stage into the desired position. The image to the right shows an orientation where lines are not bisecting stages and provides an easy to read layout. | <img src="media/e67.png" alt="e67" style="width:100%; height:auto;"> |
 | 15 | Disable the drag feature when done. |  |
-| 16 | Working in the value stream, locate the "View value stream data by" control and select type from the list of options. | <img src="media/e68.png" alt="e68" style="width:50%; height:auto;"> |
+| 16 | Working in the value stream, locate the "View value stream data by" control and select "Type" from the list of options. | <img src="media/e68.png" alt="e68" style="width:50%; height:auto;"> |
 | 17 | Notice the color of the "DOTS" and the legend has changed to show the requirement types instead of requirement priority. | <img src="media/e69.png" alt="e69" style="width:100%; height:auto;"> |
-| 17 | Repeat the above steps to edit the value stream map file and arrange the stage for the Meter Reader GC global configuration project. | <img src="media/e70.png" alt="e70" style="width:100%; height:auto;"> |
+| 18 | Repeat the above steps to edit the value stream map file and arrange the stage for the Meter Reader (Global Configuration) requirements management project. | <img src="media/e70.png" alt="e70" style="width:100%; height:auto;"> |
 
 Congratulations on successfully configuring the DevOps Velocity value stream to visualize ERM artifacts.
 
-This concludes the enablement material sharing how to integrate DevOps Velocity with ELM (EWN and ERM).
+This concludes the enablement material sharing how to integrate DevOps Velocity with ELM (EWM and ERM).
 
 [Return to List of Enablement Topics](#topics-covered-in-this-enablement-exercise)
 <br/>
 
 | Software Installed for Enablement Exercises | Software Version | Access |
 |:---- |:----:|:----:|
-| DevOps Velocity | v5.1.9 | https://ibm.devops.com |
-| Engineering Lifecycle Management | v7.1 SR1 | https://ibmjazz.net:9443 |
+| DevOps Velocity | v5.2.0 | https://devops.velocity.com |
+| Engineering Lifecycle Management | v7.1 | https://ibmjazz.net:9443 |

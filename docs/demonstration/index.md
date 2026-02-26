@@ -247,4 +247,4 @@ Feel free to explore the steps shared above in the "JKE Banking Demo (Requiremen
 | Software Installed for Enablement Exercises | Software Version | Access |
 |:---- |:----:|:----:|
 | DevOps Velocity | v5.2.0 | https://devops.velocity.com |
-| Engineering Lifecycle Management | v7.1 SR1 | https://ibmjazz.net:9443 |
+| Engineering Lifecycle Management | v7.1 | https://ibmjazz.net:9443 |
