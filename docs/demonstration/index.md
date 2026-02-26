@@ -134,7 +134,7 @@ Congratulations on successfully completing this section of the demonstration.
 
 ### 1.3 DevOps Velocity and the Swimlane View
 
-DevOps Velocity's swimlane view display the same work items as shown on the value stream view but categorized by owner, by priority, by type, by release, and by sprint making this view a very powerful view in reviewing, managing, and updating team work during meetings. In this part of the demo, you will experience how the owner swimlane view can be used when communicating as a team. The Priority and Type swimlanes assist in determining if there is the right distribution of in flight work. And the Sprint/Release swimlanes allow the team to quickly see if work is progressing as planned or not.
+DevOps Velocity's swimlane view displays the same work items as shown on the value stream view but can be categorized by owner, by priority, by type, by release, and by sprint making this view a very powerful view in reviewing, managing, and updating team work. In this part of the demo, you will experience how the owner swimlane view can be used when communicating as a team. The Priority and Type swimlanes assist in determining if there is the right distribution of work across the team. And the Sprint/Release swimlanes allow the team to quickly see if work is progressing as planned or if some corrective action is required.
 
 | **Step** | <div style="width:250px">**Details**</div>  | **Additional Information** |
 |:-------------:|:------------- |:------------- |
@@ -145,25 +145,25 @@ DevOps Velocity's swimlane view display the same work items as shown on the valu
 | **Example Scenario** | Imagine you are the Team Lead for the JKE Banking product team and have assembled the team to review current assignments with the intent of getting status updates on the assigned work.<br/><br/> How could Velocity assist in conducting this meeting? |  |
 | 5 | Click on the "Owner" swimlane view and focussing on the "In Progress" stage see all the work items currently being worked on. | <img src="media/d1_37.png" alt="d1_37" style="width:100%; height:auto;"> |
 | 6 | Notice that Marco has two active work items violating the WIP best practice of one work item at a time and both work items are exceeding the average wait time for In Progress stage. | <img src="media/d1_38.png" alt="d1_38" style="width:100%; height:auto;"> |
-| **NOTE:** | At this point, there would be a conversation asking Marco about the two open work items runnning long. And through that discussion Marco shared that time was being wasted having to ask Bob for updates on the associated Task assigned to him. And he was also having to provide status updates to Al, owner of the story, for the task assigned to himself. |  |
+| **NOTE:** | At this point, there would be a conversation asking Marco about the two open work items runnning long. And through that discussion Marco shared that time was being wasted having to ask Bob for updates on the associated Task assigned to him. And he was also having to provide status updates to Bob, owner of the story, for the task assigned to himself. |  |
 | 7 | Click on the "Story" work item to open the work item card and click on the title "Customers can Nominate an Organization" to hyperlink to the work item in EWM. | <img src="media/d1_39.png" alt="d1_39" style="width:100%; height:auto;"><br/> <img src="media/d1_40.png" alt="d1_40" style="width:50%; height:auto;">|
 | **HINT:** | If prompted to authenticate with the ELM system, use the following: <br/>User ID: sysadmin<br/>Password: passw0rd (passw-zero-rd)<br/> |  |
 | 8 | Working in EWM, click on the work item's "Links" tab. | <img src="media/d1_41.png" alt="d1_41" style="width:50%; height:auto;"> |
 | 9 | Hover the mouse pointer over the "Implement - Customers can Nominate an Organization" child work item to display the Task overview information. | <img src="media/d1_42.png" alt="d1_42" style="width:100%; height:auto;"> |
 | 10 | Notice that "Bob" is the owner of the Task which is associated to the parent Story owned by "Marco". <br/> For the purpose of this demo scenario, let's assume that JKE Banking Engineering has a rule that the individual who owns the story should also own the tasks to implement the story. The different ownership of work items is clearly a violation of this rule. | <img src="media/d1_43.png" alt="d1_43" style="width:100%; height:auto;"> |
-| 11 | Returning to the work item Overview tab, change the owner of the Story to "Bob", save the change, and close the EWM browser tab. |  <img src="media/d1_44.png" alt="d1_44" style="width:100%; height:auto;"> |
-| 12 | Click on the "Task" owned by Marco in the "In Progress" stage and again open the work item card clicking the card title to open the work item in EWM. | <img src="media/d1_45.png" alt="d1_45" style="width:100%; height:auto;"> |
+| 11 | Returning to the work item "Overview" tab, change the owner of the Story to "Bob", save the change, and close the EWM browser tab. |  <img src="media/d1_44.png" alt="d1_44" style="width:100%; height:auto;"> |
+| 12 | Working in Velocity, click on the "Task" owned by Marco in the "In Progress" stage and again open the work item card clicking the card title to open the work item in EWM. | <img src="media/d1_45.png" alt="d1_45" style="width:100%; height:auto;"> |
 | 13 | Click on the Task work item's "Links" tab and hover over the parent work item to view the Story overview. | <img src="media/d1_46.png" alt="d1_46" style="width:100%; height:auto;"> |
-| 14 | Notice that the Story is owned by "Al" but the Task to implement the story is owned by "Marco". |   |
+| 14 | Notice that the Story is owned by "Bob" but the Task to implement the story is owned by "Marco". |   |
 | 15 | Click on the Parent work item link, change the owner to be "Marco", save the changes, and close the EWM browser tab. | <img src="media/d1_47.png" alt="d1_47" style="width:100%; height:auto;"> |
 | 16 | Notice how the work items being visualized in DevOps Velocity are reflecting the changes made in EWM. |   |
 | **NOTE:** | Through the integration between DevOps Velocity and ELM, Velocity will synchronize work item changes every 5 minutes. For the purposes of this demo and to avoid wasting time waiting for the EWM changes to be synchronized with Velocity, perform the following steps. |   |
-| | Click on the "Settings" icon (top RHS of DevOps Velocity browser window". | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
+| | Click on the "Settings" icon (top RHS of DevOps Velocity browser window). | <img src="media/d1_48.png" alt="d1_48" style="width:50%; height:auto;"> |
 | | On the Settings page, select "Integrations" (the LH navigation bar). | <img src="media/d1_49.png" alt="d1_49" style="width:50%; height:auto;"> |
-| | Click the "Disable/Enable" control for the JKE Banking Demo (CCM) integration toggling from off to back on. <br/> This toggling action will force Velocity to re-sync with EWM and retrieve the changes. | <img src="media/d1_50.png" alt="d1_50" style="width:100%; height:auto;"> |
+| | Click the "Disable/Enable" control for the EWMDemo(JKEBanking) integration toggling from off to back on. <br/> This toggling action will force Velocity to re-sync with EWM and retrieve the changes. | <img src="media/d1_50.png" alt="d1_50" style="width:100%; height:auto;"> |
 | | Return to the "Owner" Swimlane view of the "JKE Banking Demo (Change Management)" value stream. |   |
 | 17 | Perform a plain text search using the phrase "organization must". | <img src="media/d1_51.png" alt="d1_51" style="width:50%; height:auto;"> |
-| 18 | Notice that after the changes in EWM, both the story and the task to implemented that story are owned by Marco. | <img src="media/d1_52.png" alt="d1_52" style="width:100%; height:auto;"> |
+| 18 | Notice that after the changes in EWM, both the story and the task to implement that story are owned by Marco. <br/> Clear the contents of the "Plain text search" textbox before advancing to the next section. | <img src="media/d1_52.png" alt="d1_52" style="width:100%; height:auto;"> |
 
 Very quickly and with the help of DevOps Velocity, the Team Lead was able to review work item distribution and take corrective action to make both Bob and Marco more efficient. As they now own the story and the children tasks to implement that story instead of working on tasks for others stories, this has reduced the time spent having to communicate on progress with others.
 
@@ -185,7 +185,7 @@ The activity performed against every work item, being visualized in DevOps Veloc
 | 1 | Working in the "JKE Banking Demo (Change Management)" value stream, perform a plain text search using the string value "71". | <img src="media/d2_1.png" alt="d2_1" style="width:100%; height:auto;"> |
 | 2 | Click on the one work item displayed in the "Done/Verified" stage of the Release phase. |   |
 | 3 | On the work item card displayed, scroll down to see a complete audit trail of activities performed against this work item. Including who performed the action and when the action was performed. | <img src="media/d2_2.png" alt="d2_2" style="width:50%; height:auto;"> |
-| 4 | Close the work item card by clicking anywhere on the value stream view UI. |   |
+| 4 | Close the work item card by clicking anywhere on the value stream view UI. <br/> Clear the contents of the "Plain text search" textbox before advancing to the next section. |   |
 
 Congratulations on successfully completing this section of the demonstration.
 
@@ -213,10 +213,10 @@ In this section, you will enable DevOps Velocity's Bottleneck Detection capabili
 | 5 | Provide a meaningful name (e.g. Bottleneck Detection) to identify the plugin and click Add.  | <img src="media/d2_5.png" alt="d2_5" style="width:50%; height:auto;"> |
 | 6 | Return to the "JKE Banking Demo (Change Management)" value stream. |   |
 | 7 | Click the "+" to add the Bottleneck Detection metric to the metrics bar. | <img src="media/d2_6.png" alt="d2_6" style="width:50%; height:auto;"> |
-| 8 | Select "Bottleneck" from the list of metrics presented. |   <img src="media/d2_7.png" alt="d2_7" style="width:50%; height:auto;"> |
-| 9 | Notice that the Bottleneck Detection algorithm has run and that DevOps Velocity has identified that "Resolved (Defect)" is the slowest point in the delivery pipeline. | <img src="media/d2_8.png" alt="d2_8" style="width:50%; height:auto;"> | 
-| 9 | Hover the mouse pointer of the Bottleneck metric to get more detail on the type of Bottleneck. | <img src="media/d2_9.png" alt="d2_9" style="width:100%; height:auto;"> |
-| 10 | DevOps Velocity has identified a dominant stage bottleneck because the 11 day wait time in Resolved (Defect) stage value exceeds the sum of all other stage wait time in stage values. |   | 
+| 8 | Select "Bottleneck" from the list of metrics presented. Click the X to close pop up window. |  <img src="media/d2_7.png" alt="d2_7" style="width:50%; height:auto;"> |
+| 9 | Notice that the Bottleneck Detection algorithm has run and that DevOps Velocity has identified that the "In Progress" stage is a constraint in the delivery pipeline. | <img src="media/d2_8.png" alt="d2_8" style="width:25%; height:auto;"> | 
+| 10 | Hover the mouse pointer of the Bottleneck metric to get more detail on the type of Bottleneck. | <img src="media/d2_9.png" alt="d2_9" style="width:100%; height:auto;"> |
+| 11 | DevOps Velocity has identified a flow imbalance bottleneck because work is backing up in the "In Progress" stage with several work items showing alerts which is delaying the pull of new work items from the New stage. |   | 
 
 Congratulations on successfully completing this section of the demonstration.
 
@@ -240,11 +240,11 @@ Where the value stream visualizes and displays data over the past 30 days, Insig
 
 Hopefully you have gained an appreciation for the many ways DevOps Velocity makes data available for viewing and the advanced features like Bottleneck Detection and Insights charts to help teams use data to make better choices on where to invest in process improvement.
 
-Feel free to explore the steps shared above in the "JKE Banking Demo (Requirements Management)" or "Meter Reader Demo GC" value streams if you have implemented ELM ßrequirements management and want to learn more about the DevOps Velocity / DOORs NG integration.
+Feel free to explore the steps shared above in the "JKE Banking Demo (Requirements Management)" or "Meter Reader Demo GC" value streams if you have implemented ELM requirements management and want to learn more about the DevOps Velocity / DOORS Next integration.
 
 [Return to Top of Demonstration Page](#integrating-devops-velocity-with-elm-to-achieve-business-outcomes)
 
 | Software Installed for Enablement Exercises | Software Version | Access |
 |:---- |:----:|:----:|
-| DevOps Velocity | v5.1.9 | https://ibm.devops.com |
+| DevOps Velocity | v5.2.0 | https://devops.velocity.com |
 | Engineering Lifecycle Management | v7.1 SR1 | https://ibmjazz.net:9443 |
