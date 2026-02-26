@@ -850,7 +850,7 @@
 <br/></p>
 <h3 id="devops-velocitys-value-stream-map-overview">DevOps Velocity's value stream map overview</h3>
 <p>A Value Stream map file is used to describe the phases and stages a work item or artifact will go through from inception to implementation displaying the work items in their current state.</p>
-<p>The highest level of a value stream is a phase. Phases represent important, organizational parts of the value stream, such as "Planning," or "Development." On the Value stream view, processing is done in left-right order. For example, your first phase might be for planning and contain items created in an issue tracking system. Your next phase, used for development, can track source control activity related to the issues, and any builds triggered by the activity. Your final phase, used for deployment, might track the related build artifacts as they move through your testing environments toward production.</p>
+<p>The highest level of a value stream is a phase. Phases represent important, organizational parts of the value stream, such as "Planning," or "Development." On the Value stream view, processing is done in left-right order. For example, your first phase might be for planning and contain items created in a work item management system. Your next phase, used for development, can track source control activity related to the issues, and any builds triggered by the activity. Your final phase, used for deployment, might track the related build artifacts as they move through your testing environments toward production.</p>
 <p>Phases contain stages that define process flow within a phase. A development phase that integrates a source control tool might contain an In Progress stage followed by In Review and Merged stages. When you customize a value stream, you define the phases and stages and their order.</p>
 <p>Stages are containers for dots. Dots represent units of work from DevOps Velocity or tools that are integrated into the value stream. Git commits or EWM work items, to take just two, are represented by individual dots. Work items, such as commits and builds, can be combined into individual dots. A dot's position in the value stream conveys important information about the object. Dots in a stage named Merged might represent items merged into Git repositories. An item's shape and color convey information about the item's type and status. A dot outlined in red, for example, might mean the item is past schedule. When dots change state, they move to new stages in near-real time. Finally, when you click on a dot, the displayed card provides information about the work items, including their history, and provides links to associated tools.</p>
 <p>For this purposes of this enablement exercise, a very simple approach was followed in archtitecting the value stream. The phases and stages were mapped to the artifact workflows defined in EWM showing only the current state of the user stories, defects, and tasks.</p>
@@ -859,7 +859,7 @@
 <ol>
 <li>Definition of the four phases - Open, In Progress, Approval, Released</li>
 <li>Within the Open phase there are two stages named New and ReOpened</li>
-<li>The query statement in the Open stage instructs Velocity to display all work items which are currently in a New state.</li>
+<li>The query statement in the New stage instructs Velocity to display all work items which are currently in a New state.</li>
 <li>The query statement in the ReOpened stage instructs Velocity to display only work items of type Defect which in an ReOpened state.</li>
 <li>And finally the target stanza on each stage helps to visualize the next stage that a work item could be displayed in.</li>
 </ol>
@@ -991,7 +991,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: left;">Click the "Create value stream" button.</td>
+<td style="text-align: left;">Click the "Add new value stream" button.</td>
 <td style="text-align: left;"><img src="media/e17.png" alt="e17" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1121,6 +1121,7 @@
 <li>Configure plugins for RM projects regardless of whther they have been enabled for Global Configuration or not.<br/></li>
 <li>Create the Value Streams to visualize both a requirements management project and a global configuration project.<br/></li>
 </ol>
+<p><strong>NOTE: Steps 1 through 6 have already been completed as both RM Projects in ERM were used to set up the demo value streams - JKE Banking Demo (Requirements Management) &amp; Meter Reader Demo (Global Configuration). However, if you are not familiar with how to assign a workflow to an artifact type in DOORS Next, you may want to run through the steps yourself.</strong></p>
 <h3 id="preparing-rm-projects-reg-mgmt-and-global-configurations-for-integration-with-velocity">Preparing RM projects (reg mgmt and global configurations) for integration with Velocity</h3>
 <p>To complete the following exercise, ERM has been setup with two requirements projects:<br/></p>
 <ol>
@@ -1213,7 +1214,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">14</td>
-<td style="text-align: left;">The same process described above is used to prepare a Global Configuration project for integration with DevOps Velocity with the following differences:<br/>1. The project selected will be different (step 2). For this enablement exercise, select Meter Reader GC.<br/>2. When you click on the gear icon (step 3), select "Manage Component Properties ".<br/>3. Select "Stakeholder Requirements" and "System Requirements" artifact types when setting the workflow and creating the views.</td>
+<td style="text-align: left;">The same process described above is used to prepare a Global Configuration project for integration with DevOps Velocity with the following differences:<br/>1. The project selected will be different (step 2). For this enablement exercise, select Meter Reader GC project and open Meter Reader GC component.<br/>2. When you click on the gear icon (step 3), select "Manage Component Properties ".<br/>3. Select "Stakeholder Requirements" and "System Requirements" artifact types when setting the workflow and creating the views.</td>
 <td style="text-align: left;"><img src="media/e44.png" alt="e44" style="width:60%; height:auto;"></td>
 </tr>
 <tr>
@@ -1236,7 +1237,7 @@
 <p>Congratulations on successfully preparing the RM projects and Artifact types for visualization in DevOps Velocity.</p>
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a></p>
 <h3 id="configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-req-mgmt-project">Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG req mgmt project)</h3>
-<p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG requirements management project. It is assumed that the ELM server has already been setup and that a DOORs NG requirements management project has been configured. For this lab exercise we will be using the JKE Banking (Requirements Management) sample project already available with ELM.</p>
+<p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORS Next requirements management project. It is assumed that the ERM server has already been setup and that a DOORS Next requirements management project has been configured. For this lab exercise we will be using the JKE Banking (Requirements Management) sample project already available with ERM.</p>
 <table>
 <thead>
 <tr>
@@ -1273,7 +1274,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: left;">In the search control, enter “DOORs”.</td>
+<td style="text-align: left;">In the search control, enter “DOORS”.</td>
 <td style="text-align: left;"><img src="media/e45.png" alt="e45" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1312,7 +1313,7 @@
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
 <h3 id="configuring-the-plugin-to-integrate-devops-velocity-with-erm-doors-ng-global-configuration">Configuring the plugin to integrate DevOps Velocity with ERM (DOORs NG global configuration)</h3>
-<p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORs NG Global Configuration project. It is assumed that the ELM server has already been setup and that a DOORs NG Global Configuration project has been configured. For this lab exercise we will be using the Meter Reader GC sample global configuration available with ELM.
+<p>The purpose of this exercise is to provide instruction on how to setup the integration between DevOps Velocity with ERM. More specifically a DOORS Next Global Configuration project. It is assumed that the ERM server has already been setup and that a DOORS Next Global Configuration project has been configured. For this lab exercise we will be using the Meter Reader GC sample global configuration available with ERM.
 <br/></p>
 <table>
 <thead>
@@ -1350,7 +1351,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
-<td style="text-align: left;">In the search control, enter “DOORs”.</td>
+<td style="text-align: left;">In the search control, enter “DOORS”.</td>
 <td style="text-align: left;"><img src="media/e45.png" alt="e45" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1411,7 +1412,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
-<td style="text-align: left;">Click the "Create" button.</td>
+<td style="text-align: left;">Click the "Add new value stream" button.</td>
 <td style="text-align: left;"><img src="media/e17.png" alt="e17" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1422,7 +1423,7 @@
 <tr>
 <td style="text-align: center;"><strong>Note:</strong></td>
 <td style="text-align: left;">To create a value stream for a Global Configuration project, the steps are the same as previous shared. The only difference with be the Value Stream name entered.</td>
-<td style="text-align: left;">Meter Reader GC vs. JKE Banking (Requirements Management)</td>
+<td style="text-align: left;">Meter Reader (Global Configuration) instead of JKE Banking (Requirements Management)</td>
 </tr>
 <tr>
 <td style="text-align: center;">5</td>
@@ -1533,7 +1534,7 @@
 </tr>
 <tr>
 <td style="text-align: center;">16</td>
-<td style="text-align: left;">Working in the value stream, locate the "View value stream data by" control and select type from the list of options.</td>
+<td style="text-align: left;">Working in the value stream, locate the "View value stream data by" control and select "Type" from the list of options.</td>
 <td style="text-align: left;"><img src="media/e68.png" alt="e68" style="width:50%; height:auto;"></td>
 </tr>
 <tr>
@@ -1542,14 +1543,14 @@
 <td style="text-align: left;"><img src="media/e69.png" alt="e69" style="width:100%; height:auto;"></td>
 </tr>
 <tr>
-<td style="text-align: center;">17</td>
-<td style="text-align: left;">Repeat the above steps to edit the value stream map file and arrange the stage for the Meter Reader GC global configuration project.</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: left;">Repeat the above steps to edit the value stream map file and arrange the stage for the Meter Reader (Global Configuration) requirements management project.</td>
 <td style="text-align: left;"><img src="media/e70.png" alt="e70" style="width:100%; height:auto;"></td>
 </tr>
 </tbody>
 </table>
 <p>Congratulations on successfully configuring the DevOps Velocity value stream to visualize ERM artifacts.</p>
-<p>This concludes the enablement material sharing how to integrate DevOps Velocity with ELM (EWN and ERM).</p>
+<p>This concludes the enablement material sharing how to integrate DevOps Velocity with ELM (EWM and ERM).</p>
 <p><a href="#topics-covered-in-this-enablement-exercise">Return to List of Enablement Topics</a>
 <br/></p>
 <table>
@@ -1563,12 +1564,12 @@
 <tbody>
 <tr>
 <td style="text-align: left;">DevOps Velocity</td>
-<td style="text-align: center;">v5.1.9</td>
-<td style="text-align: center;">https://ibm.devops.com</td>
+<td style="text-align: center;">v5.2.0</td>
+<td style="text-align: center;">https://devops.velocity.com</td>
 </tr>
 <tr>
 <td style="text-align: left;">Engineering Lifecycle Management</td>
-<td style="text-align: center;">v7.1 SR1</td>
+<td style="text-align: center;">v7.1</td>
 <td style="text-align: center;">https://ibmjazz.net:9443</td>
 </tr>
 </tbody>
